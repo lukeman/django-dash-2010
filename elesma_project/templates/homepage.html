@@ -39,7 +39,9 @@
     </p>
     
     <hr />
-
+    {% if user.is_authenticated %}
+        <p>Welcome, friend.</p>
+    {% else %}
         {% url acct_login as login_url %}
         {% ifsetting ACCOUNT_OPEN_SIGNUP %}
             {% url acct_signup as signup_url %}
