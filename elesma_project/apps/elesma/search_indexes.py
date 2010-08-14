@@ -2,8 +2,11 @@ import datetime
 from haystack.indexes import *
 from haystack import site
 from elesma.models import Recipe
+import settings
 
-class RecipeIndex(SearchIndex):
+SEARCH_INDEX_CLASS = (settings.DEBUG and RealTimeSearchIndex) or SearchIndex
+
+class RecipeIndex(SEARCH_INDEX_CLASS):
     text = CharField(document=True, use_template=True)
     name = CharField(model_attr='name')
     slug = CharField(model_attr='slug')
