@@ -1,0 +1,65 @@
+body {
+  border-top: 5px solid #444;
+}
+
+/*** HEADER ***/
+div#tabhead {
+  background:#aaa;
+}
+
+#tabhead .login {
+  color:#000;
+}
+
+#tabhead div.login a, #tabhead div.login a:visited {
+  color:#222;
+}
+
+#tabhead .logo {
+  font-size: 16pt;
+  font-family: Helvetica, Arial, sans-serif;
+  height:auto;
+}
+div.logo a {
+  color:#000;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+div.login {
+  text-align:right;
+}
+
+div#content_wrapper {
+  background: #fafafa;
+}
+
+/*** NAV ***/
+#subnav {
+  background: #d5d5d5;
+  border-bottom:none;
+}
+
+
+
+
+/*** FOOTER ***/
+#sitefooter {
+  background:#aaa;
+}
+
+/*** UTILITY ***/
+.sideborder {
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+}
+
+.topround {
+  -webkit-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+}
+
+.bottomround {
+  -webkit-border-radius: 0px 0px 5px 5px;
+  -moz-border-radius: 0px 0px 5px 5px;
+}
