@@ -22,6 +22,7 @@ urlpatterns = patterns("",
     url(r"^openid/(.*)", PinaxConsumer()),
     url(r'^search/', include('haystack.urls')),
     url(r'^404.html$', "elesma.views.random_drink_404"),
+    url(r'^ajax/', include('elesma.ajax_urls')),
 
 )
 

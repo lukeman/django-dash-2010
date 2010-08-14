@@ -420,13 +420,6 @@
         }
     }, 
     {
-        "pk": 27, 
-        "model": "elesma.ingredient", 
-        "fields": {
-            "name": "ingredients into shaker with ice cubes. Shake well. Strain into chilled\ncocktail glass rimmed with crusted salt."
-        }
-    }, 
-    {
         "pk": 28, 
         "model": "elesma.ingredient", 
         "fields": {
@@ -445,13 +438,6 @@
         "model": "elesma.ingredient", 
         "fields": {
             "name": " Sweet Red Vermouth"
-        }
-    }, 
-    {
-        "pk": 31, 
-        "model": "elesma.ingredient", 
-        "fields": {
-            "name": "ingredients directly into old fashioned glass filled with ice. Stir\ngently. Garnish with half orange slice and stirer."
         }
     }, 
     {
@@ -651,13 +637,6 @@
         }
     }, 
     {
-        "pk": 60, 
-        "model": "elesma.ingredient", 
-        "fields": {
-            "name": "puree into chilled flute, add gently chilled sparkling wine (white). Stir gently."
-        }
-    }, 
-    {
         "pk": 61, 
         "model": "elesma.ingredient", 
         "fields": {
@@ -700,13 +679,6 @@
         }
     }, 
     {
-        "pk": 67, 
-        "model": "elesma.ingredient", 
-        "fields": {
-            "name": "ingredients directly into highball with ice cubes, add several dashes\nof Worchestershire Sauce, Tabasco, Salt and Pepper. Stir the ingredients. Garnish\nwith Celery Salt."
-        }
-    }, 
-    {
         "pk": 68, 
         "model": "elesma.ingredient", 
         "fields": {
@@ -718,13 +690,6 @@
         "model": "elesma.ingredient", 
         "fields": {
             "name": "Soda water"
-        }
-    }, 
-    {
-        "pk": 70, 
-        "model": "elesma.ingredient", 
-        "fields": {
-            "name": "ingredients directly into highball filled with ice. Stir gently. Garnish\n   with lemon slice and maraschino cherry."
         }
     }, 
     {
@@ -774,13 +739,6 @@
         "model": "elesma.ingredient", 
         "fields": {
             "name": "spoon of brown sugar"
-        }
-    }, 
-    {
-        "pk": 78, 
-        "model": "elesma.ingredient", 
-        "fields": {
-            "name": "the glass (for hot drink) hot coffee, Irish whiskey, and add a teaspoon\nof sugar. Warm the mixture over a burner. Do not boil the mixture."
         }
     }, 
     {
@@ -1711,15 +1669,6 @@
         }
     }, 
     {
-        "pk": 34, 
-        "model": "elesma.recipeitem", 
-        "fields": {
-            "amount": "Pour all", 
-            "recipe": 11, 
-            "ingredient": 27
-        }
-    }, 
-    {
         "pk": 35, 
         "model": "elesma.recipeitem", 
         "fields": {
@@ -1843,15 +1792,6 @@
             "amount": "3.0 cl", 
             "recipe": 17, 
             "ingredient": 30
-        }
-    }, 
-    {
-        "pk": 49, 
-        "model": "elesma.recipeitem", 
-        "fields": {
-            "amount": "Pour all", 
-            "recipe": 17, 
-            "ingredient": 31
         }
     }, 
     {
@@ -2269,15 +2209,6 @@
         }
     }, 
     {
-        "pk": 96, 
-        "model": "elesma.recipeitem", 
-        "fields": {
-            "amount": "Pour peach", 
-            "recipe": 33, 
-            "ingredient": 60
-        }
-    }, 
-    {
         "pk": 97, 
         "model": "elesma.recipeitem", 
         "fields": {
@@ -2404,15 +2335,6 @@
         }
     }, 
     {
-        "pk": 111, 
-        "model": "elesma.recipeitem", 
-        "fields": {
-            "amount": "Pour all", 
-            "recipe": 38, 
-            "ingredient": 67
-        }
-    }, 
-    {
         "pk": 112, 
         "model": "elesma.recipeitem", 
         "fields": {
@@ -2464,15 +2386,6 @@
             "amount": "6.0 cl", 
             "recipe": 40, 
             "ingredient": 69
-        }
-    }, 
-    {
-        "pk": 118, 
-        "model": "elesma.recipeitem", 
-        "fields": {
-            "amount": "Pour all", 
-            "recipe": 40, 
-            "ingredient": 70
         }
     }, 
     {
@@ -2608,15 +2521,6 @@
             "amount": "1 tea", 
             "recipe": 44, 
             "ingredient": 77
-        }
-    }, 
-    {
-        "pk": 134, 
-        "model": "elesma.recipeitem", 
-        "fields": {
-            "amount": "Pour into", 
-            "recipe": 44, 
-            "ingredient": 78
         }
     }, 
     {
