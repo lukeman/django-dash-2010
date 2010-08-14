@@ -1,16 +1,16 @@
 body {
-  background: #777;
-  border-top: 5px solid #444;
+  background: #051b39;
+  border-top: 5px solid #aaa;
 }
 
 /*** HEADER ***/
 div#tabhead {
   background: url(../images/topback.png) repeat-x;
-  border-top:none;
+  border:none;
   height:75px;
   margin-top:20px;
-  -webkit-border-radius: 10px 10px 0px 0px;
-  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
 }
 
 #tabhead .login {
@@ -48,7 +48,7 @@ div.login {
 
 #superbar {
   background: url('../images/searchbg.png') repeat-x;
-  -webkit-border-radius: 10px 10px 0px 0px !important;
+  -webkit-border-radius: 5px 5px 0px 0px !important;
 }
 #superinput {
     text-align: center;
