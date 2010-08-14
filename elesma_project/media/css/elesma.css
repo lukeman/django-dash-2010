@@ -6,7 +6,7 @@ body {
 /*** HEADER ***/
 div#tabhead {
   background: url(../images/topback.png) repeat-x;
-  border-top:none;
+  border:none;
   height:75px;
   margin-top:20px;
   -webkit-border-radius: 5px 5px 0px 0px;
