@@ -155,6 +155,8 @@ INSTALLED_APPS = [
     # project
     "elesma",
     "haystack",
+    "taggit",
+    "djangoratings",
 ]
 
 FIXTURE_DIRS = [

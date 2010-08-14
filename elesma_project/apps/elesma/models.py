@@ -1,4 +1,6 @@
 from django.db import models
+from taggit.managers import TaggableManager
+from djangoratings import RatingField
 
 class Category(models.Model):
     
@@ -33,6 +35,8 @@ class Recipe(models.Model):
     category = models.ForeignKey(Category)
     container = models.ForeignKey(Container)
     ingredients = models.ManyToManyField(Ingredient, through='RecipeItem')
+    tags = TaggableManager()
+    rating = RatingField(range=5, can_change_vote=True, allow_anonymous=False)
     
     def __unicode__(self):
         return self.name
