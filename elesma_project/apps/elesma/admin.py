@@ -2,10 +2,14 @@ from models import Recipe, Ingredient, Category, Container, RecipeItem
 from django.contrib import admin
 
 class RecipeItemInline(admin.TabularInline):
+    
     model = RecipeItem
     extra = 4
 
+
 class RecipeAdmin(admin.ModelAdmin):
+    
+    prepopulated_fields = {"slug": ("name",)}
     inlines = (RecipeItemInline,)
 
 admin.site.register(Recipe, RecipeAdmin)
