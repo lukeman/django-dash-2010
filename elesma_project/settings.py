@@ -153,7 +153,7 @@ INSTALLED_APPS = [
     "pinax.apps.signup_codes",
     
     # project
-    "about",
+    "elesma",
 ]
 
 FIXTURE_DIRS = [
