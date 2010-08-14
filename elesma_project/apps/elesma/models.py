@@ -2,7 +2,7 @@ from django.db import models
 
 class Category(models.Model):
     
-    name = models.CharField(max_length=36)
+    name = models.CharField(max_length=72)
     
     def __unicode__(self):
         return self.name
@@ -10,7 +10,7 @@ class Category(models.Model):
 
 class Container(models.Model):
     
-    name = models.CharField(max_length=36)
+    name = models.CharField(max_length=72)
     
     def __unicode__(self):
         return self.name
@@ -18,7 +18,7 @@ class Container(models.Model):
 
 class Ingredient(models.Model):
 
-    name = models.CharField(max_length=36)
+    name = models.CharField(max_length=72)
 
     def __unicode__(self):
         return self.name
@@ -26,7 +26,7 @@ class Ingredient(models.Model):
 
 class Recipe(models.Model):
 
-    name = models.CharField(max_length=36)
+    name = models.CharField(max_length=72)
     slug = models.SlugField(unique=True, null=False, blank=False)
     description = models.TextField(blank=True)
     directions = models.TextField(blank=True)
