@@ -14,18 +14,20 @@ def api_response(http_code, data):
 
 @login_required
 def vote(request):
+    recipe = elesma.models.Recipe.objects.all()[0]
     if request.method == "POST":
         post = request.POST.copy()
         if post.has_key('recipe') and post.has_key('score'):
             try:
                 slug = post['slug']
                 score = int(post['score'])
-                note = elesma.models.Recipe(slug=slug)
-                note.rating.add(score=score, user=request.user, ip_address=request.META['REMOTE_ADDR'])
-                profile = request.user.get_profile()
-                profile.score += 1
-                profile.save()
-
+                recipe = elesma.models.Recipe(slug=slug)
+                recipe.rating.add(score=score, user=request.user, ip_address=request.META['REMOTE_ADDR'])
+                # don't count two votes on one recipe as multiple votes
+                if not recipe.rating.get_rating_for_user(request.user, request.META['REMOTE_ADDR']):
+                    profile = request.user.get_profile()
+                    profile.score += 1
+                    profile.save()
                 return api_response(200, {'score': score, 'slug': slug })
             except ValueError:
                 return api_response(500, {'error': "%s is an invalid score." % score })
