@@ -17,4 +17,3 @@ class RecipeIndex(SEARCH_INDEX_CLASS):
 
 
 site.register(Recipe, RecipeIndex)
-print "registered!"
