@@ -154,11 +154,16 @@ INSTALLED_APPS = [
     
     # project
     "elesma",
+    "haystack",
 ]
 
 FIXTURE_DIRS = [
     os.path.join(PROJECT_ROOT, "fixtures"),
 ]
+
+HAYSTACK_SITECONF = 'elesma_project.search_sites'
+HAYSTACK_SEARCH_ENGINE = 'whoosh'
+HAYSTACK_WHOOSH_PATH = os.path.join(PROJECT_ROOT, "whoosh_index")
 
 MESSAGE_STORAGE = "django.contrib.messages.storage.session.SessionStorage"
 
