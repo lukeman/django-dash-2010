@@ -27,9 +27,14 @@ def import_cocktail(cocktail):
      'instructions': 'Pour all ingredients directly into old fashioned glass filled with ice. Stir gently. Garnish with lemon twist.'
      }
     """
-    if not cocktail['name']:
+    if not cocktail['name'] or len(cocktail['glass']) > 70:
         print "BAD DATA: %s" % (cocktail,)
         return
+    else:
+        for ingredient in cocktail['ingredients']:
+            if len(ingredient['name']) > 70:
+                print "BAD DATA: %s" % (cocktail,)
+                return
     
     # create/update category
     try: 
