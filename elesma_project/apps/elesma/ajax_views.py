@@ -1,6 +1,8 @@
 from django.http import HttpResponse, HttpResponseServerError
 import django.utils.simplejson as simplejson
 import elesma.models
+from django.contrib.auth.decorators import login_required
+
 
 def api_response(http_code, data):
     if http_code == 200:
@@ -10,6 +12,7 @@ def api_response(http_code, data):
         data['success'] = False
         return HttpResponseServerError(simplejson.dumps(data), mimetype="application/json")
 
+@login_required
 def vote(request):
     if request.method == "POST":
         post = request.POST.copy()
@@ -19,6 +22,10 @@ def vote(request):
                 score = int(post['score'])
                 note = elesma.models.Recipe(slug=slug)
                 note.rating.add(score=score, user=request.user, ip_address=request.META['REMOTE_ADDR'])
+                profile = request.user.get_profile()
+                profile.score += 1
+                profile.save()
+
                 return api_response(200, {'score': score, 'slug': slug })
             except ValueError:
                 return api_response(500, {'error': "%s is an invalid score." % score })

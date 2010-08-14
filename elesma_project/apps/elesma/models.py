@@ -1,6 +1,30 @@
 from django.db import models
 from taggit.managers import TaggableManager
-from djangoratings import RatingField
+from djangoratings.fields import RatingField
+from django.contrib.auth.models import User
+
+class UserProfile(models.Model):
+    "Store voting information about user."
+
+    user = models.ForeignKey(User, unique=True)
+    votes = models.IntegerField()
+
+    def __unicode__(self):
+        return "UserProfile(%s)" % (self.user.username,)
+
+
+def user_post_save(sender, instance, **kwargs):
+    profile, new = UserProfile.objects.get_or_create(user=instance, votes=0)
+
+def user_post_delete(sender, instance, **kwargs):
+    try:
+        UserProfile.objects.get(user=instance).delete()
+    except:
+        pass
+
+models.signals.post_save.connect(user_post_save, sender=User)
+models.signals.post_delete.connect(user_post_delete, sender=User)
+
 
 class Category(models.Model):
     
