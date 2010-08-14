@@ -1,0 +1,8 @@
+{{ object.name }}
+{{ object.description }}
+{{ object.directions }}
+{{ object.container }}
+{{ object.category }}
+{% for ingredient in ingredients %}
+{{ ingredient.name }}
+{% endfor %}
