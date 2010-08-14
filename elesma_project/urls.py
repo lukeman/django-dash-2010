@@ -9,6 +9,7 @@ from pinax.apps.account.openid_consumer import PinaxConsumer
 
 
 handler500 = "pinax.views.server_error"
+handler404 = "elesma.views.random_drink_404"
 
 
 urlpatterns = patterns("",
@@ -20,8 +21,9 @@ urlpatterns = patterns("",
     url(r"^account/", include("pinax.apps.account.urls")),
     url(r"^openid/(.*)", PinaxConsumer()),
     url(r'^search/', include('haystack.urls')),
-)
+    url(r'^404.html$', "elesma.views.random_drink_404"),
 
+)
 
 if settings.SERVE_MEDIA:
     urlpatterns += patterns("",
