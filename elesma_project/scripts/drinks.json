@@ -1,5 +1,533 @@
 [
     {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "AMERICANO", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/americano.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": " Campari", 
+                "qty": "3.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Sweet Red Vermouth", 
+                "qty": "3.0"
+            }
+        ], 
+        "glass": "Pre dinner (old fashioned glass)", 
+        "instructions": "Mix the ingredients directly in old fashioned glass filled with ice cubes. Add\nSoda Water. Garnish with half orange slice and lemon peel."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "BACARDI COCKTAIL ", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/bacardi.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Bacardi Rum White", 
+                "qty": "4.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Lemon or lime juice", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Grenadine syrup", 
+                "qty": "0.5"
+            }
+        ], 
+        "glass": "Pre dinner (cocktail glass)", 
+        "instructions": "Pour all ingredients into shaker with ice cubes, shake well, strain into chilled\ncocktail glass ."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "DAIQUIRI", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/daiquiri.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "White Rum", 
+                "qty": "4.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Fresh lemon or lime juice", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Gomme syrup", 
+                "qty": "0.5"
+            }
+        ], 
+        "glass": "Pre dinner (cocktail glass)", 
+        "instructions": "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled\ncocktail glass."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "FROZEN DAIQUIRI", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/frozen-daiquiri.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "White Rum", 
+                "qty": "4.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Lemon juice or Lime Juice", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Gomme syrup", 
+                "qty": "0.5"
+            }, 
+            {
+                "units": "scoop", 
+                "name": "of ice cream", 
+                "qty": "One"
+            }
+        ], 
+        "glass": "Pre dinner ( goblet )", 
+        "instructions": "Pour all ingredients into blender with crushed ice. Blend until slushy and smooth and pour\ninto chilled goblet."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "BANANA DAIQUIRI", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/banana-frozen-daiquiri.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "White Rum", 
+                "qty": "4.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": " Fresh lemon or lime juice", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "of Gomme Syrup", 
+                "qty": "0.5"
+            }, 
+            {
+                "units": "Fresh", 
+                "name": "Banana", 
+                "qty": "&frac12;"
+            }
+        ], 
+        "glass": "Pre dinner (goblet)", 
+        "instructions": "Pour all ingredients, with half fresh banana, into blender with crushed ice,\n    blend until slushy. Pour into chilled goblet."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "BRONX", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/bronx.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Gin", 
+                "qty": "3.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Sweet Red Vermouth", 
+                "qty": "1.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Dry Vermouth", 
+                "qty": "1.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Orange Juice", 
+                "qty": "1.5"
+            }
+        ], 
+        "glass": "Pre dinner (cocktail or martini glass)", 
+        "instructions": "Pour into shaker all ingredients with ice cubes, shake well. Strain in chilled\ncocktail or martini glass."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "KIR", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/kir.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Dry White Wine", 
+                "qty": "9.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Cr&egrave;me de Cassis", 
+                "qty": "1.0"
+            }
+        ], 
+        "glass": "Pre dinner (flute or wine glass)", 
+        "instructions": "Pour Cr&egrave;me de Cassis into flute glass, top up with white wine."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "KIR ROYAL", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/kir-royale.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Champagne", 
+                "qty": "9.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Cr&egrave;me de Cassis", 
+                "qty": "1.0"
+            }
+        ], 
+        "glass": "Pre dinner (flute glass)", 
+        "instructions": "Pour Cr&egrave;me de Cassis into flute glass, top up with Champagne."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "MANHATTAN", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/manhattan.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Rye or Canadian whiskey", 
+                "qty": "5.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Red Vermouth", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "Dash", 
+                "name": "Angostura Bitter", 
+                "qty": "1"
+            }
+        ], 
+        "glass": "Pre dinner (martini or cocktail glass )", 
+        "instructions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into\nchilled martini or cocktail glass. Garnish with maraschino cherry."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "MANHATTAN DRY", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/dry-manhattan.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Rye or Canadian whiskey", 
+                "qty": "5.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Dry vermouth", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "of", 
+                "name": "Angostura Bitters", 
+                "qty": "Dash"
+            }
+        ], 
+        "glass": "Pre dinner ( martini or cocktail glass )", 
+        "instructions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled\n    martini or cocktail glass. Garnish with lemon twist."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "MARGARITA", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/margarita.jpg", 
+        "ingredients": [
+            {
+                "units": "Tequila", 
+                "name": "", 
+                "qty": "3.5cl"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Cointreau", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Fresh lemon or lime juice", 
+                "qty": "1.5"
+            }, 
+            {
+                "units": "all", 
+                "name": "ingredients into shaker with ice cubes. Shake well. Strain into chilled\ncocktail glass rimmed with crusted salt.", 
+                "qty": "Pour"
+            }
+        ], 
+        "glass": "Pre dinner (cocktail glass)", 
+        "instructions": "(Fruit Margarita - blend selected fruit with the above recipe)"
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "MARTINI ( DRY )", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/vodka-martini.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Gin", 
+                "qty": "5.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Dry Vermouth", 
+                "qty": "1.5"
+            }
+        ], 
+        "glass": "Pre dinner ( martini  glass )", 
+        "instructions": "Pour all ingredients into mixing glass with ice cubes. Stir well Strain in chilled\n  martini cocktail glass. Squeeze oil from lemon peel onto the drink, or garnish with olive."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "MARTINI ( PERFECT )", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/perfect-martini.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Gin", 
+                "qty": "5.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Dry Vermouth", 
+                "qty": "1.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Red Vermouth", 
+                "qty": "1.0"
+            }
+        ], 
+        "glass": "Pre dinner ( martini glass )", 
+        "instructions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled\nmartini glass. Garnish with lemon peel and, or, maraschino cherry."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "MARTINI ( SWEET )", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/sweet-martini.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Gin", 
+                "qty": "5.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Red Vermouth", 
+                "qty": "1.5"
+            }
+        ], 
+        "glass": "Pre dinner ( martini glass )", 
+        "instructions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled\nmartini glass. If served &quot;On the rocks &quot;, pour ingredients and ice\ninto old fashioned glass. Garnish with maraschino cherry."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": " MARTINI ( VODKA )", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/vodka-martini.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Vodka", 
+                "qty": "5.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Dry Vermouth", 
+                "qty": "1.5"
+            }
+        ], 
+        "glass": "Pre dinner ( martini glass )", 
+        "instructions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into\nmartini glass. Squeeze oil from lemon peel onto the drink. Optional garnish:\ngreen olive."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "GIBSON", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/gibson.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Gin", 
+                "qty": "6.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Dry Vermouth", 
+                "qty": "1.0"
+            }
+        ], 
+        "glass": "Pre dinner (martini glass )", 
+        "instructions": "Pour gin and vermouth into mixing glass with ice cubes. Stir well and strain\ninto a chilled martini glass. Garnish with silverskin onion."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "NEGRONI", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/negroni.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Gin", 
+                "qty": "3.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Campari", 
+                "qty": "3.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": " Sweet Red Vermouth", 
+                "qty": "3.0"
+            }, 
+            {
+                "units": "all", 
+                "name": "ingredients directly into old fashioned glass filled with ice. Stir\ngently. Garnish with half orange slice and stirer.", 
+                "qty": "Pour"
+            }
+        ], 
+        "glass": "Pre dinner ( old fashioned glass )", 
+        "instructions": "Optional : Splash of Soda Water."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "OLD FASHIONED", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/old-fashioned-copia.jpg", 
+        "ingredients": [
+            {
+                "units": "cl.Bourbon", 
+                "name": ", Scotch or Rye whiskey", 
+                "qty": "4.0"
+            }, 
+            {
+                "units": "sugar", 
+                "name": "cube", 
+                "qty": "1"
+            }, 
+            {
+                "units": "Dashes", 
+                "name": "Angostura Bitter", 
+                "qty": "2"
+            }, 
+            {
+                "units": "Splash", 
+                "name": "Soda Water", 
+                "qty": "1"
+            }
+        ], 
+        "glass": "Pre dinner ( old fashioned glass )", 
+        "instructions": "Place suger cube in old fashioned glass and saturate with bitter, as a dash of soda water. Muddle until dissolve. Fill the glass with ice cubes and add whisky. Garnish with orange slice, lemon twist and two maraschino cherries"
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "PARADISE", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/paradise.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Gin", 
+                "qty": "3.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Apricot Brandy", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Orange juice", 
+                "qty": "1.5"
+            }
+        ], 
+        "glass": "Pre dinner (cocktail glass)", 
+        "instructions": "Pour all ingredients into cocktail shaker filled with ice. Shake briskly for\nfew seconds. Strain into chilled cocktail glass."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "ROB ROY", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/rob-roy.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Scotch Whisky", 
+                "qty": "4.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Red Vermouth", 
+                "qty": "2.5"
+            }, 
+            {
+                "units": "Dash", 
+                "name": "Angostura Bitter", 
+                "qty": "1"
+            }
+        ], 
+        "glass": "Pre dinner ( cocktial glass )", 
+        "instructions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into\nchilled cocktail glass. Garnish with maraschino cherry ."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "ROSE", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/rose.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Dry Vermouth", 
+                "qty": "4.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Kirsch", 
+                "qty": "1.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Cherry Brandy", 
+                "qty": "1.0"
+            }
+        ], 
+        "glass": "Pre dinner ( cocktail glass )", 
+        "instructions": "Pour all ingredients into mixing glass with filled ice. Stir well. Strain into\nchilled cocktail glass. Garnish with maraschino cherry."
+    }, 
+    {
+        "group": "PRE-DINNER COCKTAIL", 
+        "name": "WHISKEY SOUR", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/whiskey-sour.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Bourbon whiskey", 
+                "qty": "4.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Fresh lemon juice", 
+                "qty": "3.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Gomme syrup", 
+                "qty": "1.5"
+            }, 
+            {
+                "units": "Dash", 
+                "name": "egg  white", 
+                "qty": "1"
+            }
+        ], 
+        "glass": "Pre dinner (old fashioned or cobbler glass)", 
+        "instructions": "Pour all ingredients into cocktail shaker filled with ice. Shake well. Strain\nin old fashioned or cobbler glass. If served &quot;On the rocks&quot;, strain ingredients\ninto old fashioned glass filled with ice. Garnish with half orange slice and\nmaraschino cherry."
+    }, 
+    {
         "group": "AFTER-DINNER", 
         "name": "BRANDY ALEXANDER", 
         "img": "http://www.iba-world.com/english/cocktails/img/cocktails/alexander.jpg", 
@@ -21,7 +549,7 @@
             }
         ], 
         "glass": "After dinner (cocktail glass)", 
-        "instructions": "Pour all ingredients into shaker with ice cubes, shake well, strain into chilled cocktail glass . Sprinkle with fresh ground nutmeg."
+        "instructions": "Pour all ingredients into shaker with ice cubes, shake well, strain into chilled\ncocktail glass . Sprinkle with fresh ground nutmeg."
     }, 
     {
         "group": "AFTER-DINNER", 
@@ -40,7 +568,7 @@
             }
         ], 
         "glass": "After dinner (old fashioned glass)", 
-        "instructions": "Pour the ingredients into the old fashioned glass filled with ice cubes. Stir gently."
+        "instructions": "Pour the ingredients into the old fashioned glass filled with ice cubes. Stir\ngently."
     }, 
     {
         "group": "AFTER-DINNER", 
@@ -64,7 +592,7 @@
             }
         ], 
         "glass": "After dinner ( old fashioned glass)", 
-        "instructions": "Pour coffee liqueur and vodka directly into old fashioned glass filled with  ice. Float fresh cream on the top and stir in slowly.."
+        "instructions": "Pour coffee liqueur and vodka directly into old fashioned glass filled with\n ice. Float fresh cream on the top and stir in slowly.."
     }, 
     {
         "group": "AFTER-DINNER", 
@@ -145,7 +673,7 @@
             }
         ], 
         "glass": "After dinner (cocktail glass)", 
-        "instructions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds. Strain into chilled cocktail glass."
+        "instructions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds.\nStrain into chilled cocktail glass."
     }, 
     {
         "group": "AFTER-DINNER", 
@@ -174,7 +702,7 @@
             }
         ], 
         "glass": "After dinner (cocktail glass)", 
-        "instructions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds. Strain into chilled cocktail glass."
+        "instructions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds.\nStrain into chilled cocktail glass."
     }, 
     {
         "group": "AFTER-DINNER", 
@@ -198,7 +726,7 @@
             }
         ], 
         "glass": "After dinner (cocktail glass)", 
-        "instructions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds. Strain into chilled cocktail glass."
+        "instructions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds.\nStrain into chilled cocktail glass."
     }, 
     {
         "group": "AFTER-DINNER", 
@@ -222,7 +750,7 @@
             }
         ], 
         "glass": "After dinner (cocktail glass)", 
-        "instructions": "Pour all ingredients into cocktail shaker filled with ice. Shake well. Strain  into cocktail glass. Sprinkle with fresh ground nutmeg."
+        "instructions": "Pour all ingredients into cocktail shaker filled with ice. Shake well. Strain\n into cocktail glass. Sprinkle with fresh ground nutmeg."
     }, 
     {
         "group": "AFTER-DINNER", 
@@ -241,6 +769,464 @@
             }
         ], 
         "glass": "After dinner ( old fashioned glass)", 
-        "instructions": "Pour all ingredients directly into old fashioned glass filled with ice. Stir gently. Garnish with lemon twist."
+        "instructions": "Pour all ingredients directly into old fashioned glass filled with ice. Stir gently.\nGarnish with lemon twist."
+    }, 
+    {
+        "group": "LONG DRINK STYLE", 
+        "name": "BELLINI", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/bellini.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Dry Sparkling Wine (white)", 
+                "qty": "10.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Fresh Peach puree", 
+                "qty": "5.0"
+            }, 
+            {
+                "units": "peach", 
+                "name": "puree into chilled flute, add gently chilled sparkling wine (white). Stir gently.", 
+                "qty": "Pour"
+            }
+        ], 
+        "glass": "Long drink ( flute )", 
+        "instructions": "Garnish with slice of peach."
+    }, 
+    {
+        "group": "LONG DRINK STYLE", 
+        "name": "BLOODY MARY", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/bloody-mary.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Vodka", 
+                "qty": "4.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Tomato juice", 
+                "qty": "9.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Lemon juice", 
+                "qty": "1.5"
+            }
+        ], 
+        "glass": "Long drink (highball)", 
+        "instructions": "Add dashes of Worchestershire Sauce, Tabasco , salt and pepper into highball\nglass, then pour all ingredients into highball with ice cubes. Stir gently. Garnish\nwith Celery Salt and lemon wedge (optional)."
+    }, 
+    {
+        "group": "LONG DRINK STYLE", 
+        "name": "BRANDY EGG NOG", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/brandy-egg-nog.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Brandy", 
+                "qty": "4.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Milk", 
+                "qty": "5.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Gomme syrup", 
+                "qty": "1.0"
+            }, 
+            {
+                "units": "yolk", 
+                "name": "egg", 
+                "qty": "1"
+            }
+        ], 
+        "glass": "G Long Drink (highball)", 
+        "instructions": "Pour all ingredients into shaker with ice cubes, shake well. Strain into a highball\nwith ice cubes. Sprinkle with fresh ground nutmeg."
+    }, 
+    {
+        "group": "LONG DRINK STYLE", 
+        "name": "BUCK'S FIZZ", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/buck-fizz-or-mimosa.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Orange juice", 
+                "qty": "10.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Champagne or Dry Sparkling Wine", 
+                "qty": "5.0"
+            }
+        ], 
+        "glass": "Long drink (flute)", 
+        "instructions": "Pour orange juice into fl&ucirc;te and gently pour Champagne or Dry Sparkling Wine. Stir gently. Garnish with orange twist (optional)"
+    }, 
+    {
+        "group": "LONG DRINK STYLE", 
+        "name": "MIMOSA", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/buck-fizz-or-mimosa.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Orange juice", 
+                "qty": "7.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Champagne", 
+                "qty": "7.5"
+            }
+        ], 
+        "glass": "Long drink (flute)", 
+        "instructions": "Pour orange juice into fl&ucirc;te and gently pour sparkling wine. Stir gently. Garnish with orange twist (optional)"
+    }, 
+    {
+        "group": "LONG DRINK STYLE", 
+        "name": "BULL SHOT", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/bull-shot.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Vodka", 
+                "qty": "3.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Cold beef bouillon", 
+                "qty": "6.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Fresh lemon juice", 
+                "qty": "1.0"
+            }, 
+            {
+                "units": "all", 
+                "name": "ingredients directly into highball with ice cubes, add several dashes\nof Worchestershire Sauce, Tabasco, Salt and Pepper. Stir the ingredients. Garnish\nwith Celery Salt.", 
+                "qty": "Pour"
+            }
+        ], 
+        "glass": "Long Drink (highball)", 
+        "instructions": "(Note: May be served hot in cold weather)."
+    }, 
+    {
+        "group": "LONG DRINK STYLE", 
+        "name": "CHAMPAGNE COCKTAIL", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/champagne-cocktail.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Chilled Champagne or Sparkling wine", 
+                "qty": "9.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Brandy", 
+                "qty": "1.0"
+            }
+        ], 
+        "glass": "Long drink (fl&ucirc;te)", 
+        "instructions": "Add two dashes Angostura Bitter into flute, and one half sugar cube. Pour gently\nchilled champagne. Garnish with orange slice and maraschino cherry"
+    }, 
+    {
+        "group": "LONG DRINK STYLE", 
+        "name": "JOHN COLLINS", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/john-collins.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Gin", 
+                "qty": "4.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Fresh lemon juice", 
+                "qty": "3.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Gomme syrup", 
+                "qty": "1.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Soda water", 
+                "qty": "6.0"
+            }, 
+            {
+                "units": "all", 
+                "name": "ingredients directly into highball filled with ice. Stir gently. Garnish\n   with lemon slice and maraschino cherry.", 
+                "qty": "Pour"
+            }, 
+            {
+                "units": "dash", 
+                "name": "of Angostura bitter.", 
+                "qty": "Add"
+            }
+        ], 
+        "glass": "Long drink ( highball )", 
+        "instructions": "(Note: Use 'Old Tom' Gin for Tom Collins)."
+    }, 
+    {
+        "group": "LONG DRINK STYLE", 
+        "name": "GIN FIZZ", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/gin-fizz.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Gin", 
+                "qty": "4.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Fresh lemon juice", 
+                "qty": "3.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Gomme syrup", 
+                "qty": "1.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Soda Water", 
+                "qty": "8.0"
+            }
+        ], 
+        "glass": "Long drink ( highball )", 
+        "instructions": "Shake all ingredients with ice cubes, except soda water. Pour into highball glass.\nTop with Soda water."
+    }, 
+    {
+        "group": "LONG DRINK STYLE", 
+        "name": "HARVEY WALLBANGER", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/harvey-hallbanger.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Vodka", 
+                "qty": "4.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Liquore Galliano (float on the top)", 
+                "qty": "1.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Fresh orange juice", 
+                "qty": "9.0"
+            }
+        ], 
+        "glass": "Long drink ( highball )", 
+        "instructions": "Pour vodka and orange juice directly into highball, filled with ice cubes, stir\ngently, add (float) Liquore Galliano on the top . Garnish with orange slice and\nmaraschino cherry."
+    }, 
+    {
+        "group": "LONG DRINK STYLE", 
+        "name": "HORSE'S NECK", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/horse27s_neck.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Brandy", 
+                "qty": "4.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Ginger Ale", 
+                "qty": "11.0"
+            }, 
+            {
+                "units": "of", 
+                "name": "Angostura bitter (optional)", 
+                "qty": "Dash"
+            }
+        ], 
+        "glass": "Long drink ( highball glass)", 
+        "instructions": "Pour brandy and ginger ale directly into highball glass with ice cubes. Stir gently.\nGarnish with rind of one lemon spiral. If required, add dashes of Angostura\nBitter."
+    }, 
+    {
+        "group": "LONG DRINK STYLE", 
+        "name": "IRISH COFFEE", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/irish-coffee.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Irish Whiskey", 
+                "qty": "4.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Hot coffee", 
+                "qty": "8.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Fresh cream", 
+                "qty": "3.0"
+            }, 
+            {
+                "units": "tea", 
+                "name": "spoon of brown sugar", 
+                "qty": "1"
+            }, 
+            {
+                "units": "into", 
+                "name": "the glass (for hot drink) hot coffee, Irish whiskey, and add a teaspoon\nof sugar. Warm the mixture over a burner. Do not boil the mixture.", 
+                "qty": "Pour"
+            }
+        ], 
+        "glass": "Long drink ( Irish coffee- glass )", 
+        "instructions": "Float Cream on top. Suggested to use a coffee spoon, place near the surface of\nglass and pour the cream gently over to enable it to float."
+    }, 
+    {
+        "group": "LONG DRINK STYLE", 
+        "name": "PINA COLADA", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/pina-colada.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "White Rum", 
+                "qty": "3.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Coconut cream", 
+                "qty": "3.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Pineapple juice", 
+                "qty": "9.0"
+            }
+        ], 
+        "glass": "Long drink ( tumbler or fashion glass )", 
+        "instructions": "Pour all ingredients into blender or shaker with crushed ice. Blend or shake until smooth. Pour\n  into chilled glass. Garnish with pineapple wedge and maraschino cherry and straw."
+    }, 
+    {
+        "group": "LONG DRINK STYLE", 
+        "name": "PLANTER'S PUNCH", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/planters-punch.jpg", 
+        "ingredients": [
+            {
+                "units": "Dark", 
+                "name": "Rum", 
+                "qty": "6.0cl"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Fresh lemon juice", 
+                "qty": "3.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Grenadine syrup", 
+                "qty": "1.0"
+            }, 
+            {
+                "units": "water.", 
+                "name": "", 
+                "qty": "Soda"
+            }
+        ], 
+        "glass": "Long drink ( highball )", 
+        "instructions": "Pour all ingredients into shaker filled with ice. Shake well. Pour into highball\nwith ice. Top up with Soda water. Stir gently and add a dash of Angostura bitters. Garnish with lemon and orange\nslices."
+    }, 
+    {
+        "group": "LONG DRINK STYLE", 
+        "name": "SCREWDRIVER", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/screwdriver.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Vodka", 
+                "qty": "5.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Orange Juice", 
+                "qty": "10.0"
+            }
+        ], 
+        "glass": "Long drink ( highball )", 
+        "instructions": "Pour all ingredients directly into highball glass filled with ice. Stir gently.\nGarnish with orange slice."
+    }, 
+    {
+        "group": "LONG DRINK STYLE", 
+        "name": "SINGAPORE SLING", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/singapore-sling.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Gin", 
+                "qty": "4.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Cherry Brandy", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Cointreau", 
+                "qty": "0.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "DOM Benedictine", 
+                "qty": "0.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Grenadine", 
+                "qty": "1.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Pineapple juice", 
+                "qty": "8.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Fresh lemon juice", 
+                "qty": "3.0"
+            }, 
+            {
+                "units": "dash", 
+                "name": "Angostura Bitters", 
+                "qty": "1"
+            }
+        ], 
+        "glass": "Long drink ( highball )", 
+        "instructions": "Pour all ingredients into cocktail shaker filled with ice cubes.\nShake well. Strain into highball glass. \nGarnish with pineapple and maraschino cherry."
+    }, 
+    {
+        "group": "LONG DRINK STYLE", 
+        "name": "TEQUILA SUNRISE", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/tequila-sunrise.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Tequila", 
+                "qty": "4.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Orange juice", 
+                "qty": "9.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Grenadine syrup", 
+                "qty": "1.5"
+            }
+        ], 
+        "glass": "Long drink ( highball )", 
+        "instructions": "Pour tequila and orange juice directly into highball with ice cubes. Add a splash\nof Grenadine syrup to create chromatic effect (sunrise), do not stir. Garnish with orange slice and cherry, straw and stirrer."
     }
 ]

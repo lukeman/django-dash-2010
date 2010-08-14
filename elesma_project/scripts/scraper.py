@@ -12,21 +12,27 @@ def extract_ingredient(x):
     parts = x.strip().split(" ")
     return { "qty": parts[0], "units": parts[1], "name": " ".join(parts[2:]) }
 
-
 def stir_cocktail(h, name, group, url):
     "Stir a delightful cocktail. Well, at least download the recipe anyway."
-    resp, content = h.request(url, "GET")
-    soup = BeautifulSoup.BeautifulSoup(content)
-    body = soup.find('body')
-    components = [ x.strip() for x in body.contents if str(x).strip() and str(x) != '<br />' and not hasattr(x, 'name') ]
-    img = "http://www.iba-world.com/english/cocktails/img/cocktails/%s" % (body.find("img")['src'].split('/')[-1],)
-    return { 'name': name, 
-             'group': group, 
-             'img': img,
-             'glass': components[0],
-             'instructions': components[-1],
-             'ingredients': [ extract_ingredient(x) for x in components[1:-1] ],
-             }
+    try:
+        resp, content = h.request(url, "GET")
+        soup = BeautifulSoup.BeautifulSoup(content)
+        body = soup.find('body')
+        components = [ x.strip() for x in body.contents if str(x).strip() and str(x) != '<br />' and not hasattr(x, 'name') ]
+        if not components:
+            components = [ x.strip() for x in body.find('p').contents if str(x).strip() and str(x) != '<br />' and not hasattr(x, 'name') ]
+
+        img = "http://www.iba-world.com/english/cocktails/img/cocktails/%s" % (body.find("img")['src'].split('/')[-1],)
+        return { 'name': name,
+                 'group': group, 
+                 'img': img,
+                 'glass': components[0],
+                 'instructions': components[-1],
+                 'ingredients': [ extract_ingredient(x) for x in components[1:-1] ],
+                 }
+    except Exception, e:
+        print "couldn't stir cocktail: %s in %s\n%s" % (name, group, e,)
+        return None
 
 def main(url=STARTING_URL):
     h = httplib2.Http(".cache")
@@ -49,6 +55,12 @@ def main(url=STARTING_URL):
 
     return all_cocktails
 
+def main_to_disk(filename='drinks.json', url=STARTING_URL):
+    'Write scraped data to disk.'
+    data = main(url=url)
+    with open(filename, 'w') as fout:
+        import django.utils.simplejson as simplejson
+        fout.write(simplejson.dumps(data, indent=4))
 
 if __name__ == '__main__':
     main()
