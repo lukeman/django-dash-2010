@@ -67,7 +67,7 @@
             
             <div id="header_actions">
               <div id="left_actions" class="grid_4">{% block left_tabs %}{% endblock %}Left Actions</div>
-              <div id="superbar" class="grid_8"><input type="text" name="superbar" value="Search Goes Here" id="superinput"></div>
+              <div id="superbar" class="grid_8"><input class="defaultText" title="Search for cocktails or ingredients..." type="text" name="superbar" value="Search for cocktails or ingredients..." id="superinput"></div>
               <div id="right_actions" class="grid_4" >{% block right_tabs %}{% endblock %}Right Actions</div>
               <div class="clear">&nbsp;</div>
             </div>
@@ -93,6 +93,7 @@
         <script src="{% block jquery_src %}{{ STATIC_URL }}pinax/js/jquery-1.3.2.min.js{% endblock %}" type="text/javascript"></script>
         <script src="{{ STATIC_URL }}pinax/js/base.js" type="text/javascript"></script>
         <script src="{{ STATIC_URL }}uni_form/uni-form.jquery.js" type="text/javascript"></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}js/elesma.js"></script>
         {% include "facebox_js.html" %}
         {% block extra_body_base %}
             {% block extra_body %}{% endblock %}

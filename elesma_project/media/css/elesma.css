@@ -97,3 +97,11 @@ div#content_wrapper {
   -webkit-border-radius: 0px 0px 5px 5px;
   -moz-border-radius: 0px 0px 5px 5px;
 }
+
+/*** DEFAULT TEXT ***/
+.defaultText { 
+
+}
+.defaultTextActive {
+    color: #a1a1a1; font-style: italic;
+}	
