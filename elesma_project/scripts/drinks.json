@@ -1,0 +1,246 @@
+[
+    {
+        "group": "AFTER-DINNER", 
+        "name": "BRANDY ALEXANDER", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/alexander.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Cognac", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Cr&eacute;me de Cacao (brown)", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Fresh cream", 
+                "qty": "2.0"
+            }
+        ], 
+        "glass": "After dinner (cocktail glass)", 
+        "instructions": "Pour all ingredients into shaker with ice cubes, shake well, strain into chilled cocktail glass . Sprinkle with fresh ground nutmeg."
+    }, 
+    {
+        "group": "AFTER-DINNER", 
+        "name": "BLACK RUSSIAN", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/black-russian.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Vodka", 
+                "qty": "5.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Coffee liqueur", 
+                "qty": "2.0"
+            }
+        ], 
+        "glass": "After dinner (old fashioned glass)", 
+        "instructions": "Pour the ingredients into the old fashioned glass filled with ice cubes. Stir gently."
+    }, 
+    {
+        "group": "AFTER-DINNER", 
+        "name": "WHITE RUSSIAN", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/white-russian.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Vodka", 
+                "qty": "5.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Coffee liqueur", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Fresh cream", 
+                "qty": "3.0"
+            }
+        ], 
+        "glass": "After dinner ( old fashioned glass)", 
+        "instructions": "Pour coffee liqueur and vodka directly into old fashioned glass filled with  ice. Float fresh cream on the top and stir in slowly.."
+    }, 
+    {
+        "group": "AFTER-DINNER", 
+        "name": "FRENCH CONNECTION", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/french-connection.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Cognac", 
+                "qty": "3.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Amaretto liqueur", 
+                "qty": "3.5"
+            }
+        ], 
+        "glass": "After dinner ( old fashioned )", 
+        "instructions": "Pour all ingredients directly into old fashioned with ice cubes. Stir gently."
+    }, 
+    {
+        "group": "AFTER-DINNER", 
+        "name": null, 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/godmother.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Scotch", 
+                "qty": "3.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Amaretto", 
+                "qty": "3.5"
+            }
+        ], 
+        "glass": "After dinner ( old fashioned glass )", 
+        "instructions": "Pour all ingredients directly into old fashioned glass filled with ice cubes"
+    }, 
+    {
+        "group": "AFTER-DINNER", 
+        "name": "GOD MOTHER", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/godmother.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Vodka", 
+                "qty": "3.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Amaretto", 
+                "qty": "3.5"
+            }
+        ], 
+        "glass": "After dinner ( old fashioned glass )", 
+        "instructions": "Pour all ingredients directly in old fashioned glass filled with ice cubes."
+    }, 
+    {
+        "group": "AFTER-DINNER", 
+        "name": "GOLDEN CADILLAC", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/golden-cadillac.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Liquore Galliano", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Cr&eacute;me de cacao (white)", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Fresh cream", 
+                "qty": "2.0"
+            }
+        ], 
+        "glass": "After dinner (cocktail glass)", 
+        "instructions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds. Strain into chilled cocktail glass."
+    }, 
+    {
+        "group": "AFTER-DINNER", 
+        "name": "GOLDEN DREAM", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/golden-dream.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Liquore Galliano", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Cointreau", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Fresh orange juice", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Fresh cream", 
+                "qty": "1.0"
+            }
+        ], 
+        "glass": "After dinner (cocktail glass)", 
+        "instructions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds. Strain into chilled cocktail glass."
+    }, 
+    {
+        "group": "AFTER-DINNER", 
+        "name": "GRASSHOPPER", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/grass-hopper.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Cr&eacute;me de menthe (green)", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Cr&eacute;me de cacao (white)", 
+                "qty": "2.0"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Fresh cream", 
+                "qty": "2.0"
+            }
+        ], 
+        "glass": "After dinner (cocktail glass)", 
+        "instructions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds. Strain into chilled cocktail glass."
+    }, 
+    {
+        "group": "AFTER-DINNER", 
+        "name": "PORTO FLIP", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/porto-flip.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Brandy", 
+                "qty": "1.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Red Port", 
+                "qty": "4.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Yolk egg", 
+                "qty": "1.0"
+            }
+        ], 
+        "glass": "After dinner (cocktail glass)", 
+        "instructions": "Pour all ingredients into cocktail shaker filled with ice. Shake well. Strain  into cocktail glass. Sprinkle with fresh ground nutmeg."
+    }, 
+    {
+        "group": "AFTER-DINNER", 
+        "name": "RUSTY NAIL", 
+        "img": "http://www.iba-world.com/english/cocktails/img/cocktails/rusty-nail.jpg", 
+        "ingredients": [
+            {
+                "units": "cl", 
+                "name": "Scotch whisky", 
+                "qty": "4.5"
+            }, 
+            {
+                "units": "cl", 
+                "name": "Drambuie", 
+                "qty": "2.5"
+            }
+        ], 
+        "glass": "After dinner ( old fashioned glass)", 
+        "instructions": "Pour all ingredients directly into old fashioned glass filled with ice. Stir gently. Garnish with lemon twist."
+    }
+]
