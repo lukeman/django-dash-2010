@@ -1,0 +1,12 @@
+{% extends 'site_base.html' %}
+
+{% block body %}
+
+<ul>
+{% for recipe in objects %}
+  <li>{{ recipe.name }} has score of {{ recipe.rating.score }} from {{ recipe.rating.votes.count }} votes</li>
+{% endfor %}
+</ul>
+
+
+{% endblock %}
