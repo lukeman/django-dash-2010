@@ -7,8 +7,8 @@ body {
 div#tabhead {
   background: none;
   border:none;
-  height:70px;
-  margin-top:5px;
+  height:80px;
+  margin-top:15px;
 }
 
 #tabhead .login a {
