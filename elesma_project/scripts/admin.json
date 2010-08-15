@@ -1,0 +1,80 @@
+[
+    {
+        "pk": 6, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-14 22:59:05", 
+            "object_repr": "tonic-tot", 
+            "object_id": "11", 
+            "change_message": "", 
+            "user": 5, 
+            "content_type": 4
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-14 22:58:29", 
+            "object_repr": "mean-russian", 
+            "object_id": "10", 
+            "change_message": "", 
+            "user": 5, 
+            "content_type": 4
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-14 22:58:11", 
+            "object_repr": "nice-russian", 
+            "object_id": "9", 
+            "change_message": "", 
+            "user": 5, 
+            "content_type": 4
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-14 22:57:46", 
+            "object_repr": "violet-russian", 
+            "object_id": "8", 
+            "change_message": "", 
+            "user": 5, 
+            "content_type": 4
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-14 22:57:27", 
+            "object_repr": "purple-russian", 
+            "object_id": "7", 
+            "change_message": "", 
+            "user": 5, 
+            "content_type": 4
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-14 22:57:07", 
+            "object_repr": "green-russian", 
+            "object_id": "6", 
+            "change_message": "", 
+            "user": 5, 
+            "content_type": 4
+        }
+    }
+]
