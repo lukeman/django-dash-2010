@@ -3,8 +3,7 @@ div.searchlight-balloon {
 }
 table.searchlight-results {
     border-collapse: collapse;
-    font-family: Tahoma, Geneva, Helvetica, Arial, sans-serif;
-    font-size: 0.75em;
+    font-size: 12pt;
     font-weight: normal;
     width: 100%;
 }
@@ -23,15 +22,19 @@ div.searchlight-results-wrapper {
 table.searchlight-results th,
 table.searchlight-results td {
     padding: 4px;
-    text-shadow: 1px 1px 1px #aaa;
 }
 table.searchlight-results .searchlight-header-text,
 table.searchlight-results .searchlight-result-text {
     white-space: nowrap;
 }
 
+table.searchlight-results span {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
 table.searchlight-results th {
-    background: #fdfdfd;
+    background: #f6f6f6;
     color: #222;
     font-size: 95%;
     border-right: 1px solid #ccc;
@@ -44,6 +47,7 @@ table.searchlight-results td {
 }
 table.searchlight-results td .searchlight-result-item {
     padding: 1px 0;
+    font-weight:bold;
 }
 table.searchlight-results tr {
     cursor: pointer;
@@ -52,7 +56,6 @@ table.searchlight-results tr.searchlight-selected th,
 table.searchlight-results tr.searchlight-selected td {
     background: #05b;
     color: #fff;
-    text-shadow: 1px 1px 1px #014;
 }
 table.searchlight-results .searchlight-result-icon {
     margin-right: 4px;

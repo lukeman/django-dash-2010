@@ -29,7 +29,7 @@ div#tabhead {
 }
 
 ul.user_options {
-  margin-top:15px;
+  margin-top:16px;
 }
 
 ul.user_options li {
@@ -39,14 +39,14 @@ ul.user_options li {
 }
 
 ul.user_options li a {
-    font-family: 'Vollkorn', arial, serif;
-  font-size: 14pt;
-  font-weight: normal;
+ 
+  font-size: 11pt;
+  font-weight: bold;
   background: #bdbdbd url(../images/topback.png) repeat-x;
   color:#000;
   text-decoration: none;
   text-shadow: #fff 0px 1px 0px;
-  padding:5px;
+  padding:8px;
   -webkit-border-radius: 10px;
 }
 
@@ -136,6 +136,14 @@ div.drink.list_large h3 a {
     color:#222;
 }
 
+/*** FORMS ***/
+
+form.uniForm {
+  font-size:14pt;
+}
+form.uniForm label {
+  font-weight:bold;
+}
 
 
 /*** FOOTER ***/
