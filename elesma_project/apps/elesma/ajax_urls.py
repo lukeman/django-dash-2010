@@ -6,4 +6,5 @@ admin.autodiscover()
 
 urlpatterns = patterns("",
     url(r'^vote$', "elesma.ajax_views.vote"),
+    url(r'^suggestions$', "elesma.ajax_views.suggestions"),
 )

@@ -2,7 +2,9 @@ from django.http import HttpResponse, HttpResponseServerError
 import django.utils.simplejson as simplejson
 import elesma.models
 from django.contrib.auth.decorators import login_required
+from haystack.query import SearchQuerySet
 
+DEFAULT_SUGGESTIONS_COUNT = 5
 
 def api_response(http_code, data):
     if http_code == 200:
@@ -11,6 +13,16 @@ def api_response(http_code, data):
     else:
         data['success'] = False
         return HttpResponseServerError(simplejson.dumps(data), mimetype="application/json")
+
+def suggestions(request):
+    if request.method == "GET":
+        if request.GET.has_key('q'):
+            query = request.GET['q']
+            count = (request.GET.has_key('count') and request.GET['count']) or DEFAULT_SUGGESTIONS_COUNT
+            results = SearchQuerySet().filter(content=query)[:count]
+            return api_response(200, { 'suggestions': [ x.name for x in results ] })
+        return api_response(500, {'error': "Search requests must specify parameter q." })
+    return api_response(500, {'error': "Search requests must use GET." })
 
 @login_required
 def vote(request):
