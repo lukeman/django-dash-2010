@@ -11,12 +11,11 @@ div#tabhead {
   margin-top:5px;
 }
 
-#tabhead .login {
-  color:#fafafa;
+#tabhead .login a {
+  color:#000 !important;
 }
-
-#tabhead div.login a, #tabhead div.login a:visited {
-  color:#fafafa;
+#tabhead .login a:hover {
+  background: #ddd;
 }
 
 #tabhead .logo {
@@ -28,6 +27,29 @@ div#tabhead {
   width:34px;
   height:40px;
 }
+
+ul.user_options {
+  margin-top:15px;
+}
+
+ul.user_options li {
+  list-style-type: none;
+  display:inline;
+  margin-left:5px;
+}
+
+ul.user_options li a {
+    font-family: 'Vollkorn', arial, serif;
+  font-size: 14pt;
+  font-weight: normal;
+  background: #bdbdbd url(../images/topback.png) repeat-x;
+  color:#000;
+  text-decoration: none;
+  text-shadow: #fff 0px 1px 0px;
+  padding:5px;
+  -webkit-border-radius: 10px;
+}
+
 div.logo h1 a {
   font-family: 'Vollkorn', arial, serif;
   font-weight: normal;
