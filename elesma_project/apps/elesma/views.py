@@ -5,6 +5,9 @@ from django.template import RequestContext
 import elesma.models
 import settings
 
+def random_drink(request):
+    pass
+
 def user_leaderboard(request):
     profiles = elesma.models.UserProfile.objects.all().order_by('-votes')[:10]
     return render_to_response('elesma/user_leaderboard.html',
