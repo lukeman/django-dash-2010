@@ -17,7 +17,7 @@ urlpatterns = patterns("",
     url(r"^$", direct_to_template, {
         "template": "homepage.html",
     }, name="home"),
-    url(r'^create/recipe/$', "elesma.views.create_recipe", name="create_recipe"),
+    url(r'^recipe/submit/$', "elesma.views.create_recipe", name="create_recipe"),
     url(r'^recipe/(?P<slug>[-\w]+)/$', "elesma.views.recipe", name="recipe_detail"),
     url(r'^leaderboard/drinkers/$', "elesma.views.user_leaderboard"),
     url(r'^random-drink/$', "elesma.views.random_drink"),
