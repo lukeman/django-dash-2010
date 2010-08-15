@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="{{ STATIC_URL }}pinax/css/announcements.css" />
         <link rel="stylesheet" href="{{ STATIC_URL }}pinax/css/accounts.css" />
         <link rel="stylesheet" href="{{ STATIC_URL }}uni_form/uni-form.css" />
+        <link href='http://fonts.googleapis.com/css?family=Vollkorn:regular,bold' rel='stylesheet' type='text/css'>
         {% if LANGUAGE_BIDI %}
         <style type="text/css" media="screen">
             div.right_panel {
@@ -60,24 +61,30 @@
         {% endif %}
         
         <div id="tabhead" class="container_16 ">
-            <div class="login grid_16">{% block login %}{% endblock %}{% block locale_switcher %}{% endblock %}<div style="text-align: right;"></div></div>
+            <div class="logo grid_6">{% block logo_link_image %}{% endblock %}</div>
+            <div class="login grid_10">{% block login %}{% endblock %}{% block locale_switcher %}{% endblock %}<div style="text-align: right;"></div></div>
             <div class="clear">&nbsp;</div>
-            &nbsp;
-
-            
-            <div id="header_actions">
-              <div id="left_actions" class="grid_4">{% block left_tabs %}{% endblock %}Left Actions</div>
-              <div id="superbar" class="grid_8"><input class="defaultText" title="Search for cocktails or ingredients..." type="text" name="superbar" value="Search for cocktails or ingredients..." id="superinput"></div>
-              <div id="right_actions" class="grid_4" >{% block right_tabs %}{% endblock %}Right Actions</div>
-              <div class="clear">&nbsp;</div>
-            </div>
         </div>
-        <div id="navbar" class="container_16">
-          <div id="subnav">{% block subnav_base %}<div class="clearfix">{% block subnav %}&nbsp;{% endblock %}</div>{% endblock %}</div>
+        <div id="superbar" class="container_16">
+          <div class="grid_16">
+            <input class="defaultText" title="Search for cocktails or ingredients..." type="text" name="superbar" value="Search for cocktails or ingredients..." id="superinput">
+
+            <div class="superbutton">
+              <a href="#">Popular</a>
+            </div>
+            <div class="superbutton">
+              <a href="#">Highest Rated</a>
+            </div>
+            <div class="superbutton">
+              <a href="#">Random Drink</a>
+            </div>
+          </div>
+          <div class="clear">&nbsp;</div>
         </div>
 
         {% block body_outer %}
         <div id="content_wrapper" class="container_16">
+          {% block subnav_base %}{% block subnav %}&nbsp;{% endblock %}{% endblock %}
           {% block body %}
           {% endblock %}
           <div class="clear">&nbsp;</div>

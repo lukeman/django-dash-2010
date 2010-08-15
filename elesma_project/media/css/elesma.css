@@ -1,14 +1,14 @@
 body {
   background: #051b39;
-  border-top: 5px solid #aaa;
+  border-top: 5px solid #444;
 }
 
 /*** HEADER ***/
 div#tabhead {
-  background: url(../images/topback.png) repeat-x;
+  background: none;
   border:none;
-  height:75px;
-  margin-top:20px;
+  height:80px;
+  margin-top:5px;
   -webkit-border-radius: 5px 5px 0px 0px;
   -moz-border-radius: 5px 5px 0px 0px;
 }
@@ -22,7 +22,6 @@ div#tabhead {
 }
 
 #tabhead .logo {
-  font-size: 16pt;
   font-family: Helvetica, Arial, sans-serif;
   height:auto;
 }
@@ -31,10 +30,14 @@ div#tabhead {
   width:250px;
   height:50px;
 }
-div.logo a {
-  color:#000;
+div.logo h1 a {
+  font-family: 'Vollkorn', arial, serif;
+  font-weight: normal;
+  font-size: 36pt;
+  color:#fafafa;
+  text-shadow: #000 1px 0px 0px;
   text-decoration: none;
-  text-transform: lowercase;
+  
 }
 
 div.login {
@@ -47,19 +50,36 @@ div.login {
 }
 
 #superbar {
-  background: url('../images/searchbg.png') repeat-x;
+  background: url(../images/topback.png) repeat-x;
+  padding-top:5px;
+  height:60px;
   -webkit-border-radius: 5px 5px 0px 0px !important;
 }
+.superbutton {
+    margin-top:12px;
+    margin-left:15px;
+    float:right;
+    overflow:none;
+}
+.superbutton a {
+    width:40px;
+    height:40px;
+    padding:13px;
+    background: #fff;
+    -webkit-border-radius: 5px;
+    background: #f6f6f6;
+}
+
 #superinput {
+    -webkit-border-radius: 5px;
+    background: #f6f6f6;
     text-align: center;
     margin:0px;
-    height:30px;
-    width:100%;
-    border: none;
+    height:40px;
+    width:500px;
     color: #333;
-    font-size: 12pt;
-    background:none;
-    
+    font-size: 18pt;
+    padding:0px;
 }
 
 
@@ -79,7 +99,7 @@ div#content_wrapper {
 
 /*** FOOTER ***/
 #sitefooter {
-  background:#aaa;
+  background:#fff;
 }
 
 /*** UTILITY ***/

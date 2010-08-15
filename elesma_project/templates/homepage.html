@@ -10,19 +10,6 @@
 {% block body %}
     <div class="grid_16">
       <h1>Welcome to Elesma</h1>
-
-      <hr />
-      {% if user.is_authenticated %}
-          <p>Welcome, friend.</p>
-      {% else %}
-          {% url acct_login as login_url %}
-          {% ifsetting ACCOUNT_OPEN_SIGNUP %}
-              {% url acct_signup as signup_url %}
-              <p>{% blocktrans %}You can <a href="{{ signup_url }}">Sign up</a> and <a href="{{ login_url }}">Log in</a> to try out the site.{% endblocktrans %}</p>
-          {% else %}
-              <p>{% blocktrans %}You can <a href="{{ login_url }}">Log in</a> to try out the site.{% endblocktrans %}</p>
-          {% endifsetting %}
-      {% endif %}
     </div>
 
     
