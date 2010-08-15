@@ -16,10 +16,7 @@ def recipe_leaderboard(request):
             'rating_rank': '((100/%s*rating_score/(rating_votes+%s))+100)/2' % (elesma.models.Recipe.rating.range,
                                                                            elesma.models.Recipe.rating.weight)
             })
-    print qs
     qs = qs.order_by('-rating_rank')
-    print qs
-
     return render_to_response('elesma/recipe_leaderboard.html',
                               { 'objects': qs },
                               context_instance=RequestContext(request))
