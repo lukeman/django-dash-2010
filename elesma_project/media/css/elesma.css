@@ -15,7 +15,14 @@ div#tabhead {
   color:#fafafa !important;
 }
 #tabhead .login a:hover {
-  background: #456188;
+    background: #243f63;
+}
+
+div.container_16 {
+  -webkit-box-shadow: #000 0px 5px 10px;
+}
+div#tabhead {
+  -webkit-box-shadow:none;
 }
 
 #tabhead .logo {
@@ -43,7 +50,8 @@ ul.user_options li a {
   font-size: 11pt;
   font-weight: bold;
   background: #bdbdbd url(../images/topback.png) repeat-x;
-  background: #243f63;
+
+  background: #456188;
   color:#000;
   text-decoration: none;
   text-shadow: #000 0px -1px 0px;
