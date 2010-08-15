@@ -58,8 +58,7 @@ class Ingredient(models.Model):
         return self.name
     
     def get_absolute_url(self):
-        return "/"
-
+        return "%s?ingredient=%s" % (reverse("ingredient_detail"), self.name)
 
 class Recipe(models.Model):
 
