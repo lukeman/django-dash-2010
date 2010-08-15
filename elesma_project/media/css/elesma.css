@@ -51,7 +51,7 @@ div.login {
 }
 
 #superbar {
-  background: url(../images/topback.png) repeat-x;
+  background: #bdbdbd url(../images/topback.png) repeat-x;
   padding-top:5px;
   height:48px;
   -webkit-border-radius: 5px 5px 0px 0px !important;
