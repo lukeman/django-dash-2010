@@ -37,6 +37,7 @@ div.logo h1 a {
   color:#fafafa;
   text-shadow: #000 1px 0px 0px;
   text-decoration: none;
+  text-rendering: optimizeLegibility;
   
 }
 
@@ -52,7 +53,7 @@ div.login {
 #superbar {
   background: url(../images/topback.png) repeat-x;
   padding-top:5px;
-  height:60px;
+  height:48px;
   -webkit-border-radius: 5px 5px 0px 0px !important;
 }
 .superbutton {
