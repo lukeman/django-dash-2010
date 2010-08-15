@@ -1,12 +1,11 @@
 {% extends 'site_base.html' %}
 
 {% block body %}
-
-<ul>
-{% for recipe in objects %}
-  <li>{{ recipe.name }} has score of {{ recipe.rating.score }} from {{ recipe.rating.votes.count }} votes</li>
-{% endfor %}
-</ul>
+<div class="grid_16">
+  {% for object in objects %}
+    {% include "elesma/includes/recipe_list_large.html" %}
+  {% endfor %}
+</div>
 
 
 {% endblock %}
