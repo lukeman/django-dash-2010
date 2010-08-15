@@ -57,22 +57,20 @@ div.login {
   -webkit-border-radius: 5px 5px 0px 0px !important;
 }
 .superbutton {
-    margin-top:10px;
-    margin-left:15px;
-    float:right;
     overflow:none;
 }
 .superbutton a {
     color:#000;
     text-decoration: none;
     font-weight: bold;
-    font-size: 12pt;
-    width:40px;
-    height:40px;
-    padding:11px;
+    text-shadow: #fff 0px 1px 0px;
+    font-size: 10pt;
+    padding:12px;
     background: #fff;
     -webkit-border-radius: 5px;
     background: #f6f6f6;
+    float:left;
+    margin-right:5px;
 }
 
 .superbutton a:hover {
@@ -86,7 +84,7 @@ div.login {
     text-align: center;
     margin:0px;
     height:40px;
-    width:500px;
+    width:100%;
     color: #000;
     font-size: 13pt;
     font-weight:bold;
@@ -105,6 +103,15 @@ div#content_wrapper {
   border-top:none;
 }
 
+
+/*** DRINKS ***/
+div.drink.list_large h3 {
+    font-size:14pt;
+    margin-bottom:0px;
+}
+div.drink.list_large h3 a {
+    color:#222;
+}
 
 
 
