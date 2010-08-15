@@ -13,14 +13,8 @@ $(document).ready(function() {
 	$(".uniForm #id_name").keyup(function() {
 		$.ajax({ url: "/ajax/suggestions?q="+escape($("#id_name").val()),context: document.body, dataType: 'json', success: function(data){
 			    $(".uniForm #id_name_suggestions").remove();
-			    var all_results = data[0].results,
-				results = [];
-			    for (var j=0; j < all_results.length; j++) {
-				
-				if (all_results[j][3] == 'recipe') {
-				    results.push(all_results[j]);
-				}};
-			    var suggestions = "",
+			    var results = data[0].results,
+				suggestions = "",
 				i = 0,
 				l = results.length;
 			    if (l > 0) {
