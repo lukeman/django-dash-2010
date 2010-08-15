@@ -10,4 +10,29 @@ $(document).ready(function() {
 		    $(this).val($(this)[0].title);
 		}});
 	$(".defaultText").blur();        
+	$(".uniForm #id_name").keyup(function() {
+		$.ajax({ url: "/ajax/suggestions?q="+escape($("#id_name").val()),context: document.body, dataType: 'json', success: function(data){
+			    $(".uniForm #id_name_suggestions").remove();
+			    var all_results = data[0].results,
+				results = [];
+			    for (var j=0; j < all_results.length; j++) {
+				
+				if (all_results[j][3] == 'recipe') {
+				    results.push(all_results[j]);
+				}};
+			    var suggestions = "",
+				i = 0,
+				l = results.length;
+			    if (l > 0) {
+				for (i=0; i<l; i++) {
+				    var result = results[i];
+				    if (i == 0) {
+					suggestions += "<a href=\""+result[0] + "\">"+result[1] + "</a>";
+				    } else if (i < l - 1) {
+					suggestions += ", <a href=\""+result[0] + "\">"+result[1] + "</a>";
+				    } else {
+					suggestions += " or <a href=\""+result[0] + "\">"+result[1] + "</a>";
+				    }}
+				$(".uniForm #id_name").after($("<p id=\"id_name_suggestions\">Are you looking for "+suggestions+"?</p>"));
+			    }}})});
     });

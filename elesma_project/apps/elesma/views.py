@@ -8,7 +8,7 @@ import elesma.models
 import settings
 from djangoratings.models import Vote
 from django.contrib.auth.decorators import login_required
-from django.forms import ModelForm
+from django.forms import ModelForm, CheckboxSelectMultiple, ModelMultipleChoiceField
 from uni_form.helpers import FormHelper, Submit, Reset, Layout, Fieldset, Row, HTML
 from django.template.defaultfilters import slugify
 
@@ -22,6 +22,10 @@ def user(request, username=None):
                               context_instance=RequestContext(request))
 
 class RecipeForm(ModelForm):
+    ingredients = ModelMultipleChoiceField(queryset=elesma.models.Ingredient.objects.all().order_by('name'),
+                                           required=True,
+                                           widget=CheckboxSelectMultiple)
+
     class Meta:
         model = elesma.models.Recipe
         fields = ('name', 'description', 'directions', 'category', 'container', 'ingredients')
