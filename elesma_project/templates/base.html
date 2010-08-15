@@ -48,26 +48,30 @@
                 </ul>
             </div>
         {% endif %}
-        {% if messages %}
-        <div class="grid_8 push_4">
-          <ul id="messages">
-              {% for message in messages %}
-              <li id="message_{{ forloop.counter }}"{% if message.tags %} class="{{ message.tags }}"{% endif %}>
-                  <a href="#"><small>{% trans "clear" %}</small></a>
-                  {{ message }}
-              </li>
-              {% endfor %}
-          </ul>
-        </div>
-            
-            <div class="clear">&nbsp;</div>
-        {% endif %}
+
         
         <div id="tabhead" class="container_16 ">
             <div class="logo grid_6">{% block logo_link_image %}{% endblock %}</div>
             <div class="login grid_10">{% block login %}{% endblock %}{% block locale_switcher %}{% endblock %}<div style="text-align: right;"></div></div>
             <div class="clear">&nbsp;</div>
         </div>
+        {% if messages %}
+        <div class="container_16">
+          <div class="grid_16">
+            <ul id="messages">
+                {% for message in messages %}
+                <li id="message_{{ forloop.counter }}"{% if message.tags %} class="{{ message.tags }}"{% endif %}>
+                    <a href="#"><small>{% trans "clear" %}</small></a>
+                    {{ message }}
+                </li>
+                {% endfor %}
+            </ul>
+          </div>
+                      <div class="clear">&nbsp;</div>
+        </div>
+
+        {% endif %}
+        
         <div id="superbar" class="container_16">
           <div class="grid_16">
             <div class="alpha grid_7">
