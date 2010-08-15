@@ -9,8 +9,6 @@ div#tabhead {
   border:none;
   height:80px;
   margin-top:5px;
-  -webkit-border-radius: 5px 5px 0px 0px;
-  -moz-border-radius: 5px 5px 0px 0px;
 }
 
 #tabhead .login {
@@ -55,6 +53,7 @@ div.login {
   padding-top:5px;
   height:48px;
   -webkit-border-radius: 5px 5px 0px 0px !important;
+  -moz-border-radius: 5px 5px 0px 0px;
 }
 .superbutton {
     overflow:none;
@@ -67,6 +66,7 @@ div.login {
     font-size: 10pt;
     padding:12px;
     -webkit-border-radius: 5px;
+    -moz-border-radius:5px;
     float:left;
     margin-right:5px;
     background:#aaa;
@@ -80,6 +80,7 @@ div.login {
 #superinput {
     font-family: Helvetica, Arial, sans-serif;
     -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
     background: #f6f6f6;
     text-align: center;
     margin:0px;
