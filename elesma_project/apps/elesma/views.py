@@ -1,12 +1,17 @@
 # Create your views here.
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
+from django.core.urlresolvers import reverse
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 import elesma.models
 import settings
 
-def random_drink(request):
+def recipe(request, slug):
     pass
+
+def random_drink(request):
+    recipe = elesma.models.Recipe.objects.all().order_by('?')[0]
+    return HttpResponseRedirect(reverse('elesma.views.recipe', kwargs={'slug': recipe.slug}))
 
 def user_leaderboard(request):
     profiles = elesma.models.UserProfile.objects.all().order_by('-votes')[:10]
