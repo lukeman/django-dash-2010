@@ -1,7 +1,11 @@
 from django.db import models
-from taggit.managers import TaggableManager
-from djangoratings.fields import RatingField
 from django.contrib.auth.models import User
+from django.core.urlresolvers import reverse
+
+from djangoratings.fields import RatingField
+from taggit.managers import TaggableManager
+
+
 
 class UserProfile(models.Model):
     "Store voting information about user."
@@ -64,6 +68,11 @@ class Recipe(models.Model):
     
     def __unicode__(self):
         return self.name
+    
+    def get_absolute_url(self):
+            return reverse("recipe_detail", kwargs={
+                "slug": self.slug,
+            })
 
 
 class RecipeItem(models.Model):
