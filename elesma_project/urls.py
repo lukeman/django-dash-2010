@@ -13,6 +13,7 @@ handler404 = "elesma.views.random_drink_404"
 
 
 urlpatterns = patterns("",
+    url(r"^drinker/(?P<username>[-_\w]+)/$", "elesma.views.user", name="user_profile"),
     url(r"^$", direct_to_template, {
         "template": "homepage.html",
     }, name="home"),
