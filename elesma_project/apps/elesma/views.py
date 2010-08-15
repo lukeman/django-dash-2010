@@ -6,12 +6,16 @@ from django.template import RequestContext
 from django.contrib.auth.models import User
 import elesma.models
 import settings
-
+from djangoratings.models import Vote
 
 def user(request, username=None):
     user = get_object_or_404(User, username=username)
+    votes = Vote.objects.filter(user=user)
+
     return render_to_response('elesma/profile.html',
-                              { 'object': user },
+                              { 'object': user,
+                                'votes': votes,
+                                },
                               context_instance=RequestContext(request))
 
 def recipe(request, slug):

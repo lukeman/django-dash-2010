@@ -1,3 +1,16 @@
 <div class="grid_16">
   <h2>{{ object.username|lower|capfirst }}</h2>
+  <p>Voted {{ object.votes.count }} time{{ object.votes.count|pluralize }}!</p>
+
+  <h3>Recent Votes</h3>
+  {% if votes %}
+  <ul id="recent-votes">
+    {% for vote in votes %}
+    <li>Gave {{ vote.content_object.name|lower|capfirst }} a rating of {{ vote.score }}, {{ vote.date_changed|timesince }} ago.</li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>Beware this novice drinker who hasn't voted yet!</p>
+  {% endif %}
+
 </div>
