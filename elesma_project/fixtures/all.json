@@ -1,0 +1,4034 @@
+[
+  {
+    "pk": 28, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tag", 
+      "name": "Tag", 
+      "app_label": "taggit"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "taggeditem", 
+      "name": "Tagged Item", 
+      "app_label": "taggit"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "account", 
+      "name": "account", 
+      "app_label": "account"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "association", 
+      "name": "association", 
+      "app_label": "django_openid"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "category", 
+      "name": "category", 
+      "app_label": "elesma"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "container", 
+      "name": "container", 
+      "app_label": "elesma"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "contenttype", 
+      "name": "content type", 
+      "app_label": "contenttypes"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "dontsendentry", 
+      "name": "don't send entry", 
+      "app_label": "mailer"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "emailaddress", 
+      "name": "e-mail address", 
+      "app_label": "emailconfirmation"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "emailconfirmation", 
+      "name": "e-mail confirmation", 
+      "app_label": "emailconfirmation"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "group", 
+      "name": "group", 
+      "app_label": "auth"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "ingredient", 
+      "name": "ingredient", 
+      "app_label": "elesma"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "logentry", 
+      "name": "log entry", 
+      "app_label": "admin"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "message", 
+      "name": "message", 
+      "app_label": "auth"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "message", 
+      "name": "message", 
+      "app_label": "mailer"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "messagelog", 
+      "name": "message log", 
+      "app_label": "mailer"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "nonce", 
+      "name": "nonce", 
+      "app_label": "django_openid"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "otherserviceinfo", 
+      "name": "other service info", 
+      "app_label": "account"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "passwordreset", 
+      "name": "password reset", 
+      "app_label": "account"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "permission", 
+      "name": "permission", 
+      "app_label": "auth"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "recipe", 
+      "name": "recipe", 
+      "app_label": "elesma"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "recipeitem", 
+      "name": "recipe item", 
+      "app_label": "elesma"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "score", 
+      "name": "score", 
+      "app_label": "djangoratings"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "session", 
+      "name": "session", 
+      "app_label": "sessions"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "signupcode", 
+      "name": "signup code", 
+      "app_label": "signup_codes"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "signupcoderesult", 
+      "name": "signup code result", 
+      "app_label": "signup_codes"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "site", 
+      "name": "site", 
+      "app_label": "sites"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "user", 
+      "name": "user", 
+      "app_label": "auth"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "useropenidassociation", 
+      "name": "user openid association", 
+      "app_label": "django_openid"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "userprofile", 
+      "name": "user profile", 
+      "app_label": "elesma"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "vote", 
+      "name": "vote", 
+      "app_label": "djangoratings"
+    }
+  }, 
+  {
+    "pk": "351c591565c554573fbeeb22d9805c20", 
+    "model": "sessions.session", 
+    "fields": {
+      "expire_date": "2010-08-28 22:59:08", 
+      "session_data": "gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlU2cGluYXguYXBwcy5hY2NvdW50LmF1dGhfYmFj\na2VuZHMuQXV0aGVudGljYXRpb25CYWNrZW5kcQNVDV9hdXRoX3VzZXJfaWRxBEsFdS5mZDA2OGM5\nYjkzODVjNzViOTZlMjE5YTVhYjg3YzZhOQ==\n"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "sites.site", 
+    "fields": {
+      "domain": "example.com", 
+      "name": "Example Site"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "account.account", 
+    "fields": {
+      "timezone": "US/Eastern", 
+      "user": 2, 
+      "language": "en-us"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "account.account", 
+    "fields": {
+      "timezone": "US/Eastern", 
+      "user": 3, 
+      "language": "en-us"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "account.account", 
+    "fields": {
+      "timezone": "US/Eastern", 
+      "user": 4, 
+      "language": "en-us"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "account.account", 
+    "fields": {
+      "timezone": "US/Eastern", 
+      "user": 5, 
+      "language": "en-us"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "account.account", 
+    "fields": {
+      "timezone": "US/Eastern", 
+      "user": 6, 
+      "language": "en-us"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "account.account", 
+    "fields": {
+      "timezone": "US/Eastern", 
+      "user": 7, 
+      "language": "en-us"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "account.account", 
+    "fields": {
+      "timezone": "US/Eastern", 
+      "user": 8, 
+      "language": "en-us"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "account.account", 
+    "fields": {
+      "timezone": "US/Eastern", 
+      "user": 9, 
+      "language": "en-us"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "account.account", 
+    "fields": {
+      "timezone": "US/Eastern", 
+      "user": 10, 
+      "language": "en-us"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "account.account", 
+    "fields": {
+      "timezone": "US/Eastern", 
+      "user": 11, 
+      "language": "en-us"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "elesma.userprofile", 
+    "fields": {
+      "votes": 1, 
+      "user": 2
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "elesma.userprofile", 
+    "fields": {
+      "votes": 30, 
+      "user": 3
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "elesma.userprofile", 
+    "fields": {
+      "votes": 0, 
+      "user": 4
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "elesma.userprofile", 
+    "fields": {
+      "votes": 0, 
+      "user": 5
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "elesma.userprofile", 
+    "fields": {
+      "votes": 0, 
+      "user": 6
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "elesma.userprofile", 
+    "fields": {
+      "votes": 0, 
+      "user": 7
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "elesma.userprofile", 
+    "fields": {
+      "votes": 0, 
+      "user": 8
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "elesma.userprofile", 
+    "fields": {
+      "votes": 0, 
+      "user": 9
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "elesma.userprofile", 
+    "fields": {
+      "votes": 0, 
+      "user": 10
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "elesma.userprofile", 
+    "fields": {
+      "votes": 0, 
+      "user": 11
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "elesma.category", 
+    "fields": {
+      "name": "PRE-DINNER COCKTAIL"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "elesma.category", 
+    "fields": {
+      "name": "AFTER-DINNER"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "elesma.category", 
+    "fields": {
+      "name": "LONG DRINK STYLE"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Pre dinner (old fashioned glass)"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Pre dinner (cocktail glass)"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Pre dinner ( goblet )"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Pre dinner (goblet)"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Pre dinner (cocktail or martini glass)"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Pre dinner (flute or wine glass)"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Pre dinner (flute glass)"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Pre dinner (martini or cocktail glass )"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Pre dinner ( martini or cocktail glass )"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Pre dinner ( martini  glass )"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Pre dinner ( martini glass )"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Pre dinner (martini glass )"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Pre dinner ( old fashioned glass )"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Pre dinner ( cocktial glass )"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Pre dinner ( cocktail glass )"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Pre dinner (old fashioned or cobbler glass)"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "After dinner (cocktail glass)"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "After dinner (old fashioned glass)"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "After dinner ( old fashioned glass)"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "After dinner ( old fashioned )"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "After dinner ( old fashioned glass )"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Long drink (highball)"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "G Long Drink (highball)"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Long drink (flute)"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Long drink (fl&ucirc;te)"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Long drink ( highball )"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Long drink ( highball glass)"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "elesma.container", 
+    "fields": {
+      "name": "Long drink ( tumbler or fashion glass )"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": " Campari"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Sweet Red Vermouth"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Bacardi Rum White"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Lemon or lime juice"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Grenadine syrup"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "White Rum"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Fresh lemon or lime juice"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Gomme syrup"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Lemon juice or Lime Juice"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "of ice cream"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": " Fresh lemon or lime juice"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "of Gomme Syrup"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Banana"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Gin"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Dry Vermouth"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Orange Juice"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Dry White Wine"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Cr&egrave;me de Cassis"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Champagne"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Rye or Canadian whiskey"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Red Vermouth"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Angostura Bitter"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Dry vermouth"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Angostura Bitters"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Vodka"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": ", Scotch or Rye whiskey"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "cube"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Soda Water"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Apricot Brandy"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Orange juice"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Scotch Whisky"
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Kirsch"
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Cherry Brandy"
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Bourbon whiskey"
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Fresh lemon juice"
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "egg  white"
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Cognac"
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Cr&eacute;me de Cacao (brown)"
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Fresh cream"
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Coffee liqueur"
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Amaretto liqueur"
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Amaretto"
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Liquore Galliano"
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Cr&eacute;me de cacao (white)"
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Cointreau"
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Fresh orange juice"
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Cr&eacute;me de menthe (green)"
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Brandy"
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Red Port"
+    }
+  }, 
+  {
+    "pk": 50, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Yolk egg"
+    }
+  }, 
+  {
+    "pk": 51, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Scotch whisky"
+    }
+  }, 
+  {
+    "pk": 52, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Drambuie"
+    }
+  }, 
+  {
+    "pk": 53, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Tomato juice"
+    }
+  }, 
+  {
+    "pk": 54, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Lemon juice"
+    }
+  }, 
+  {
+    "pk": 55, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Milk"
+    }
+  }, 
+  {
+    "pk": 56, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "egg"
+    }
+  }, 
+  {
+    "pk": 57, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Champagne or Dry Sparkling Wine"
+    }
+  }, 
+  {
+    "pk": 58, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Chilled Champagne or Sparkling wine"
+    }
+  }, 
+  {
+    "pk": 59, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Liquore Galliano (float on the top)"
+    }
+  }, 
+  {
+    "pk": 60, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Ginger Ale"
+    }
+  }, 
+  {
+    "pk": 61, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Angostura bitter (optional)"
+    }
+  }, 
+  {
+    "pk": 62, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Coconut cream"
+    }
+  }, 
+  {
+    "pk": 63, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Pineapple juice"
+    }
+  }, 
+  {
+    "pk": 64, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Rum"
+    }
+  }, 
+  {
+    "pk": 65, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": ""
+    }
+  }, 
+  {
+    "pk": 66, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "DOM Benedictine"
+    }
+  }, 
+  {
+    "pk": 67, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Grenadine"
+    }
+  }, 
+  {
+    "pk": 68, 
+    "model": "elesma.ingredient", 
+    "fields": {
+      "name": "Tequila"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 1, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Mix the ingredients directly in old fashioned glass filled with ice cubes. Add\nSoda Water. Garnish with half orange slice and lemon peel.", 
+      "slug": "americano", 
+      "name": "AMERICANO"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 2, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into shaker with ice cubes, shake well, strain into chilled\ncocktail glass .", 
+      "slug": "bacardi-cocktail-", 
+      "name": "BACARDI COCKTAIL "
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 2, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled\ncocktail glass.", 
+      "slug": "daiquiri", 
+      "name": "DAIQUIRI"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 3, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into blender with crushed ice. Blend until slushy and smooth and pour\ninto chilled goblet.", 
+      "slug": "frozen-daiquiri", 
+      "name": "FROZEN DAIQUIRI"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 4, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients, with half fresh banana, into blender with crushed ice,\n    blend until slushy. Pour into chilled goblet.", 
+      "slug": "banana-daiquiri", 
+      "name": "BANANA DAIQUIRI"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 5, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour into shaker all ingredients with ice cubes, shake well. Strain in chilled\ncocktail or martini glass.", 
+      "slug": "bronx", 
+      "name": "BRONX"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 6, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour Cr&egrave;me de Cassis into flute glass, top up with white wine.", 
+      "slug": "kir", 
+      "name": "KIR"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 7, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour Cr&egrave;me de Cassis into flute glass, top up with Champagne.", 
+      "slug": "kir-royal", 
+      "name": "KIR ROYAL"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 8, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into\nchilled martini or cocktail glass. Garnish with maraschino cherry.", 
+      "slug": "manhattan", 
+      "name": "MANHATTAN"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 9, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled\n    martini or cocktail glass. Garnish with lemon twist.", 
+      "slug": "manhattan-dry", 
+      "name": "MANHATTAN DRY"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 10, 
+      "description": "", 
+      "rating_votes": 1, 
+      "rating_score": 5, 
+      "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well Strain in chilled\n  martini cocktail glass. Squeeze oil from lemon peel onto the drink, or garnish with olive.", 
+      "slug": "martini-(-dry-)", 
+      "name": "MARTINI ( DRY )"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 11, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled\nmartini glass. Garnish with lemon peel and, or, maraschino cherry.", 
+      "slug": "martini-(-perfect-)", 
+      "name": "MARTINI ( PERFECT )"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 11, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled\nmartini glass. If served &quot;On the rocks &quot;, pour ingredients and ice\ninto old fashioned glass. Garnish with maraschino cherry.", 
+      "slug": "martini-(-sweet-)", 
+      "name": "MARTINI ( SWEET )"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 11, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into\nmartini glass. Squeeze oil from lemon peel onto the drink. Optional garnish:\ngreen olive.", 
+      "slug": "-martini-(-vodka-)", 
+      "name": " MARTINI ( VODKA )"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 12, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour gin and vermouth into mixing glass with ice cubes. Stir well and strain\ninto a chilled martini glass. Garnish with silverskin onion.", 
+      "slug": "gibson", 
+      "name": "GIBSON"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 13, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Place suger cube in old fashioned glass and saturate with bitter, as a dash of soda water. Muddle until dissolve. Fill the glass with ice cubes and add whisky. Garnish with orange slice, lemon twist and two maraschino cherries", 
+      "slug": "old-fashioned", 
+      "name": "OLD FASHIONED"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 2, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into cocktail shaker filled with ice. Shake briskly for\nfew seconds. Strain into chilled cocktail glass.", 
+      "slug": "paradise", 
+      "name": "PARADISE"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 14, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into\nchilled cocktail glass. Garnish with maraschino cherry .", 
+      "slug": "rob-roy", 
+      "name": "ROB ROY"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 15, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into mixing glass with filled ice. Stir well. Strain into\nchilled cocktail glass. Garnish with maraschino cherry.", 
+      "slug": "rose", 
+      "name": "ROSE"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 1, 
+      "container": 16, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into cocktail shaker filled with ice. Shake well. Strain\nin old fashioned or cobbler glass. If served &quot;On the rocks&quot;, strain ingredients\ninto old fashioned glass filled with ice. Garnish with half orange slice and\nmaraschino cherry.", 
+      "slug": "whiskey-sour", 
+      "name": "WHISKEY SOUR"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 2, 
+      "container": 17, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into shaker with ice cubes, shake well, strain into chilled\ncocktail glass . Sprinkle with fresh ground nutmeg.", 
+      "slug": "brandy-alexander", 
+      "name": "BRANDY ALEXANDER"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 2, 
+      "container": 18, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour the ingredients into the old fashioned glass filled with ice cubes. Stir\ngently.", 
+      "slug": "black-russian", 
+      "name": "BLACK RUSSIAN"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 2, 
+      "container": 19, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour coffee liqueur and vodka directly into old fashioned glass filled with\n ice. Float fresh cream on the top and stir in slowly..", 
+      "slug": "white-russian", 
+      "name": "WHITE RUSSIAN"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 2, 
+      "container": 20, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients directly into old fashioned with ice cubes. Stir gently.", 
+      "slug": "french-connection", 
+      "name": "FRENCH CONNECTION"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 2, 
+      "container": 21, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients directly in old fashioned glass filled with ice cubes.", 
+      "slug": "god-mother", 
+      "name": "GOD MOTHER"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 2, 
+      "container": 17, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds.\nStrain into chilled cocktail glass.", 
+      "slug": "golden-cadillac", 
+      "name": "GOLDEN CADILLAC"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 2, 
+      "container": 17, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds.\nStrain into chilled cocktail glass.", 
+      "slug": "golden-dream", 
+      "name": "GOLDEN DREAM"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 2, 
+      "container": 17, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds.\nStrain into chilled cocktail glass.", 
+      "slug": "grasshopper", 
+      "name": "GRASSHOPPER"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 2, 
+      "container": 17, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into cocktail shaker filled with ice. Shake well. Strain\n into cocktail glass. Sprinkle with fresh ground nutmeg.", 
+      "slug": "porto-flip", 
+      "name": "PORTO FLIP"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 2, 
+      "container": 19, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients directly into old fashioned glass filled with ice. Stir gently.\nGarnish with lemon twist.", 
+      "slug": "rusty-nail", 
+      "name": "RUSTY NAIL"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 3, 
+      "container": 22, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Add dashes of Worchestershire Sauce, Tabasco , salt and pepper into highball\nglass, then pour all ingredients into highball with ice cubes. Stir gently. Garnish\nwith Celery Salt and lemon wedge (optional).", 
+      "slug": "bloody-mary", 
+      "name": "BLOODY MARY"
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 3, 
+      "container": 23, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into shaker with ice cubes, shake well. Strain into a highball\nwith ice cubes. Sprinkle with fresh ground nutmeg.", 
+      "slug": "brandy-egg-nog", 
+      "name": "BRANDY EGG NOG"
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 3, 
+      "container": 24, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour orange juice into fl&ucirc;te and gently pour Champagne or Dry Sparkling Wine. Stir gently. Garnish with orange twist (optional)", 
+      "slug": "buck's-fizz", 
+      "name": "BUCK'S FIZZ"
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 3, 
+      "container": 24, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour orange juice into fl&ucirc;te and gently pour sparkling wine. Stir gently. Garnish with orange twist (optional)", 
+      "slug": "mimosa", 
+      "name": "MIMOSA"
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 3, 
+      "container": 25, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Add two dashes Angostura Bitter into flute, and one half sugar cube. Pour gently\nchilled champagne. Garnish with orange slice and maraschino cherry", 
+      "slug": "champagne-cocktail", 
+      "name": "CHAMPAGNE COCKTAIL"
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 3, 
+      "container": 26, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Shake all ingredients with ice cubes, except soda water. Pour into highball glass.\nTop with Soda water.", 
+      "slug": "gin-fizz", 
+      "name": "GIN FIZZ"
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 3, 
+      "container": 26, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour vodka and orange juice directly into highball, filled with ice cubes, stir\ngently, add (float) Liquore Galliano on the top . Garnish with orange slice and\nmaraschino cherry.", 
+      "slug": "harvey-wallbanger", 
+      "name": "HARVEY WALLBANGER"
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 3, 
+      "container": 27, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour brandy and ginger ale directly into highball glass with ice cubes. Stir gently.\nGarnish with rind of one lemon spiral. If required, add dashes of Angostura\nBitter.", 
+      "slug": "horse's-neck", 
+      "name": "HORSE'S NECK"
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 3, 
+      "container": 28, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into blender or shaker with crushed ice. Blend or shake until smooth. Pour\n  into chilled glass. Garnish with pineapple wedge and maraschino cherry and straw.", 
+      "slug": "pina-colada", 
+      "name": "PINA COLADA"
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 3, 
+      "container": 26, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into shaker filled with ice. Shake well. Pour into highball\nwith ice. Top up with Soda water. Stir gently and add a dash of Angostura bitters. Garnish with lemon and orange\nslices.", 
+      "slug": "planter's-punch", 
+      "name": "PLANTER'S PUNCH"
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 3, 
+      "container": 26, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients directly into highball glass filled with ice. Stir gently.\nGarnish with orange slice.", 
+      "slug": "screwdriver", 
+      "name": "SCREWDRIVER"
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 3, 
+      "container": 26, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour all ingredients into cocktail shaker filled with ice cubes.\nShake well. Strain into highball glass. \nGarnish with pineapple and maraschino cherry.", 
+      "slug": "singapore-sling", 
+      "name": "SINGAPORE SLING"
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "elesma.recipe", 
+    "fields": {
+      "category": 3, 
+      "container": 26, 
+      "description": "", 
+      "rating_votes": 0, 
+      "rating_score": 0, 
+      "directions": "Pour tequila and orange juice directly into highball with ice cubes. Add a splash\nof Grenadine syrup to create chromatic effect (sunrise), do not stir. Garnish with orange slice and cherry, straw and stirrer.", 
+      "slug": "tequila-sunrise", 
+      "name": "TEQUILA SUNRISE"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "3.0 cl", 
+      "recipe": 1, 
+      "ingredient": 1
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "3.0 cl", 
+      "recipe": 1, 
+      "ingredient": 2
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "4.5 cl", 
+      "recipe": 2, 
+      "ingredient": 3
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 2, 
+      "ingredient": 4
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "0.5 cl", 
+      "recipe": 2, 
+      "ingredient": 5
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "4.5 cl", 
+      "recipe": 3, 
+      "ingredient": 6
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 3, 
+      "ingredient": 7
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "0.5 cl", 
+      "recipe": 3, 
+      "ingredient": 8
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "4.5 cl", 
+      "recipe": 4, 
+      "ingredient": 6
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 4, 
+      "ingredient": 9
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "0.5 cl", 
+      "recipe": 4, 
+      "ingredient": 8
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "One scoop", 
+      "recipe": 4, 
+      "ingredient": 10
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "4.5 cl", 
+      "recipe": 5, 
+      "ingredient": 6
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 5, 
+      "ingredient": 11
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "0.5 cl", 
+      "recipe": 5, 
+      "ingredient": 12
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "&frac12; Fresh", 
+      "recipe": 5, 
+      "ingredient": 13
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "3.0 cl", 
+      "recipe": 6, 
+      "ingredient": 14
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.5 cl", 
+      "recipe": 6, 
+      "ingredient": 2
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.0 cl", 
+      "recipe": 6, 
+      "ingredient": 15
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.5 cl", 
+      "recipe": 6, 
+      "ingredient": 16
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "9.0 cl", 
+      "recipe": 7, 
+      "ingredient": 17
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.0 cl", 
+      "recipe": 7, 
+      "ingredient": 18
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "9.0 cl", 
+      "recipe": 8, 
+      "ingredient": 19
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.0 cl", 
+      "recipe": 8, 
+      "ingredient": 18
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "5.0 cl", 
+      "recipe": 9, 
+      "ingredient": 20
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 9, 
+      "ingredient": 21
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1 Dash", 
+      "recipe": 9, 
+      "ingredient": 22
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "5.0 cl", 
+      "recipe": 10, 
+      "ingredient": 20
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 10, 
+      "ingredient": 23
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "Dash of", 
+      "recipe": 10, 
+      "ingredient": 24
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "5.5 cl", 
+      "recipe": 11, 
+      "ingredient": 14
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.5 cl", 
+      "recipe": 11, 
+      "ingredient": 15
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "5.5 cl", 
+      "recipe": 12, 
+      "ingredient": 14
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.0 cl", 
+      "recipe": 12, 
+      "ingredient": 15
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.0 cl", 
+      "recipe": 12, 
+      "ingredient": 21
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "5.5 cl", 
+      "recipe": 13, 
+      "ingredient": 14
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.5 cl", 
+      "recipe": 13, 
+      "ingredient": 21
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "5.5 cl", 
+      "recipe": 14, 
+      "ingredient": 25
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.5 cl", 
+      "recipe": 14, 
+      "ingredient": 15
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "6.0 cl", 
+      "recipe": 15, 
+      "ingredient": 14
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.0 cl", 
+      "recipe": 15, 
+      "ingredient": 15
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "4.0 cl.Bourbon", 
+      "recipe": 16, 
+      "ingredient": 26
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1 sugar", 
+      "recipe": 16, 
+      "ingredient": 27
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2 Dashes", 
+      "recipe": 16, 
+      "ingredient": 22
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1 Splash", 
+      "recipe": 16, 
+      "ingredient": 28
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "3.5 cl", 
+      "recipe": 17, 
+      "ingredient": 14
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 17, 
+      "ingredient": 29
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.5 cl", 
+      "recipe": 17, 
+      "ingredient": 30
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "4.5 cl", 
+      "recipe": 18, 
+      "ingredient": 31
+    }
+  }, 
+  {
+    "pk": 50, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.5 cl", 
+      "recipe": 18, 
+      "ingredient": 21
+    }
+  }, 
+  {
+    "pk": 51, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1 Dash", 
+      "recipe": 18, 
+      "ingredient": 22
+    }
+  }, 
+  {
+    "pk": 52, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "4.5 cl", 
+      "recipe": 19, 
+      "ingredient": 15
+    }
+  }, 
+  {
+    "pk": 53, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.5 cl", 
+      "recipe": 19, 
+      "ingredient": 32
+    }
+  }, 
+  {
+    "pk": 54, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.0 cl", 
+      "recipe": 19, 
+      "ingredient": 33
+    }
+  }, 
+  {
+    "pk": 55, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "4.5 cl", 
+      "recipe": 20, 
+      "ingredient": 34
+    }
+  }, 
+  {
+    "pk": 56, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "3.0 cl", 
+      "recipe": 20, 
+      "ingredient": 35
+    }
+  }, 
+  {
+    "pk": 57, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.5 cl", 
+      "recipe": 20, 
+      "ingredient": 8
+    }
+  }, 
+  {
+    "pk": 58, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1 Dash", 
+      "recipe": 20, 
+      "ingredient": 36
+    }
+  }, 
+  {
+    "pk": 59, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 21, 
+      "ingredient": 37
+    }
+  }, 
+  {
+    "pk": 60, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 21, 
+      "ingredient": 38
+    }
+  }, 
+  {
+    "pk": 61, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 21, 
+      "ingredient": 39
+    }
+  }, 
+  {
+    "pk": 62, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "5.0 cl", 
+      "recipe": 22, 
+      "ingredient": 25
+    }
+  }, 
+  {
+    "pk": 63, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 22, 
+      "ingredient": 40
+    }
+  }, 
+  {
+    "pk": 64, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "5.0 cl", 
+      "recipe": 23, 
+      "ingredient": 25
+    }
+  }, 
+  {
+    "pk": 65, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 23, 
+      "ingredient": 40
+    }
+  }, 
+  {
+    "pk": 66, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "3.0 cl", 
+      "recipe": 23, 
+      "ingredient": 39
+    }
+  }, 
+  {
+    "pk": 67, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "3.5 cl", 
+      "recipe": 24, 
+      "ingredient": 37
+    }
+  }, 
+  {
+    "pk": 68, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "3.5 cl", 
+      "recipe": 24, 
+      "ingredient": 41
+    }
+  }, 
+  {
+    "pk": 69, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "3.5 cl", 
+      "recipe": 25, 
+      "ingredient": 25
+    }
+  }, 
+  {
+    "pk": 70, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "3.5 cl", 
+      "recipe": 25, 
+      "ingredient": 42
+    }
+  }, 
+  {
+    "pk": 71, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 26, 
+      "ingredient": 43
+    }
+  }, 
+  {
+    "pk": 72, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 26, 
+      "ingredient": 44
+    }
+  }, 
+  {
+    "pk": 73, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 26, 
+      "ingredient": 39
+    }
+  }, 
+  {
+    "pk": 74, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 27, 
+      "ingredient": 43
+    }
+  }, 
+  {
+    "pk": 75, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 27, 
+      "ingredient": 45
+    }
+  }, 
+  {
+    "pk": 76, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 27, 
+      "ingredient": 46
+    }
+  }, 
+  {
+    "pk": 77, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.0 cl", 
+      "recipe": 27, 
+      "ingredient": 39
+    }
+  }, 
+  {
+    "pk": 78, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 28, 
+      "ingredient": 47
+    }
+  }, 
+  {
+    "pk": 79, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 28, 
+      "ingredient": 44
+    }
+  }, 
+  {
+    "pk": 80, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 28, 
+      "ingredient": 39
+    }
+  }, 
+  {
+    "pk": 81, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.5 cl", 
+      "recipe": 29, 
+      "ingredient": 48
+    }
+  }, 
+  {
+    "pk": 82, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "4.5 cl", 
+      "recipe": 29, 
+      "ingredient": 49
+    }
+  }, 
+  {
+    "pk": 83, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.0 cl", 
+      "recipe": 29, 
+      "ingredient": 50
+    }
+  }, 
+  {
+    "pk": 84, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "4.5 cl", 
+      "recipe": 30, 
+      "ingredient": 51
+    }
+  }, 
+  {
+    "pk": 85, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.5 cl", 
+      "recipe": 30, 
+      "ingredient": 52
+    }
+  }, 
+  {
+    "pk": 86, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "4.5 cl", 
+      "recipe": 31, 
+      "ingredient": 25
+    }
+  }, 
+  {
+    "pk": 87, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "9.0 cl", 
+      "recipe": 31, 
+      "ingredient": 53
+    }
+  }, 
+  {
+    "pk": 88, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.5 cl", 
+      "recipe": 31, 
+      "ingredient": 54
+    }
+  }, 
+  {
+    "pk": 89, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "4.0 cl", 
+      "recipe": 32, 
+      "ingredient": 48
+    }
+  }, 
+  {
+    "pk": 90, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "5.0 cl", 
+      "recipe": 32, 
+      "ingredient": 55
+    }
+  }, 
+  {
+    "pk": 91, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.0 cl", 
+      "recipe": 32, 
+      "ingredient": 8
+    }
+  }, 
+  {
+    "pk": 92, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1 yolk", 
+      "recipe": 32, 
+      "ingredient": 56
+    }
+  }, 
+  {
+    "pk": 93, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "10.0 cl", 
+      "recipe": 33, 
+      "ingredient": 30
+    }
+  }, 
+  {
+    "pk": 94, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "5.0 cl", 
+      "recipe": 33, 
+      "ingredient": 57
+    }
+  }, 
+  {
+    "pk": 95, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "7.5 cl", 
+      "recipe": 34, 
+      "ingredient": 30
+    }
+  }, 
+  {
+    "pk": 96, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "7.5 cl", 
+      "recipe": 34, 
+      "ingredient": 19
+    }
+  }, 
+  {
+    "pk": 97, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "9.0 cl", 
+      "recipe": 35, 
+      "ingredient": 58
+    }
+  }, 
+  {
+    "pk": 98, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.0 cl", 
+      "recipe": 35, 
+      "ingredient": 48
+    }
+  }, 
+  {
+    "pk": 99, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "4.5 cl", 
+      "recipe": 36, 
+      "ingredient": 14
+    }
+  }, 
+  {
+    "pk": 100, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "3.0 cl", 
+      "recipe": 36, 
+      "ingredient": 35
+    }
+  }, 
+  {
+    "pk": 101, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.0 cl", 
+      "recipe": 36, 
+      "ingredient": 8
+    }
+  }, 
+  {
+    "pk": 102, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "8.0 cl", 
+      "recipe": 36, 
+      "ingredient": 28
+    }
+  }, 
+  {
+    "pk": 103, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "4.5 cl", 
+      "recipe": 37, 
+      "ingredient": 25
+    }
+  }, 
+  {
+    "pk": 104, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.5 cl", 
+      "recipe": 37, 
+      "ingredient": 59
+    }
+  }, 
+  {
+    "pk": 105, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "9.0 cl", 
+      "recipe": 37, 
+      "ingredient": 46
+    }
+  }, 
+  {
+    "pk": 106, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "4.0 cl", 
+      "recipe": 38, 
+      "ingredient": 48
+    }
+  }, 
+  {
+    "pk": 107, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "11.0 cl", 
+      "recipe": 38, 
+      "ingredient": 60
+    }
+  }, 
+  {
+    "pk": 108, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "Dash of", 
+      "recipe": 38, 
+      "ingredient": 61
+    }
+  }, 
+  {
+    "pk": 109, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "3.0 cl", 
+      "recipe": 39, 
+      "ingredient": 6
+    }
+  }, 
+  {
+    "pk": 110, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "3.0 cl", 
+      "recipe": 39, 
+      "ingredient": 62
+    }
+  }, 
+  {
+    "pk": 111, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "9.0 cl", 
+      "recipe": 39, 
+      "ingredient": 63
+    }
+  }, 
+  {
+    "pk": 112, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "6.0cl Dark", 
+      "recipe": 40, 
+      "ingredient": 64
+    }
+  }, 
+  {
+    "pk": 113, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "3.0 cl", 
+      "recipe": 40, 
+      "ingredient": 35
+    }
+  }, 
+  {
+    "pk": 114, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.0 cl", 
+      "recipe": 40, 
+      "ingredient": 5
+    }
+  }, 
+  {
+    "pk": 115, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "Soda water.", 
+      "recipe": 40, 
+      "ingredient": 65
+    }
+  }, 
+  {
+    "pk": 116, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "5.0 cl", 
+      "recipe": 41, 
+      "ingredient": 25
+    }
+  }, 
+  {
+    "pk": 117, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "10.0 cl", 
+      "recipe": 41, 
+      "ingredient": 16
+    }
+  }, 
+  {
+    "pk": 118, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "4.0 cl", 
+      "recipe": 42, 
+      "ingredient": 14
+    }
+  }, 
+  {
+    "pk": 119, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "2.0 cl", 
+      "recipe": 42, 
+      "ingredient": 33
+    }
+  }, 
+  {
+    "pk": 120, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "0.5 cl", 
+      "recipe": 42, 
+      "ingredient": 45
+    }
+  }, 
+  {
+    "pk": 121, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "0.5 cl", 
+      "recipe": 42, 
+      "ingredient": 66
+    }
+  }, 
+  {
+    "pk": 122, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.0 cl", 
+      "recipe": 42, 
+      "ingredient": 67
+    }
+  }, 
+  {
+    "pk": 123, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "8.0 cl", 
+      "recipe": 42, 
+      "ingredient": 63
+    }
+  }, 
+  {
+    "pk": 124, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "3.0 cl", 
+      "recipe": 42, 
+      "ingredient": 35
+    }
+  }, 
+  {
+    "pk": 125, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1 dash", 
+      "recipe": 42, 
+      "ingredient": 24
+    }
+  }, 
+  {
+    "pk": 126, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "4.5 cl", 
+      "recipe": 43, 
+      "ingredient": 68
+    }
+  }, 
+  {
+    "pk": 127, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "9.0 cl", 
+      "recipe": 43, 
+      "ingredient": 30
+    }
+  }, 
+  {
+    "pk": 128, 
+    "model": "elesma.recipeitem", 
+    "fields": {
+      "amount": "1.5 cl", 
+      "recipe": 43, 
+      "ingredient": 5
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "djangoratings.vote", 
+    "fields": {
+      "content_type": 22, 
+      "object_id": 11, 
+      "score": 5, 
+      "user": 2, 
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "date_changed": "2010-08-14 22:41:05", 
+      "date_added": "2010-08-14 22:41:01", 
+      "ip_address": "127.0.0.1"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "djangoratings.score", 
+    "fields": {
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "votes": 1, 
+      "score": 5, 
+      "object_id": 11, 
+      "content_type": 22
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_account", 
+      "name": "Can add account", 
+      "content_type": 14
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_account", 
+      "name": "Can change account", 
+      "content_type": 14
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_account", 
+      "name": "Can delete account", 
+      "content_type": 14
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_otherserviceinfo", 
+      "name": "Can add other service info", 
+      "content_type": 15
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_otherserviceinfo", 
+      "name": "Can change other service info", 
+      "content_type": 15
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_otherserviceinfo", 
+      "name": "Can delete other service info", 
+      "content_type": 15
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_passwordreset", 
+      "name": "Can add password reset", 
+      "content_type": 16
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_passwordreset", 
+      "name": "Can change password reset", 
+      "content_type": 16
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_passwordreset", 
+      "name": "Can delete password reset", 
+      "content_type": 16
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_logentry", 
+      "name": "Can add log entry", 
+      "content_type": 1
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_logentry", 
+      "name": "Can change log entry", 
+      "content_type": 1
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_logentry", 
+      "name": "Can delete log entry", 
+      "content_type": 1
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_group", 
+      "name": "Can add group", 
+      "content_type": 3
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_group", 
+      "name": "Can change group", 
+      "content_type": 3
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_group", 
+      "name": "Can delete group", 
+      "content_type": 3
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_message", 
+      "name": "Can add message", 
+      "content_type": 5
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_message", 
+      "name": "Can change message", 
+      "content_type": 5
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_message", 
+      "name": "Can delete message", 
+      "content_type": 5
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_permission", 
+      "name": "Can add permission", 
+      "content_type": 2
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_permission", 
+      "name": "Can change permission", 
+      "content_type": 2
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_permission", 
+      "name": "Can delete permission", 
+      "content_type": 2
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_user", 
+      "name": "Can add user", 
+      "content_type": 4
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_user", 
+      "name": "Can change user", 
+      "content_type": 4
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_user", 
+      "name": "Can delete user", 
+      "content_type": 4
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_contenttype", 
+      "name": "Can add content type", 
+      "content_type": 6
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_contenttype", 
+      "name": "Can change content type", 
+      "content_type": 6
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_contenttype", 
+      "name": "Can delete content type", 
+      "content_type": 6
+    }
+  }, 
+  {
+    "pk": 73, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_association", 
+      "name": "Can add association", 
+      "content_type": 25
+    }
+  }, 
+  {
+    "pk": 74, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_association", 
+      "name": "Can change association", 
+      "content_type": 25
+    }
+  }, 
+  {
+    "pk": 75, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_association", 
+      "name": "Can delete association", 
+      "content_type": 25
+    }
+  }, 
+  {
+    "pk": 70, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_nonce", 
+      "name": "Can add nonce", 
+      "content_type": 24
+    }
+  }, 
+  {
+    "pk": 71, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_nonce", 
+      "name": "Can change nonce", 
+      "content_type": 24
+    }
+  }, 
+  {
+    "pk": 72, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_nonce", 
+      "name": "Can delete nonce", 
+      "content_type": 24
+    }
+  }, 
+  {
+    "pk": 76, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_useropenidassociation", 
+      "name": "Can add user openid association", 
+      "content_type": 26
+    }
+  }, 
+  {
+    "pk": 77, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_useropenidassociation", 
+      "name": "Can change user openid association", 
+      "content_type": 26
+    }
+  }, 
+  {
+    "pk": 78, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_useropenidassociation", 
+      "name": "Can delete user openid association", 
+      "content_type": 26
+    }
+  }, 
+  {
+    "pk": 91, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_score", 
+      "name": "Can add score", 
+      "content_type": 31
+    }
+  }, 
+  {
+    "pk": 92, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_score", 
+      "name": "Can change score", 
+      "content_type": 31
+    }
+  }, 
+  {
+    "pk": 93, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_score", 
+      "name": "Can delete score", 
+      "content_type": 31
+    }
+  }, 
+  {
+    "pk": 88, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_vote", 
+      "name": "Can add vote", 
+      "content_type": 30
+    }
+  }, 
+  {
+    "pk": 89, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_vote", 
+      "name": "Can change vote", 
+      "content_type": 30
+    }
+  }, 
+  {
+    "pk": 90, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_vote", 
+      "name": "Can delete vote", 
+      "content_type": 30
+    }
+  }, 
+  {
+    "pk": 55, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_category", 
+      "name": "Can add category", 
+      "content_type": 19
+    }
+  }, 
+  {
+    "pk": 56, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_category", 
+      "name": "Can change category", 
+      "content_type": 19
+    }
+  }, 
+  {
+    "pk": 57, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_category", 
+      "name": "Can delete category", 
+      "content_type": 19
+    }
+  }, 
+  {
+    "pk": 58, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_container", 
+      "name": "Can add container", 
+      "content_type": 20
+    }
+  }, 
+  {
+    "pk": 59, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_container", 
+      "name": "Can change container", 
+      "content_type": 20
+    }
+  }, 
+  {
+    "pk": 60, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_container", 
+      "name": "Can delete container", 
+      "content_type": 20
+    }
+  }, 
+  {
+    "pk": 61, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_ingredient", 
+      "name": "Can add ingredient", 
+      "content_type": 21
+    }
+  }, 
+  {
+    "pk": 62, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_ingredient", 
+      "name": "Can change ingredient", 
+      "content_type": 21
+    }
+  }, 
+  {
+    "pk": 63, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_ingredient", 
+      "name": "Can delete ingredient", 
+      "content_type": 21
+    }
+  }, 
+  {
+    "pk": 64, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_recipe", 
+      "name": "Can add recipe", 
+      "content_type": 22
+    }
+  }, 
+  {
+    "pk": 65, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_recipe", 
+      "name": "Can change recipe", 
+      "content_type": 22
+    }
+  }, 
+  {
+    "pk": 66, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_recipe", 
+      "name": "Can delete recipe", 
+      "content_type": 22
+    }
+  }, 
+  {
+    "pk": 67, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_recipeitem", 
+      "name": "Can add recipe item", 
+      "content_type": 23
+    }
+  }, 
+  {
+    "pk": 68, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_recipeitem", 
+      "name": "Can change recipe item", 
+      "content_type": 23
+    }
+  }, 
+  {
+    "pk": 69, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_recipeitem", 
+      "name": "Can delete recipe item", 
+      "content_type": 23
+    }
+  }, 
+  {
+    "pk": 79, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_userprofile", 
+      "name": "Can add user profile", 
+      "content_type": 27
+    }
+  }, 
+  {
+    "pk": 80, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_userprofile", 
+      "name": "Can change user profile", 
+      "content_type": 27
+    }
+  }, 
+  {
+    "pk": 81, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_userprofile", 
+      "name": "Can delete user profile", 
+      "content_type": 27
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_emailaddress", 
+      "name": "Can add e-mail address", 
+      "content_type": 12
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_emailaddress", 
+      "name": "Can change e-mail address", 
+      "content_type": 12
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_emailaddress", 
+      "name": "Can delete e-mail address", 
+      "content_type": 12
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_emailconfirmation", 
+      "name": "Can add e-mail confirmation", 
+      "content_type": 13
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_emailconfirmation", 
+      "name": "Can change e-mail confirmation", 
+      "content_type": 13
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_emailconfirmation", 
+      "name": "Can delete e-mail confirmation", 
+      "content_type": 13
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_dontsendentry", 
+      "name": "Can add don't send entry", 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_dontsendentry", 
+      "name": "Can change don't send entry", 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_dontsendentry", 
+      "name": "Can delete don't send entry", 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_message", 
+      "name": "Can add message", 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_message", 
+      "name": "Can change message", 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_message", 
+      "name": "Can delete message", 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_messagelog", 
+      "name": "Can add message log", 
+      "content_type": 11
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_messagelog", 
+      "name": "Can change message log", 
+      "content_type": 11
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_messagelog", 
+      "name": "Can delete message log", 
+      "content_type": 11
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_session", 
+      "name": "Can add session", 
+      "content_type": 7
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_session", 
+      "name": "Can change session", 
+      "content_type": 7
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_session", 
+      "name": "Can delete session", 
+      "content_type": 7
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_signupcode", 
+      "name": "Can add signup code", 
+      "content_type": 17
+    }
+  }, 
+  {
+    "pk": 50, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_signupcode", 
+      "name": "Can change signup code", 
+      "content_type": 17
+    }
+  }, 
+  {
+    "pk": 51, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_signupcode", 
+      "name": "Can delete signup code", 
+      "content_type": 17
+    }
+  }, 
+  {
+    "pk": 52, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_signupcoderesult", 
+      "name": "Can add signup code result", 
+      "content_type": 18
+    }
+  }, 
+  {
+    "pk": 53, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_signupcoderesult", 
+      "name": "Can change signup code result", 
+      "content_type": 18
+    }
+  }, 
+  {
+    "pk": 54, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_signupcoderesult", 
+      "name": "Can delete signup code result", 
+      "content_type": 18
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_site", 
+      "name": "Can add site", 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_site", 
+      "name": "Can change site", 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_site", 
+      "name": "Can delete site", 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 82, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tag", 
+      "name": "Can add Tag", 
+      "content_type": 28
+    }
+  }, 
+  {
+    "pk": 83, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tag", 
+      "name": "Can change Tag", 
+      "content_type": 28
+    }
+  }, 
+  {
+    "pk": 84, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tag", 
+      "name": "Can delete Tag", 
+      "content_type": 28
+    }
+  }, 
+  {
+    "pk": 85, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_taggeditem", 
+      "name": "Can add Tagged Item", 
+      "content_type": 29
+    }
+  }, 
+  {
+    "pk": 86, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_taggeditem", 
+      "name": "Can change Tagged Item", 
+      "content_type": 29
+    }
+  }, 
+  {
+    "pk": 87, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_taggeditem", 
+      "name": "Can delete Tagged Item", 
+      "content_type": 29
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-08-14 22:59:05", 
+      "object_repr": "tonic-tot", 
+      "object_id": "11", 
+      "change_message": "", 
+      "user": 5, 
+      "content_type": 4
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-08-14 22:58:29", 
+      "object_repr": "mean-russian", 
+      "object_id": "10", 
+      "change_message": "", 
+      "user": 5, 
+      "content_type": 4
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-08-14 22:58:11", 
+      "object_repr": "nice-russian", 
+      "object_id": "9", 
+      "change_message": "", 
+      "user": 5, 
+      "content_type": 4
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-08-14 22:57:46", 
+      "object_repr": "violet-russian", 
+      "object_id": "8", 
+      "change_message": "", 
+      "user": 5, 
+      "content_type": 4
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-08-14 22:57:27", 
+      "object_repr": "purple-russian", 
+      "object_id": "7", 
+      "change_message": "", 
+      "user": 5, 
+      "content_type": 4
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-08-14 22:57:07", 
+      "object_repr": "green-russian", 
+      "object_id": "6", 
+      "change_message": "", 
+      "user": 5, 
+      "content_type": 4
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "gin_lover", 
+      "first_name": "", 
+      "last_name": "", 
+      "is_active": true, 
+      "is_superuser": false, 
+      "is_staff": false, 
+      "last_login": "2010-08-14 21:44:24", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "sha1$5caaf$a4efad138554d2b912175923c2e76a7de9acb740", 
+      "email": "", 
+      "date_joined": "2010-08-14 21:44:24"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "vodka-queen", 
+      "first_name": "", 
+      "last_name": "", 
+      "is_active": true, 
+      "is_superuser": false, 
+      "is_staff": false, 
+      "last_login": "2010-08-14 21:44:47", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "sha1$386fb$e3c260707d1a5e598ca2c47a9c248aa32bf4b4f4", 
+      "email": "", 
+      "date_joined": "2010-08-14 21:44:47"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "lukeman", 
+      "first_name": "", 
+      "last_name": "", 
+      "is_active": true, 
+      "is_superuser": true, 
+      "is_staff": true, 
+      "last_login": "2010-08-14 22:53:37", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "sha1$a392d$bdc207b2558db6e528fa1f6c8d2e26eccfd2f168", 
+      "email": "", 
+      "date_joined": "2010-08-14 22:53:37"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "will", 
+      "first_name": "", 
+      "last_name": "", 
+      "is_active": true, 
+      "is_superuser": true, 
+      "is_staff": true, 
+      "last_login": "2010-08-14 22:56:46", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "sha1$c7a9d$9e7b93b819e9bbf3e04847d56ac3ea9fe31aef8d", 
+      "email": "", 
+      "date_joined": "2010-08-14 22:56:09"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "green-russian", 
+      "first_name": "", 
+      "last_name": "", 
+      "is_active": true, 
+      "is_superuser": false, 
+      "is_staff": false, 
+      "last_login": "2010-08-14 22:57:07", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "sha1$7c65d$a1e48a84e47eff00c78bc521fc6c613983610f00", 
+      "email": "", 
+      "date_joined": "2010-08-14 22:57:07"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "purple-russian", 
+      "first_name": "", 
+      "last_name": "", 
+      "is_active": true, 
+      "is_superuser": false, 
+      "is_staff": false, 
+      "last_login": "2010-08-14 22:57:27", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "sha1$897f5$072b174b4e7042330085733d755cb5392a925730", 
+      "email": "", 
+      "date_joined": "2010-08-14 22:57:27"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "violet-russian", 
+      "first_name": "", 
+      "last_name": "", 
+      "is_active": true, 
+      "is_superuser": false, 
+      "is_staff": false, 
+      "last_login": "2010-08-14 22:57:46", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "sha1$bc0ef$7878e48c304a10146f152adefd2c409dc6c50d16", 
+      "email": "", 
+      "date_joined": "2010-08-14 22:57:46"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "nice-russian", 
+      "first_name": "", 
+      "last_name": "", 
+      "is_active": true, 
+      "is_superuser": false, 
+      "is_staff": false, 
+      "last_login": "2010-08-14 22:58:11", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "sha1$943ba$35bbfadbe39361b6894ac6297d4c107d715ed328", 
+      "email": "", 
+      "date_joined": "2010-08-14 22:58:11"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "mean-russian", 
+      "first_name": "", 
+      "last_name": "", 
+      "is_active": true, 
+      "is_superuser": false, 
+      "is_staff": false, 
+      "last_login": "2010-08-14 22:58:29", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "sha1$f9657$db8f499b35611bb609bb9083fe2890d076721be9", 
+      "email": "", 
+      "date_joined": "2010-08-14 22:58:29"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "tonic-tot", 
+      "first_name": "", 
+      "last_name": "", 
+      "is_active": true, 
+      "is_superuser": false, 
+      "is_staff": false, 
+      "last_login": "2010-08-14 22:59:05", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "sha1$ac869$270819ab11ef51efc098af8b00d8b872e1a6d792", 
+      "email": "", 
+      "date_joined": "2010-08-14 22:59:05"
+    }
+  }
+]
