@@ -9,10 +9,10 @@ DEFAULT_SUGGESTIONS_COUNT = 5
 def api_response(http_code, data):
     if http_code == 200:
         data['success'] = True
-        return HttpResponse(simplejson.dumps(data), mimetype="application/json")
+        return HttpResponse("[%s]" % simplejson.dumps(data), mimetype="application/json")
     else:
         data['success'] = False
-        return HttpResponseServerError(simplejson.dumps(data), mimetype="application/json")
+        return HttpResponseServerError("[%s]" % simplejson.dumps(data), mimetype="application/json")
 
 def suggestions(request):
     if request.method == "GET":
@@ -20,7 +20,7 @@ def suggestions(request):
             query = request.GET['q']
             count = (request.GET.has_key('count') and request.GET['count']) or DEFAULT_SUGGESTIONS_COUNT
             results = SearchQuerySet().filter(content=query)[:count]
-            return api_response(200, { 'suggestions': [ x.name for x in results ] })
+            return api_response(200, { 'title':'Drinks', 'results': [ [x.object.get_absolute_url(), x.name, x.name] for x in results ] } )
         return api_response(500, {'error': "Search requests must specify parameter q." })
     return api_response(500, {'error': "Search requests must use GET." })
 

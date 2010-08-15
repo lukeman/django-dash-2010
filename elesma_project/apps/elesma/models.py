@@ -52,6 +52,9 @@ class Ingredient(models.Model):
 
     def __unicode__(self):
         return self.name
+    
+    def get_absolute_url(self):
+        return "/"
 
 
 class Recipe(models.Model):
