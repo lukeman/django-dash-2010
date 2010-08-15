@@ -14,10 +14,11 @@
     </li>
   {% else %}
     <li>
-      <a href="{% url acct_login %}">Log in</a>
-    </li>
-    <li>
       <a href="{% url acct_signup %}">Create an Account</a>
     </li>
+    <li>
+      <a href="{% url acct_login %}">Log in</a>
+    </li>
+
   {% endif %}
 </ul>
