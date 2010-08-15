@@ -157,9 +157,17 @@ form.uniForm label {
 
 /*** FOOTER ***/
 #sitefooter {
-  background:#fff;
+  background: #bdbdbd url(../images/topback.png) repeat-x;
   padding-top:15px;
   padding-bottom:15px;
+  text-align: right;
+}
+
+.legal span {
+  color: #444;
+  font-weight: bold;
+  text-shadow: #fff 0px 1px 0px;
+  margin-left:15px;
 }
 
 /*** UTILITY ***/
