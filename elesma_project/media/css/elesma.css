@@ -95,7 +95,8 @@ div.button_grouping h5 {
     font-size:8pt;
     text-transform: uppercase;
     margin-bottom:0px;
-    color: #444;
+    color: #000;
+    margin-left:3px;
     
 }
 
