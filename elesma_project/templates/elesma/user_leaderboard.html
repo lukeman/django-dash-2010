@@ -4,7 +4,7 @@
 
 <ul>
 {% for profile in objects %}
-  <li>{{ profile.user.username }} has drank {{ profile.votes }} drinks!</li>
+  <li><a href="{{ profile.get_absolute_url }}">{{ profile.user.username }}</a> has drank {{ profile.votes }} drinks!</li>
 {% endfor %}
 </ul>
 

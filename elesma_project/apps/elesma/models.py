@@ -16,6 +16,10 @@ class UserProfile(models.Model):
     def __unicode__(self):
         return "UserProfile(%s)" % (self.user.username,)
 
+    def get_absolute_url(self):
+        return reverse("user_profile", kwargs={
+                "username": self.user.username,
+                })
 
 def user_post_save(sender, instance, **kwargs):
     profile, new = UserProfile.objects.get_or_create(user=instance, votes=0)

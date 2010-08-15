@@ -3,8 +3,16 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.core.urlresolvers import reverse
 from django.shortcuts import render_to_response, get_object_or_404
 from django.template import RequestContext
+from django.contrib.auth.models import User
 import elesma.models
 import settings
+
+
+def user(request, username=None):
+    user = get_object_or_404(User, username=username)
+    return render_to_response('elesma/profile.html',
+                              { 'object': user },
+                              context_instance=RequestContext(request))
 
 def recipe(request, slug):
     recipe = get_object_or_404(elesma.models.Recipe, slug=slug)
