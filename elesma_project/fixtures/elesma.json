@@ -1,0 +1,2529 @@
+[
+    {
+        "pk": 2, 
+        "model": "elesma.userprofile", 
+        "fields": {
+            "votes": 1, 
+            "user": 2
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "elesma.userprofile", 
+        "fields": {
+            "votes": 30, 
+            "user": 3
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "elesma.userprofile", 
+        "fields": {
+            "votes": 0, 
+            "user": 4
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "elesma.userprofile", 
+        "fields": {
+            "votes": 0, 
+            "user": 5
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "elesma.userprofile", 
+        "fields": {
+            "votes": 0, 
+            "user": 6
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "elesma.userprofile", 
+        "fields": {
+            "votes": 0, 
+            "user": 7
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "elesma.userprofile", 
+        "fields": {
+            "votes": 0, 
+            "user": 8
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "elesma.userprofile", 
+        "fields": {
+            "votes": 0, 
+            "user": 9
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "elesma.userprofile", 
+        "fields": {
+            "votes": 0, 
+            "user": 10
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "elesma.userprofile", 
+        "fields": {
+            "votes": 0, 
+            "user": 11
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "elesma.category", 
+        "fields": {
+            "name": "PRE-DINNER COCKTAIL"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "elesma.category", 
+        "fields": {
+            "name": "AFTER-DINNER"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "elesma.category", 
+        "fields": {
+            "name": "LONG DRINK STYLE"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Pre dinner (old fashioned glass)"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Pre dinner (cocktail glass)"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Pre dinner ( goblet )"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Pre dinner (goblet)"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Pre dinner (cocktail or martini glass)"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Pre dinner (flute or wine glass)"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Pre dinner (flute glass)"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Pre dinner (martini or cocktail glass )"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Pre dinner ( martini or cocktail glass )"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Pre dinner ( martini  glass )"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Pre dinner ( martini glass )"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Pre dinner (martini glass )"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Pre dinner ( old fashioned glass )"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Pre dinner ( cocktial glass )"
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Pre dinner ( cocktail glass )"
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Pre dinner (old fashioned or cobbler glass)"
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "After dinner (cocktail glass)"
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "After dinner (old fashioned glass)"
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "After dinner ( old fashioned glass)"
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "After dinner ( old fashioned )"
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "After dinner ( old fashioned glass )"
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Long drink (highball)"
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "G Long Drink (highball)"
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Long drink (flute)"
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Long drink (fl&ucirc;te)"
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Long drink ( highball )"
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Long drink ( highball glass)"
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "elesma.container", 
+        "fields": {
+            "name": "Long drink ( tumbler or fashion glass )"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": " Campari"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Sweet Red Vermouth"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Bacardi Rum White"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Lemon or lime juice"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Grenadine syrup"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "White Rum"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Fresh lemon or lime juice"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Gomme syrup"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Lemon juice or Lime Juice"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "of ice cream"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": " Fresh lemon or lime juice"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "of Gomme Syrup"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Banana"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Gin"
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Dry Vermouth"
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Orange Juice"
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Dry White Wine"
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Cr&egrave;me de Cassis"
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Champagne"
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Rye or Canadian whiskey"
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Red Vermouth"
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Angostura Bitter"
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Dry vermouth"
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Angostura Bitters"
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Vodka"
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": ", Scotch or Rye whiskey"
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "cube"
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Soda Water"
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Apricot Brandy"
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Orange juice"
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Scotch Whisky"
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Kirsch"
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Cherry Brandy"
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Bourbon whiskey"
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Fresh lemon juice"
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "egg  white"
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Cognac"
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Cr&eacute;me de Cacao (brown)"
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Fresh cream"
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Coffee liqueur"
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Amaretto liqueur"
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Amaretto"
+        }
+    }, 
+    {
+        "pk": 43, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Liquore Galliano"
+        }
+    }, 
+    {
+        "pk": 44, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Cr&eacute;me de cacao (white)"
+        }
+    }, 
+    {
+        "pk": 45, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Cointreau"
+        }
+    }, 
+    {
+        "pk": 46, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Fresh orange juice"
+        }
+    }, 
+    {
+        "pk": 47, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Cr&eacute;me de menthe (green)"
+        }
+    }, 
+    {
+        "pk": 48, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Brandy"
+        }
+    }, 
+    {
+        "pk": 49, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Red Port"
+        }
+    }, 
+    {
+        "pk": 50, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Yolk egg"
+        }
+    }, 
+    {
+        "pk": 51, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Scotch whisky"
+        }
+    }, 
+    {
+        "pk": 52, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Drambuie"
+        }
+    }, 
+    {
+        "pk": 53, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Tomato juice"
+        }
+    }, 
+    {
+        "pk": 54, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Lemon juice"
+        }
+    }, 
+    {
+        "pk": 55, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Milk"
+        }
+    }, 
+    {
+        "pk": 56, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "egg"
+        }
+    }, 
+    {
+        "pk": 57, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Champagne or Dry Sparkling Wine"
+        }
+    }, 
+    {
+        "pk": 58, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Chilled Champagne or Sparkling wine"
+        }
+    }, 
+    {
+        "pk": 59, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Liquore Galliano (float on the top)"
+        }
+    }, 
+    {
+        "pk": 60, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Ginger Ale"
+        }
+    }, 
+    {
+        "pk": 61, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Angostura bitter (optional)"
+        }
+    }, 
+    {
+        "pk": 62, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Coconut cream"
+        }
+    }, 
+    {
+        "pk": 63, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Pineapple juice"
+        }
+    }, 
+    {
+        "pk": 64, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Rum"
+        }
+    }, 
+    {
+        "pk": 65, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": ""
+        }
+    }, 
+    {
+        "pk": 66, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "DOM Benedictine"
+        }
+    }, 
+    {
+        "pk": 67, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Grenadine"
+        }
+    }, 
+    {
+        "pk": 68, 
+        "model": "elesma.ingredient", 
+        "fields": {
+            "name": "Tequila"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 1, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Mix the ingredients directly in old fashioned glass filled with ice cubes. Add\nSoda Water. Garnish with half orange slice and lemon peel.", 
+            "slug": "americano", 
+            "name": "AMERICANO"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 2, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into shaker with ice cubes, shake well, strain into chilled\ncocktail glass .", 
+            "slug": "bacardi-cocktail-", 
+            "name": "BACARDI COCKTAIL "
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 2, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled\ncocktail glass.", 
+            "slug": "daiquiri", 
+            "name": "DAIQUIRI"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 3, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into blender with crushed ice. Blend until slushy and smooth and pour\ninto chilled goblet.", 
+            "slug": "frozen-daiquiri", 
+            "name": "FROZEN DAIQUIRI"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 4, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients, with half fresh banana, into blender with crushed ice,\n    blend until slushy. Pour into chilled goblet.", 
+            "slug": "banana-daiquiri", 
+            "name": "BANANA DAIQUIRI"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 5, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour into shaker all ingredients with ice cubes, shake well. Strain in chilled\ncocktail or martini glass.", 
+            "slug": "bronx", 
+            "name": "BRONX"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 6, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour Cr&egrave;me de Cassis into flute glass, top up with white wine.", 
+            "slug": "kir", 
+            "name": "KIR"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 7, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour Cr&egrave;me de Cassis into flute glass, top up with Champagne.", 
+            "slug": "kir-royal", 
+            "name": "KIR ROYAL"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 8, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into\nchilled martini or cocktail glass. Garnish with maraschino cherry.", 
+            "slug": "manhattan", 
+            "name": "MANHATTAN"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 9, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled\n    martini or cocktail glass. Garnish with lemon twist.", 
+            "slug": "manhattan-dry", 
+            "name": "MANHATTAN DRY"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 10, 
+            "description": "", 
+            "rating_votes": 1, 
+            "rating_score": 5, 
+            "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well Strain in chilled\n  martini cocktail glass. Squeeze oil from lemon peel onto the drink, or garnish with olive.", 
+            "slug": "martini--dry-", 
+            "name": "MARTINI ( DRY )"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 11, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled\nmartini glass. Garnish with lemon peel and, or, maraschino cherry.", 
+            "slug": "martini--perfect-", 
+            "name": "MARTINI ( PERFECT )"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 11, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled\nmartini glass. If served &quot;On the rocks &quot;, pour ingredients and ice\ninto old fashioned glass. Garnish with maraschino cherry.", 
+            "slug": "martini--sweet-", 
+            "name": "MARTINI ( SWEET )"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 11, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into\nmartini glass. Squeeze oil from lemon peel onto the drink. Optional garnish:\ngreen olive.", 
+            "slug": "-martini--vodka-", 
+            "name": " MARTINI ( VODKA )"
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 12, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour gin and vermouth into mixing glass with ice cubes. Stir well and strain\ninto a chilled martini glass. Garnish with silverskin onion.", 
+            "slug": "gibson", 
+            "name": "GIBSON"
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 13, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Place suger cube in old fashioned glass and saturate with bitter, as a dash of soda water. Muddle until dissolve. Fill the glass with ice cubes and add whisky. Garnish with orange slice, lemon twist and two maraschino cherries", 
+            "slug": "old-fashioned", 
+            "name": "OLD FASHIONED"
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 2, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into cocktail shaker filled with ice. Shake briskly for\nfew seconds. Strain into chilled cocktail glass.", 
+            "slug": "paradise", 
+            "name": "PARADISE"
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 14, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain into\nchilled cocktail glass. Garnish with maraschino cherry .", 
+            "slug": "rob-roy", 
+            "name": "ROB ROY"
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 15, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into mixing glass with filled ice. Stir well. Strain into\nchilled cocktail glass. Garnish with maraschino cherry.", 
+            "slug": "rose", 
+            "name": "ROSE"
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 1, 
+            "container": 16, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into cocktail shaker filled with ice. Shake well. Strain\nin old fashioned or cobbler glass. If served &quot;On the rocks&quot;, strain ingredients\ninto old fashioned glass filled with ice. Garnish with half orange slice and\nmaraschino cherry.", 
+            "slug": "whiskey-sour", 
+            "name": "WHISKEY SOUR"
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 2, 
+            "container": 17, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into shaker with ice cubes, shake well, strain into chilled\ncocktail glass . Sprinkle with fresh ground nutmeg.", 
+            "slug": "brandy-alexander", 
+            "name": "BRANDY ALEXANDER"
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 2, 
+            "container": 18, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour the ingredients into the old fashioned glass filled with ice cubes. Stir\ngently.", 
+            "slug": "black-russian", 
+            "name": "BLACK RUSSIAN"
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 2, 
+            "container": 19, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour coffee liqueur and vodka directly into old fashioned glass filled with\n ice. Float fresh cream on the top and stir in slowly..", 
+            "slug": "white-russian", 
+            "name": "WHITE RUSSIAN"
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 2, 
+            "container": 20, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients directly into old fashioned with ice cubes. Stir gently.", 
+            "slug": "french-connection", 
+            "name": "FRENCH CONNECTION"
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 2, 
+            "container": 21, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients directly in old fashioned glass filled with ice cubes.", 
+            "slug": "god-mother", 
+            "name": "GOD MOTHER"
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 2, 
+            "container": 17, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds.\nStrain into chilled cocktail glass.", 
+            "slug": "golden-cadillac", 
+            "name": "GOLDEN CADILLAC"
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 2, 
+            "container": 17, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds.\nStrain into chilled cocktail glass.", 
+            "slug": "golden-dream", 
+            "name": "GOLDEN DREAM"
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 2, 
+            "container": 17, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds.\nStrain into chilled cocktail glass.", 
+            "slug": "grasshopper", 
+            "name": "GRASSHOPPER"
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 2, 
+            "container": 17, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into cocktail shaker filled with ice. Shake well. Strain\n into cocktail glass. Sprinkle with fresh ground nutmeg.", 
+            "slug": "porto-flip", 
+            "name": "PORTO FLIP"
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 2, 
+            "container": 19, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients directly into old fashioned glass filled with ice. Stir gently.\nGarnish with lemon twist.", 
+            "slug": "rusty-nail", 
+            "name": "RUSTY NAIL"
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 3, 
+            "container": 22, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Add dashes of Worchestershire Sauce, Tabasco , salt and pepper into highball\nglass, then pour all ingredients into highball with ice cubes. Stir gently. Garnish\nwith Celery Salt and lemon wedge (optional).", 
+            "slug": "bloody-mary", 
+            "name": "BLOODY MARY"
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 3, 
+            "container": 23, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into shaker with ice cubes, shake well. Strain into a highball\nwith ice cubes. Sprinkle with fresh ground nutmeg.", 
+            "slug": "brandy-egg-nog", 
+            "name": "BRANDY EGG NOG"
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 3, 
+            "container": 24, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour orange juice into fl&ucirc;te and gently pour Champagne or Dry Sparkling Wine. Stir gently. Garnish with orange twist (optional)", 
+            "slug": "bucks-fizz", 
+            "name": "BUCK'S FIZZ"
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 3, 
+            "container": 24, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour orange juice into fl&ucirc;te and gently pour sparkling wine. Stir gently. Garnish with orange twist (optional)", 
+            "slug": "mimosa", 
+            "name": "MIMOSA"
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 3, 
+            "container": 25, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Add two dashes Angostura Bitter into flute, and one half sugar cube. Pour gently\nchilled champagne. Garnish with orange slice and maraschino cherry", 
+            "slug": "champagne-cocktail", 
+            "name": "CHAMPAGNE COCKTAIL"
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 3, 
+            "container": 26, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Shake all ingredients with ice cubes, except soda water. Pour into highball glass.\nTop with Soda water.", 
+            "slug": "gin-fizz", 
+            "name": "GIN FIZZ"
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 3, 
+            "container": 26, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour vodka and orange juice directly into highball, filled with ice cubes, stir\ngently, add (float) Liquore Galliano on the top . Garnish with orange slice and\nmaraschino cherry.", 
+            "slug": "harvey-wallbanger", 
+            "name": "HARVEY WALLBANGER"
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 3, 
+            "container": 27, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour brandy and ginger ale directly into highball glass with ice cubes. Stir gently.\nGarnish with rind of one lemon spiral. If required, add dashes of Angostura\nBitter.", 
+            "slug": "horses-neck", 
+            "name": "HORSE'S NECK"
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 3, 
+            "container": 28, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into blender or shaker with crushed ice. Blend or shake until smooth. Pour\n  into chilled glass. Garnish with pineapple wedge and maraschino cherry and straw.", 
+            "slug": "pina-colada", 
+            "name": "PINA COLADA"
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 3, 
+            "container": 26, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into shaker filled with ice. Shake well. Pour into highball\nwith ice. Top up with Soda water. Stir gently and add a dash of Angostura bitters. Garnish with lemon and orange\nslices.", 
+            "slug": "planters-punch", 
+            "name": "PLANTER'S PUNCH"
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 3, 
+            "container": 26, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients directly into highball glass filled with ice. Stir gently.\nGarnish with orange slice.", 
+            "slug": "screwdriver", 
+            "name": "SCREWDRIVER"
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 3, 
+            "container": 26, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour all ingredients into cocktail shaker filled with ice cubes.\nShake well. Strain into highball glass. \nGarnish with pineapple and maraschino cherry.", 
+            "slug": "singapore-sling", 
+            "name": "SINGAPORE SLING"
+        }
+    }, 
+    {
+        "pk": 43, 
+        "model": "elesma.recipe", 
+        "fields": {
+            "category": 3, 
+            "container": 26, 
+            "description": "", 
+            "rating_votes": 0, 
+            "rating_score": 0, 
+            "directions": "Pour tequila and orange juice directly into highball with ice cubes. Add a splash\nof Grenadine syrup to create chromatic effect (sunrise), do not stir. Garnish with orange slice and cherry, straw and stirrer.", 
+            "slug": "tequila-sunrise", 
+            "name": "TEQUILA SUNRISE"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "3.0 cl", 
+            "recipe": 1, 
+            "ingredient": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "3.0 cl", 
+            "recipe": 1, 
+            "ingredient": 2
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "4.5 cl", 
+            "recipe": 2, 
+            "ingredient": 3
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 2, 
+            "ingredient": 4
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "0.5 cl", 
+            "recipe": 2, 
+            "ingredient": 5
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "4.5 cl", 
+            "recipe": 3, 
+            "ingredient": 6
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 3, 
+            "ingredient": 7
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "0.5 cl", 
+            "recipe": 3, 
+            "ingredient": 8
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "4.5 cl", 
+            "recipe": 4, 
+            "ingredient": 6
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 4, 
+            "ingredient": 9
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "0.5 cl", 
+            "recipe": 4, 
+            "ingredient": 8
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "One scoop", 
+            "recipe": 4, 
+            "ingredient": 10
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "4.5 cl", 
+            "recipe": 5, 
+            "ingredient": 6
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 5, 
+            "ingredient": 11
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "0.5 cl", 
+            "recipe": 5, 
+            "ingredient": 12
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "&frac12; Fresh", 
+            "recipe": 5, 
+            "ingredient": 13
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "3.0 cl", 
+            "recipe": 6, 
+            "ingredient": 14
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.5 cl", 
+            "recipe": 6, 
+            "ingredient": 2
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.0 cl", 
+            "recipe": 6, 
+            "ingredient": 15
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.5 cl", 
+            "recipe": 6, 
+            "ingredient": 16
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "9.0 cl", 
+            "recipe": 7, 
+            "ingredient": 17
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.0 cl", 
+            "recipe": 7, 
+            "ingredient": 18
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "9.0 cl", 
+            "recipe": 8, 
+            "ingredient": 19
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.0 cl", 
+            "recipe": 8, 
+            "ingredient": 18
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "5.0 cl", 
+            "recipe": 9, 
+            "ingredient": 20
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 9, 
+            "ingredient": 21
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1 Dash", 
+            "recipe": 9, 
+            "ingredient": 22
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "5.0 cl", 
+            "recipe": 10, 
+            "ingredient": 20
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 10, 
+            "ingredient": 23
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "Dash of", 
+            "recipe": 10, 
+            "ingredient": 24
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "5.5 cl", 
+            "recipe": 11, 
+            "ingredient": 14
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.5 cl", 
+            "recipe": 11, 
+            "ingredient": 15
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "5.5 cl", 
+            "recipe": 12, 
+            "ingredient": 14
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.0 cl", 
+            "recipe": 12, 
+            "ingredient": 15
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.0 cl", 
+            "recipe": 12, 
+            "ingredient": 21
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "5.5 cl", 
+            "recipe": 13, 
+            "ingredient": 14
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.5 cl", 
+            "recipe": 13, 
+            "ingredient": 21
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "5.5 cl", 
+            "recipe": 14, 
+            "ingredient": 25
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.5 cl", 
+            "recipe": 14, 
+            "ingredient": 15
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "6.0 cl", 
+            "recipe": 15, 
+            "ingredient": 14
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.0 cl", 
+            "recipe": 15, 
+            "ingredient": 15
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "4.0 cl.Bourbon", 
+            "recipe": 16, 
+            "ingredient": 26
+        }
+    }, 
+    {
+        "pk": 43, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1 sugar", 
+            "recipe": 16, 
+            "ingredient": 27
+        }
+    }, 
+    {
+        "pk": 44, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2 Dashes", 
+            "recipe": 16, 
+            "ingredient": 22
+        }
+    }, 
+    {
+        "pk": 45, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1 Splash", 
+            "recipe": 16, 
+            "ingredient": 28
+        }
+    }, 
+    {
+        "pk": 46, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "3.5 cl", 
+            "recipe": 17, 
+            "ingredient": 14
+        }
+    }, 
+    {
+        "pk": 47, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 17, 
+            "ingredient": 29
+        }
+    }, 
+    {
+        "pk": 48, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.5 cl", 
+            "recipe": 17, 
+            "ingredient": 30
+        }
+    }, 
+    {
+        "pk": 49, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "4.5 cl", 
+            "recipe": 18, 
+            "ingredient": 31
+        }
+    }, 
+    {
+        "pk": 50, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.5 cl", 
+            "recipe": 18, 
+            "ingredient": 21
+        }
+    }, 
+    {
+        "pk": 51, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1 Dash", 
+            "recipe": 18, 
+            "ingredient": 22
+        }
+    }, 
+    {
+        "pk": 52, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "4.5 cl", 
+            "recipe": 19, 
+            "ingredient": 15
+        }
+    }, 
+    {
+        "pk": 53, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.5 cl", 
+            "recipe": 19, 
+            "ingredient": 32
+        }
+    }, 
+    {
+        "pk": 54, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.0 cl", 
+            "recipe": 19, 
+            "ingredient": 33
+        }
+    }, 
+    {
+        "pk": 55, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "4.5 cl", 
+            "recipe": 20, 
+            "ingredient": 34
+        }
+    }, 
+    {
+        "pk": 56, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "3.0 cl", 
+            "recipe": 20, 
+            "ingredient": 35
+        }
+    }, 
+    {
+        "pk": 57, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.5 cl", 
+            "recipe": 20, 
+            "ingredient": 8
+        }
+    }, 
+    {
+        "pk": 58, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1 Dash", 
+            "recipe": 20, 
+            "ingredient": 36
+        }
+    }, 
+    {
+        "pk": 59, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 21, 
+            "ingredient": 37
+        }
+    }, 
+    {
+        "pk": 60, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 21, 
+            "ingredient": 38
+        }
+    }, 
+    {
+        "pk": 61, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 21, 
+            "ingredient": 39
+        }
+    }, 
+    {
+        "pk": 62, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "5.0 cl", 
+            "recipe": 22, 
+            "ingredient": 25
+        }
+    }, 
+    {
+        "pk": 63, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 22, 
+            "ingredient": 40
+        }
+    }, 
+    {
+        "pk": 64, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "5.0 cl", 
+            "recipe": 23, 
+            "ingredient": 25
+        }
+    }, 
+    {
+        "pk": 65, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 23, 
+            "ingredient": 40
+        }
+    }, 
+    {
+        "pk": 66, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "3.0 cl", 
+            "recipe": 23, 
+            "ingredient": 39
+        }
+    }, 
+    {
+        "pk": 67, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "3.5 cl", 
+            "recipe": 24, 
+            "ingredient": 37
+        }
+    }, 
+    {
+        "pk": 68, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "3.5 cl", 
+            "recipe": 24, 
+            "ingredient": 41
+        }
+    }, 
+    {
+        "pk": 69, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "3.5 cl", 
+            "recipe": 25, 
+            "ingredient": 25
+        }
+    }, 
+    {
+        "pk": 70, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "3.5 cl", 
+            "recipe": 25, 
+            "ingredient": 42
+        }
+    }, 
+    {
+        "pk": 71, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 26, 
+            "ingredient": 43
+        }
+    }, 
+    {
+        "pk": 72, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 26, 
+            "ingredient": 44
+        }
+    }, 
+    {
+        "pk": 73, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 26, 
+            "ingredient": 39
+        }
+    }, 
+    {
+        "pk": 74, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 27, 
+            "ingredient": 43
+        }
+    }, 
+    {
+        "pk": 75, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 27, 
+            "ingredient": 45
+        }
+    }, 
+    {
+        "pk": 76, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 27, 
+            "ingredient": 46
+        }
+    }, 
+    {
+        "pk": 77, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.0 cl", 
+            "recipe": 27, 
+            "ingredient": 39
+        }
+    }, 
+    {
+        "pk": 78, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 28, 
+            "ingredient": 47
+        }
+    }, 
+    {
+        "pk": 79, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 28, 
+            "ingredient": 44
+        }
+    }, 
+    {
+        "pk": 80, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 28, 
+            "ingredient": 39
+        }
+    }, 
+    {
+        "pk": 81, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.5 cl", 
+            "recipe": 29, 
+            "ingredient": 48
+        }
+    }, 
+    {
+        "pk": 82, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "4.5 cl", 
+            "recipe": 29, 
+            "ingredient": 49
+        }
+    }, 
+    {
+        "pk": 83, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.0 cl", 
+            "recipe": 29, 
+            "ingredient": 50
+        }
+    }, 
+    {
+        "pk": 84, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "4.5 cl", 
+            "recipe": 30, 
+            "ingredient": 51
+        }
+    }, 
+    {
+        "pk": 85, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.5 cl", 
+            "recipe": 30, 
+            "ingredient": 52
+        }
+    }, 
+    {
+        "pk": 86, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "4.5 cl", 
+            "recipe": 31, 
+            "ingredient": 25
+        }
+    }, 
+    {
+        "pk": 87, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "9.0 cl", 
+            "recipe": 31, 
+            "ingredient": 53
+        }
+    }, 
+    {
+        "pk": 88, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.5 cl", 
+            "recipe": 31, 
+            "ingredient": 54
+        }
+    }, 
+    {
+        "pk": 89, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "4.0 cl", 
+            "recipe": 32, 
+            "ingredient": 48
+        }
+    }, 
+    {
+        "pk": 90, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "5.0 cl", 
+            "recipe": 32, 
+            "ingredient": 55
+        }
+    }, 
+    {
+        "pk": 91, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.0 cl", 
+            "recipe": 32, 
+            "ingredient": 8
+        }
+    }, 
+    {
+        "pk": 92, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1 yolk", 
+            "recipe": 32, 
+            "ingredient": 56
+        }
+    }, 
+    {
+        "pk": 93, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "10.0 cl", 
+            "recipe": 33, 
+            "ingredient": 30
+        }
+    }, 
+    {
+        "pk": 94, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "5.0 cl", 
+            "recipe": 33, 
+            "ingredient": 57
+        }
+    }, 
+    {
+        "pk": 95, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "7.5 cl", 
+            "recipe": 34, 
+            "ingredient": 30
+        }
+    }, 
+    {
+        "pk": 96, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "7.5 cl", 
+            "recipe": 34, 
+            "ingredient": 19
+        }
+    }, 
+    {
+        "pk": 97, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "9.0 cl", 
+            "recipe": 35, 
+            "ingredient": 58
+        }
+    }, 
+    {
+        "pk": 98, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.0 cl", 
+            "recipe": 35, 
+            "ingredient": 48
+        }
+    }, 
+    {
+        "pk": 99, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "4.5 cl", 
+            "recipe": 36, 
+            "ingredient": 14
+        }
+    }, 
+    {
+        "pk": 100, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "3.0 cl", 
+            "recipe": 36, 
+            "ingredient": 35
+        }
+    }, 
+    {
+        "pk": 101, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.0 cl", 
+            "recipe": 36, 
+            "ingredient": 8
+        }
+    }, 
+    {
+        "pk": 102, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "8.0 cl", 
+            "recipe": 36, 
+            "ingredient": 28
+        }
+    }, 
+    {
+        "pk": 103, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "4.5 cl", 
+            "recipe": 37, 
+            "ingredient": 25
+        }
+    }, 
+    {
+        "pk": 104, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.5 cl", 
+            "recipe": 37, 
+            "ingredient": 59
+        }
+    }, 
+    {
+        "pk": 105, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "9.0 cl", 
+            "recipe": 37, 
+            "ingredient": 46
+        }
+    }, 
+    {
+        "pk": 106, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "4.0 cl", 
+            "recipe": 38, 
+            "ingredient": 48
+        }
+    }, 
+    {
+        "pk": 107, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "11.0 cl", 
+            "recipe": 38, 
+            "ingredient": 60
+        }
+    }, 
+    {
+        "pk": 108, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "Dash of", 
+            "recipe": 38, 
+            "ingredient": 61
+        }
+    }, 
+    {
+        "pk": 109, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "3.0 cl", 
+            "recipe": 39, 
+            "ingredient": 6
+        }
+    }, 
+    {
+        "pk": 110, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "3.0 cl", 
+            "recipe": 39, 
+            "ingredient": 62
+        }
+    }, 
+    {
+        "pk": 111, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "9.0 cl", 
+            "recipe": 39, 
+            "ingredient": 63
+        }
+    }, 
+    {
+        "pk": 112, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "6.0cl Dark", 
+            "recipe": 40, 
+            "ingredient": 64
+        }
+    }, 
+    {
+        "pk": 113, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "3.0 cl", 
+            "recipe": 40, 
+            "ingredient": 35
+        }
+    }, 
+    {
+        "pk": 114, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.0 cl", 
+            "recipe": 40, 
+            "ingredient": 5
+        }
+    }, 
+    {
+        "pk": 115, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "Soda water.", 
+            "recipe": 40, 
+            "ingredient": 65
+        }
+    }, 
+    {
+        "pk": 116, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "5.0 cl", 
+            "recipe": 41, 
+            "ingredient": 25
+        }
+    }, 
+    {
+        "pk": 117, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "10.0 cl", 
+            "recipe": 41, 
+            "ingredient": 16
+        }
+    }, 
+    {
+        "pk": 118, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "4.0 cl", 
+            "recipe": 42, 
+            "ingredient": 14
+        }
+    }, 
+    {
+        "pk": 119, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "2.0 cl", 
+            "recipe": 42, 
+            "ingredient": 33
+        }
+    }, 
+    {
+        "pk": 120, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "0.5 cl", 
+            "recipe": 42, 
+            "ingredient": 45
+        }
+    }, 
+    {
+        "pk": 121, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "0.5 cl", 
+            "recipe": 42, 
+            "ingredient": 66
+        }
+    }, 
+    {
+        "pk": 122, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.0 cl", 
+            "recipe": 42, 
+            "ingredient": 67
+        }
+    }, 
+    {
+        "pk": 123, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "8.0 cl", 
+            "recipe": 42, 
+            "ingredient": 63
+        }
+    }, 
+    {
+        "pk": 124, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "3.0 cl", 
+            "recipe": 42, 
+            "ingredient": 35
+        }
+    }, 
+    {
+        "pk": 125, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1 dash", 
+            "recipe": 42, 
+            "ingredient": 24
+        }
+    }, 
+    {
+        "pk": 126, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "4.5 cl", 
+            "recipe": 43, 
+            "ingredient": 68
+        }
+    }, 
+    {
+        "pk": 127, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "9.0 cl", 
+            "recipe": 43, 
+            "ingredient": 30
+        }
+    }, 
+    {
+        "pk": 128, 
+        "model": "elesma.recipeitem", 
+        "fields": {
+            "amount": "1.5 cl", 
+            "recipe": 43, 
+            "ingredient": 5
+        }
+    }
+]
