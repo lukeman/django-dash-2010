@@ -1,13 +1,16 @@
 # Create your views here.
 from django.http import HttpResponse, HttpResponseRedirect
 from django.core.urlresolvers import reverse
-from django.shortcuts import render_to_response
+from django.shortcuts import render_to_response, get_object_or_404
 from django.template import RequestContext
 import elesma.models
 import settings
 
 def recipe(request, slug):
-    pass
+    recipe = get_object_or_404(elesma.models.Recipe, slug=slug)
+    return render_to_response('elesma/recipe.html',
+                              { 'object': recipe },
+                              context_instance=RequestContext(request))
 
 def random_drink(request):
     recipe = elesma.models.Recipe.objects.all().order_by('?')[0]
