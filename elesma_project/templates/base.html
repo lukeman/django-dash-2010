@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" dir="{% if LANGUAGE_BIDI %}rtl{% else %}ltr{% endif %}" xml:lang="{{ LANGUAGE_CODE }}" lang="{{ LANGUAGE_CODE }}">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <title>{% block head_title_base %}Drinkfindr : {% block head_title %}{% endblock %}{% endblock %}</title>
+        <title>{% block head_title_base %}drinkfindr : {% block head_title %}{% endblock %}{% endblock %}</title>
         <!--[if IE]><style>
             div {
                 zoom: 1; /* trigger hasLayout */
@@ -80,7 +80,9 @@
             </div>
             <div class="omega grid_9">
               <form action="/search/" method="get">
-                <input class="defaultText" title="Search for cocktails or ingredients..." type="text" name="superbar" value="Search for cocktails or ingredients..." id="superinput">
+                <input type="hidden" name="models" value="elesma.recipe" />
+                <input type="hidden" name="models" value="elesma.ingredient" />
+                <input class="defaultText" title="Search for cocktails or ingredients..." type="text" name="q" value="Search for cocktails or ingredients..." id="superinput">
               </form>
             </div>
             
