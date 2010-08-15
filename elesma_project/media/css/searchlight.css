@@ -1,5 +1,5 @@
 div.searchlight-balloon {
-    background:#fff;
+    background:#f6f6f6;
 }
 table.searchlight-results {
     border-collapse: collapse;
@@ -15,8 +15,10 @@ div.searchlight-results-wrapper {
     -webkit-border-bottom-left-radius: 8px;
     -webkit-border-bottom-right-radius: 8px;
     overflow: hidden;
-    -webkit-box-shadow: 0 2px 1px #444;
-    -moz-box-shadow: 0 2px 1px #444;
+    border: 2px solid #aeaeae;
+    border-top:none;
+    -webkit-box-shadow: 0 5px 5px #aaa;
+    -moz-box-shadow: 0 5px 5px #aaa;
 }
 table.searchlight-results th,
 table.searchlight-results td {
