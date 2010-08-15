@@ -73,4 +73,4 @@ class RecipeItem(models.Model):
     amount = models.CharField(max_length=24)
     
     def __unicode__(self):
-        return "%s of %s" % (self.amount, self.ingredient)
+        return "%s %s" % (self.amount, self.ingredient)
