@@ -4,7 +4,8 @@ from haystack import site
 from elesma.models import Recipe, Ingredient
 import settings
 
-SEARCH_INDEX_CLASS = (settings.DEBUG and RealTimeSearchIndex) or SearchIndex
+#SEARCH_INDEX_CLASS = (settings.DEBUG and RealTimeSearchIndex) or SearchIndex
+SEARCH_INDEX_CLASS = SearchIndex
 
 class RecipeIndex(SEARCH_INDEX_CLASS):
     text = CharField(document=True, use_template=True)
