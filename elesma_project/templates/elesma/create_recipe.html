@@ -1,0 +1,12 @@
+{% extends 'site_base.html' %}
+
+{% load uni_form_tags %}
+
+{% block body %}
+  <form action="" method="post" class="uniForm">
+    {% csrf_token %}
+    {% with form.helper as helper %}
+      {% uni_form form helper %}
+    {% endwith %}
+  </form>
+{% endblock %}

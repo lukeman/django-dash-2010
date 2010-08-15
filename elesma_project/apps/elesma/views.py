@@ -7,14 +7,47 @@ from django.contrib.auth.models import User
 import elesma.models
 import settings
 from djangoratings.models import Vote
+from django.contrib.auth.decorators import login_required
+from django.forms import ModelForm
+from uni_form.helpers import FormHelper, Submit, Reset, Layout, Fieldset, Row, HTML
+from django.template.defaultfilters import slugify
 
 def user(request, username=None):
     user = get_object_or_404(User, username=username)
     votes = Vote.objects.filter(user=user)
-
     return render_to_response('elesma/profile.html',
                               { 'object': user,
                                 'votes': votes,
+                                },
+                              context_instance=RequestContext(request))
+
+class RecipeForm(ModelForm):
+    class Meta:
+        model = elesma.models.Recipe
+        fields = ('name', 'description', 'directions', 'category', 'container', 'ingredients')
+
+    helper = FormHelper()
+    layout = Layout(Fieldset('Cocktail','name', 'category', 'container', 'description'),
+                   Fieldset('Recipe', 'directions','ingredients'),
+                   )
+    helper.add_layout(layout)
+    helper.add_input(Submit('create', 'Create Cocktail'))
+
+@login_required
+def create_recipe(request):
+    if request.method == 'POST':
+        formset = RecipeForm(request.POST, request.FILES)
+        if formset.is_valid():
+            recipe = formset.save(commit=False)
+            recipe.slug = slugify(recipe.name)
+            try:
+                recipe.save()
+            finally:
+                return HttpResponseRedirect(reverse('elesma.views.recipe', kwargs={'slug': recipe.slug}))
+    else:
+        formset = RecipeForm()
+    return render_to_response('elesma/create_recipe.html',
+                              { 'form': formset,
                                 },
                               context_instance=RequestContext(request))
 
