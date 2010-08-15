@@ -1,0 +1,20 @@
+<div class="grid_16">
+  <h2>{{ object.name|lower|capfirst }}</h2>
+  <ul>
+    <li>{{ object.category.name }}</li>
+    <li>{{ object.container.name }}</li>
+    {% if object.description %}
+      <li>{{ object.description }}</li>
+    {% endif %}
+
+  </ul>
+  <ul>
+  {% for x in object.recipeitem_set.all %}
+    <li>{{ x }}</li>
+  {% endfor %}
+  </ul>
+  <p>{{ object.directions }}</p>
+</div>
+
+
+
