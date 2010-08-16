@@ -97,7 +97,7 @@ def user_leaderboard(request):
 def recipe_leaderboard(request):
     qs = elesma.models.Recipe.objects.extra(select={
             'rating_rank': '((100/%s*rating_score/(rating_votes+%s))+100)/2' % (elesma.models.Recipe.rating.range,
-                                                                           elesma.models.Recipe.rating.weight)
+                                                                           elesma.models.Recipe.rating.weight+1)
             })
     qs = qs.order_by('-rating_rank')[:10]
     return render_to_response('elesma/recipe_leaderboard.html',
