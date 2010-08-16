@@ -1,5 +1,6 @@
 import elesma.models
 import django.utils.simplejson as simplejson
+from django.template.defaultfilters import slugify
 import os.path
 
 def import_cocktails(filename=None):
@@ -50,7 +51,7 @@ def import_cocktail(cocktail):
     print cocktail
     try:
         ctl = elesma.models.Recipe.objects.create(container=container,
-                                                  slug=cocktail['name'].lower().replace(' ','-'),
+                                                  slug=slugify(cocktail['name']),
                                                   category=category,
                                                   name=cocktail['name'],
                                                   directions=cocktail['instructions'],

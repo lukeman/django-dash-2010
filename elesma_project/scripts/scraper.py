@@ -23,8 +23,8 @@ def stir_cocktail(h, name, group, url):
             components = [ x.strip() for x in body.find('p').contents if str(x).strip() and str(x) != '<br />' and not hasattr(x, 'name') ]
 
         img = "http://www.iba-world.com/english/cocktails/img/cocktails/%s" % (body.find("img")['src'].split('/')[-1],)
-        return { 'name': name,
-                 'group': group, 
+        return { 'name': name.capitalize(),
+                 'group': group.capitalize(), 
                  'img': img,
                  'glass': components[0],
                  'instructions': components[-1],
