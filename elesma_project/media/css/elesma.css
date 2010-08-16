@@ -152,6 +152,28 @@ div#content_wrapper {
   border-bottom:none;
   border-top:none;
 }
+div.sidenav ul li {
+    list-style-type: none;
+    margin-left:0px;
+}
+div.sidenav ul li a {
+    color:#000;
+    text-decoration: none;
+    font-size:10pt;
+    font-weight: bold;
+    padding:5px;
+    margin-bottom: 5px;
+    display:block;
+    width:80%;
+    background:#ddd;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    
+}
+div.sidenav ul li a:hover {
+    background-color: #cacaca;
+
+}
 
 /*** HOMEPAGE ***/
 body.home h2 { 
