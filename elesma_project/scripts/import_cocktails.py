@@ -43,10 +43,11 @@ def import_cocktail(cocktail):
     except:
         category = elesma.models.Category.objects.create(name=cocktail['group'])
 
+    glass = cocktail['glass'].split('(')[-1][:-1].upper().split('OR')[-1].strip().replace('  ',' ').replace('COCKTIAL','COCKTAIL')
     try: 
-        container = elesma.models.Container.objects.get(name=cocktail['glass'])
+        container = elesma.models.Container.objects.get(name=glass)
     except:
-        container = elesma.models.Container.objects.create(name=cocktail['glass'])
+        container = elesma.models.Container.objects.create(name=glass)
 
     print cocktail
     try:
@@ -65,16 +66,21 @@ def import_cocktail(cocktail):
     for ingredient in cocktail['ingredients']:
         # 'ingredients': [{'units': 'cl', 'name': 'Scotch whisky', 'qty': '4.5'},
         #             {'units': 'cl', 'name': 'Drambuie', 'qty': '2.5'}],
-        try: 
-            ingredients.append(elesma.models.Ingredient.objects.get(name=ingredient['name']))
-        except:
-            ingredients.append(elesma.models.Ingredient.objects.create(name=ingredient['name']))
+        ingredient_name = ingredient['name'].replace('of ','').strip().replace('&eacute;','e').replace('&egrave;','e').lower().replace('bitters', 'bitter')
+        if ingredient_name.find('lemon') != -1 and ingredient_name.find('lime') != -1:
+            ingredient_name = "lemon juice or lime juice"
 
-        try: 
-            elesma.models.RecipeItem.objects.get(recipe=ctl, ingredient=ingredients[-1])
-        except:
-            qty = "%s %s" % (ingredient['qty'], ingredient['units'])
-            elesma.models.RecipeItem.objects.create(recipe=ctl, ingredient=ingredients[-1], amount=qty)
+        if ingredient_name:
+            try: 
+                ingredients.append(elesma.models.Ingredient.objects.get(name=ingredient_name))
+            except:
+                ingredients.append(elesma.models.Ingredient.objects.create(name=ingredient_name))
+
+            try: 
+                elesma.models.RecipeItem.objects.get(recipe=ctl, ingredient=ingredients[-1])
+            except:
+                qty = "%s %s" % (ingredient['qty'], ingredient['units'])
+                elesma.models.RecipeItem.objects.create(recipe=ctl, ingredient=ingredients[-1], amount=qty)
 
 
 
