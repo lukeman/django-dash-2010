@@ -56,22 +56,6 @@
             <div class="login grid_10">{% block login %}{% endblock %}{% block locale_switcher %}{% endblock %}<div style="text-align: right;"></div></div>
             <div class="clear">&nbsp;</div>
         </div>
-        {% if messages %}
-        <div class="container_16">
-          <div class="grid_16">
-            <ul id="messages">
-                {% for message in messages %}
-                <li id="message_{{ forloop.counter }}"{% if message.tags %} class="{{ message.tags }}"{% endif %}>
-                    <a href="#"><small>{% trans "clear" %}</small></a>
-                    {{ message }}
-                </li>
-                {% endfor %}
-            </ul>
-          </div>
-                      <div class="clear">&nbsp;</div>
-        </div>
-
-        {% endif %}
         
         <div id="superbar" class="container_16">
           <div class="grid_16">
@@ -108,7 +92,22 @@
           </div>
           <div class="clear">&nbsp;</div>
         </div>
+        {% if messages %}
+        <div class="container_16 message_wrapper">
+          <div class="grid_16">
+            <ul id="messages">
+                {% for message in messages %}
+                <li id="message_{{ forloop.counter }}"{% if message.tags %} class="{{ message.tags }}"{% endif %}>
+                    <a href="#"><small>{% trans "clear" %}</small></a>
+                    {{ message }}
+                </li>
+                {% endfor %}
+            </ul>
+          </div>
+                      <div class="clear">&nbsp;</div>
+        </div>
 
+        {% endif %}
         {% block body_outer %}
         <div id="content_wrapper" class="container_16">
           {% block subnav_base %}{% block subnav %}&nbsp;{% endblock %}{% endblock %}
