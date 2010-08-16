@@ -30,10 +30,13 @@
     {% endblock %}{% endblock %}
   </div>
 
-  <div class="grid_10">
+
   {% else %}
-  <div class="grid_16">
+  <div class="grid_4 sidenav">
+      <img src="{{ STATIC_URL }}images/cocktail-small.png">
+  </div>
   {% endif %}
+  <div class="grid_12">
     {% block body %}
     {% endblock %}
   </div>
