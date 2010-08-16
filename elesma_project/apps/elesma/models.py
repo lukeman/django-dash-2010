@@ -45,14 +45,26 @@ class Category(models.Model):
 class Container(models.Model):
     
     name = models.CharField(max_length=72)
+    description = models.TextField(blank=True)
+    photo = models.ImageField(upload_to="elesma/container", blank=True)
+    url = models.URLField(blank=True, verify_exists=False)
     
     def __unicode__(self):
         return self.name
 
 
 class Ingredient(models.Model):
+    
+    # TODO - Finish this list
+    TYPE_OF_INGREDIENT_CHOICES = (
+        ('SP', 'Spirit'),
+        ('LQ', 'Liqueur'),
+        ('GR', 'Garnish'),
+    ) 
 
     name = models.CharField(max_length=72)
+    ingredient_type = models.CharField(blank=True, max_length=2,
+                            choices=TYPE_OF_INGREDIENT_CHOICES)
 
     def __unicode__(self):
         return self.name
@@ -64,6 +76,7 @@ class Recipe(models.Model):
 
     name = models.CharField(max_length=72)
     slug = models.SlugField(unique=True, null=False, blank=False)
+    photo = models.ImageField(upload_to="elesma/recipe", blank=True)
     description = models.TextField(blank=True)
     directions = models.TextField(blank=True)
     category = models.ForeignKey(Category)
