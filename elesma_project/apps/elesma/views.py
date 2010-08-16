@@ -33,8 +33,8 @@ class RecipeForm(ModelForm):
         fields = ('name', 'description', 'directions', 'category', 'container', 'ingredients')
 
     helper = FormHelper()
-    layout = Layout(Fieldset('Cocktail','name', 'category', 'container', 'description'),
-                   Fieldset('Recipe', 'directions','ingredients'),
+    layout = Layout(Fieldset('Describe your Drink','name', 'category', 'container', 'description'),
+                   Fieldset('Record the Recipe', 'directions','ingredients'),
                    )
     helper.add_layout(layout)
     helper.add_input(Submit('create', 'Create Cocktail'))

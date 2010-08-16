@@ -3,6 +3,17 @@
 {% load uni_form_tags %}
 
 {% block body %}
+<h1>Submit a Drink</h1>
+<p>
+  The universe of cocktails and other mixed drinks grows everytime
+  someone wants their favorite cocktail but has run out of
+  ingredients.
+</p>
+<p>
+  Help expand the worlds of those around you by sharing your newest
+  creations and discoveries!
+</p>
+
   <form action="" method="post" class="uniForm">
     {% csrf_token %}
     {% with form.helper as helper %}
