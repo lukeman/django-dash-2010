@@ -100,13 +100,8 @@ def recipe_leaderboard(request):
                                                                            elesma.models.Recipe.rating.weight)
             })
     qs = qs.order_by('-rating_rank')[:10]
-    recipes = []
-    for recipe in qs:
-        setattr(recipe.rating, 'get_rating', int(recipe.rating.get_rating()))
-        recipes.append(recipe)
-    
     return render_to_response('elesma/recipe_leaderboard.html',
-                              { 'objects': recipes },
+                              { 'objects': qs },
                               context_instance=RequestContext(request))
 
 def random_drink_404(request):
