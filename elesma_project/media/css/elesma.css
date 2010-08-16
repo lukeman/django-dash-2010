@@ -133,6 +133,8 @@ div.button_grouping h5 {
 
 div#content_wrapper {
   background: #fff;
+  padding-top:10px;
+  padding-bottom:30px;
 }
 
 /*** NAV ***/
