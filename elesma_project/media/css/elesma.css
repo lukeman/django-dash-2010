@@ -179,6 +179,9 @@ div.sidenav ul li a:hover {
 body.home h2 { 
     margin-bottom:10px;
 }
+body.home #content_wrapper {
+    padding-bottom:0px;
+}
 
 
 /*** DRINKS ***/
