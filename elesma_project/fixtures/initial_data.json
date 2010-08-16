@@ -1,6 +1,64 @@
 [
   {
     "pk": 1, 
+    "model": "sites.site", 
+    "fields": {
+      "domain": "example.com", 
+      "name": "Example Site"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-08-15 23:59:28", 
+      "object_repr": "gin-king", 
+      "object_id": "3", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 4
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-08-15 23:59:12", 
+      "object_repr": "vodka-lover", 
+      "object_id": "2", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 4
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "elesma.userprofile", 
+    "fields": {
+      "votes": 0, 
+      "user": 1
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "elesma.userprofile", 
+    "fields": {
+      "votes": 0, 
+      "user": 2
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "elesma.userprofile", 
+    "fields": {
+      "votes": 1, 
+      "user": 3
+    }
+  }, 
+  {
+    "pk": 1, 
     "model": "elesma.category", 
     "fields": {
       "name": "PRE-DINNER COCKTAIL"
@@ -705,8 +763,8 @@
       "container": 4, 
       "description": "", 
       "photo": "", 
-      "rating_votes": 0, 
-      "rating_score": 0, 
+      "rating_votes": 1, 
+      "rating_score": 5, 
       "directions": "Pour into shaker all ingredients with ice cubes, shake well. Strain in chilled\ncocktail or martini glass.", 
       "slug": "bronx", 
       "name": "BRONX"
@@ -720,8 +778,8 @@
       "container": 5, 
       "description": "", 
       "photo": "", 
-      "rating_votes": 0, 
-      "rating_score": 0, 
+      "rating_votes": 1, 
+      "rating_score": 1, 
       "directions": "Pour Cr&egrave;me de Cassis into flute glass, top up with white wine.", 
       "slug": "kir", 
       "name": "KIR"
@@ -765,8 +823,8 @@
       "container": 2, 
       "description": "", 
       "photo": "", 
-      "rating_votes": 0, 
-      "rating_score": 0, 
+      "rating_votes": 1, 
+      "rating_score": 4, 
       "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled\n    martini or cocktail glass. Garnish with lemon twist.", 
       "slug": "manhattan-dry", 
       "name": "MANHATTAN DRY"
@@ -780,8 +838,8 @@
       "container": 4, 
       "description": "", 
       "photo": "", 
-      "rating_votes": 0, 
-      "rating_score": 0, 
+      "rating_votes": 1, 
+      "rating_score": 4, 
       "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well Strain in chilled\n  martini cocktail glass. Squeeze oil from lemon peel onto the drink, or garnish with olive.", 
       "slug": "martini-dry", 
       "name": "MARTINI ( DRY )"
@@ -795,8 +853,8 @@
       "container": 4, 
       "description": "", 
       "photo": "", 
-      "rating_votes": 0, 
-      "rating_score": 0, 
+      "rating_votes": 1, 
+      "rating_score": 4, 
       "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled\nmartini glass. Garnish with lemon peel and, or, maraschino cherry.", 
       "slug": "martini-perfect", 
       "name": "MARTINI ( PERFECT )"
@@ -810,8 +868,8 @@
       "container": 4, 
       "description": "", 
       "photo": "", 
-      "rating_votes": 0, 
-      "rating_score": 0, 
+      "rating_votes": 1, 
+      "rating_score": 4, 
       "directions": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled\nmartini glass. If served &quot;On the rocks &quot;, pour ingredients and ice\ninto old fashioned glass. Garnish with maraschino cherry.", 
       "slug": "martini-sweet", 
       "name": "MARTINI ( SWEET )"
@@ -840,8 +898,8 @@
       "container": 4, 
       "description": "", 
       "photo": "", 
-      "rating_votes": 0, 
-      "rating_score": 0, 
+      "rating_votes": 1, 
+      "rating_score": 3, 
       "directions": "Pour gin and vermouth into mixing glass with ice cubes. Stir well and strain\ninto a chilled martini glass. Garnish with silverskin onion.", 
       "slug": "gibson", 
       "name": "GIBSON"
@@ -870,8 +928,8 @@
       "container": 2, 
       "description": "", 
       "photo": "", 
-      "rating_votes": 0, 
-      "rating_score": 0, 
+      "rating_votes": 1, 
+      "rating_score": 3, 
       "directions": "Pour all ingredients into cocktail shaker filled with ice. Shake briskly for\nfew seconds. Strain into chilled cocktail glass.", 
       "slug": "paradise", 
       "name": "PARADISE"
@@ -915,8 +973,8 @@
       "container": 7, 
       "description": "", 
       "photo": "", 
-      "rating_votes": 0, 
-      "rating_score": 0, 
+      "rating_votes": 2, 
+      "rating_score": 6, 
       "directions": "Pour all ingredients into cocktail shaker filled with ice. Shake well. Strain\nin old fashioned or cobbler glass. If served &quot;On the rocks&quot;, strain ingredients\ninto old fashioned glass filled with ice. Garnish with half orange slice and\nmaraschino cherry.", 
       "slug": "whiskey-sour", 
       "name": "WHISKEY SOUR"
@@ -930,8 +988,8 @@
       "container": 2, 
       "description": "", 
       "photo": "", 
-      "rating_votes": 0, 
-      "rating_score": 0, 
+      "rating_votes": 1, 
+      "rating_score": 4, 
       "directions": "Pour all ingredients into shaker with ice cubes, shake well, strain into chilled\ncocktail glass . Sprinkle with fresh ground nutmeg.", 
       "slug": "brandy-alexander", 
       "name": "BRANDY ALEXANDER"
@@ -960,8 +1018,8 @@
       "container": 1, 
       "description": "", 
       "photo": "", 
-      "rating_votes": 0, 
-      "rating_score": 0, 
+      "rating_votes": 1, 
+      "rating_score": 5, 
       "directions": "Pour coffee liqueur and vodka directly into old fashioned glass filled with\n ice. Float fresh cream on the top and stir in slowly..", 
       "slug": "white-russian", 
       "name": "WHITE RUSSIAN"
@@ -1035,8 +1093,8 @@
       "container": 2, 
       "description": "", 
       "photo": "", 
-      "rating_votes": 0, 
-      "rating_score": 0, 
+      "rating_votes": 1, 
+      "rating_score": 3, 
       "directions": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds.\nStrain into chilled cocktail glass.", 
       "slug": "grasshopper", 
       "name": "GRASSHOPPER"
@@ -1155,8 +1213,8 @@
       "container": 9, 
       "description": "", 
       "photo": "", 
-      "rating_votes": 0, 
-      "rating_score": 0, 
+      "rating_votes": 1, 
+      "rating_score": 4, 
       "directions": "Shake all ingredients with ice cubes, except soda water. Pour into highball glass.\nTop with Soda water.", 
       "slug": "gin-fizz", 
       "name": "GIN FIZZ"
@@ -1245,8 +1303,8 @@
       "container": 9, 
       "description": "", 
       "photo": "", 
-      "rating_votes": 0, 
-      "rating_score": 0, 
+      "rating_votes": 1, 
+      "rating_score": 2, 
       "directions": "Pour all ingredients into cocktail shaker filled with ice cubes.\nShake well. Strain into highball glass. \nGarnish with pineapple and maraschino cherry.", 
       "slug": "singapore-sling", 
       "name": "SINGAPORE SLING"
@@ -2412,10 +2470,366 @@
   }, 
   {
     "pk": 1, 
-    "model": "sites.site", 
+    "model": "djangoratings.vote", 
     "fields": {
-      "domain": "example.com", 
-      "name": "Example Site"
+      "content_type": 23, 
+      "object_id": 10, 
+      "score": 4, 
+      "user": 1, 
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "date_changed": "2010-08-15 23:44:11", 
+      "date_added": "2010-08-15 23:44:11", 
+      "ip_address": "127.0.0.1"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "djangoratings.vote", 
+    "fields": {
+      "content_type": 23, 
+      "object_id": 20, 
+      "score": 3, 
+      "user": 1, 
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "date_changed": "2010-08-15 23:44:19", 
+      "date_added": "2010-08-15 23:44:19", 
+      "ip_address": "127.0.0.1"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "djangoratings.vote", 
+    "fields": {
+      "content_type": 23, 
+      "object_id": 28, 
+      "score": 3, 
+      "user": 1, 
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "date_changed": "2010-08-15 23:44:39", 
+      "date_added": "2010-08-15 23:44:39", 
+      "ip_address": "127.0.0.1"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "djangoratings.vote", 
+    "fields": {
+      "content_type": 23, 
+      "object_id": 23, 
+      "score": 5, 
+      "user": 1, 
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "date_changed": "2010-08-15 23:44:50", 
+      "date_added": "2010-08-15 23:44:50", 
+      "ip_address": "127.0.0.1"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "djangoratings.vote", 
+    "fields": {
+      "content_type": 23, 
+      "object_id": 6, 
+      "score": 5, 
+      "user": 3, 
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "date_changed": "2010-08-16 00:02:00", 
+      "date_added": "2010-08-16 00:02:00", 
+      "ip_address": "127.0.0.1"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "djangoratings.vote", 
+    "fields": {
+      "content_type": 23, 
+      "object_id": 11, 
+      "score": 4, 
+      "user": 3, 
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "date_changed": "2010-08-16 00:02:04", 
+      "date_added": "2010-08-16 00:02:04", 
+      "ip_address": "127.0.0.1"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "djangoratings.vote", 
+    "fields": {
+      "content_type": 23, 
+      "object_id": 12, 
+      "score": 4, 
+      "user": 3, 
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "date_changed": "2010-08-16 00:02:09", 
+      "date_added": "2010-08-16 00:02:09", 
+      "ip_address": "127.0.0.1"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "djangoratings.vote", 
+    "fields": {
+      "content_type": 23, 
+      "object_id": 13, 
+      "score": 4, 
+      "user": 3, 
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "date_changed": "2010-08-16 00:02:12", 
+      "date_added": "2010-08-16 00:02:12", 
+      "ip_address": "127.0.0.1"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "djangoratings.vote", 
+    "fields": {
+      "content_type": 23, 
+      "object_id": 15, 
+      "score": 3, 
+      "user": 3, 
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "date_changed": "2010-08-16 00:02:19", 
+      "date_added": "2010-08-16 00:02:19", 
+      "ip_address": "127.0.0.1"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "djangoratings.vote", 
+    "fields": {
+      "content_type": 23, 
+      "object_id": 17, 
+      "score": 3, 
+      "user": 3, 
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "date_changed": "2010-08-16 00:02:24", 
+      "date_added": "2010-08-16 00:02:24", 
+      "ip_address": "127.0.0.1"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "djangoratings.vote", 
+    "fields": {
+      "content_type": 23, 
+      "object_id": 36, 
+      "score": 4, 
+      "user": 3, 
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "date_changed": "2010-08-16 00:06:13", 
+      "date_added": "2010-08-16 00:02:29", 
+      "ip_address": "127.0.0.1"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "djangoratings.vote", 
+    "fields": {
+      "content_type": 23, 
+      "object_id": 42, 
+      "score": 2, 
+      "user": 3, 
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "date_changed": "2010-08-16 00:02:37", 
+      "date_added": "2010-08-16 00:02:37", 
+      "ip_address": "127.0.0.1"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "djangoratings.vote", 
+    "fields": {
+      "content_type": 23, 
+      "object_id": 7, 
+      "score": 1, 
+      "user": 3, 
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "date_changed": "2010-08-16 00:06:18", 
+      "date_added": "2010-08-16 00:06:18", 
+      "ip_address": "127.0.0.1"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "djangoratings.vote", 
+    "fields": {
+      "content_type": 23, 
+      "object_id": 21, 
+      "score": 4, 
+      "user": 3, 
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "date_changed": "2010-08-16 00:07:11", 
+      "date_added": "2010-08-16 00:07:11", 
+      "ip_address": "127.0.0.1"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "djangoratings.vote", 
+    "fields": {
+      "content_type": 23, 
+      "object_id": 20, 
+      "score": 3, 
+      "user": 3, 
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "date_changed": "2010-08-16 00:07:39", 
+      "date_added": "2010-08-16 00:07:39", 
+      "ip_address": "127.0.0.1"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "djangoratings.score", 
+    "fields": {
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "votes": 1, 
+      "score": 4, 
+      "object_id": 10, 
+      "content_type": 23
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "djangoratings.score", 
+    "fields": {
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "votes": 2, 
+      "score": 6, 
+      "object_id": 20, 
+      "content_type": 23
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "djangoratings.score", 
+    "fields": {
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "votes": 1, 
+      "score": 3, 
+      "object_id": 28, 
+      "content_type": 23
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "djangoratings.score", 
+    "fields": {
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "votes": 1, 
+      "score": 5, 
+      "object_id": 23, 
+      "content_type": 23
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "djangoratings.score", 
+    "fields": {
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "votes": 1, 
+      "score": 5, 
+      "object_id": 6, 
+      "content_type": 23
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "djangoratings.score", 
+    "fields": {
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "votes": 1, 
+      "score": 4, 
+      "object_id": 11, 
+      "content_type": 23
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "djangoratings.score", 
+    "fields": {
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "votes": 1, 
+      "score": 4, 
+      "object_id": 12, 
+      "content_type": 23
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "djangoratings.score", 
+    "fields": {
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "votes": 1, 
+      "score": 4, 
+      "object_id": 13, 
+      "content_type": 23
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "djangoratings.score", 
+    "fields": {
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "votes": 1, 
+      "score": 3, 
+      "object_id": 15, 
+      "content_type": 23
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "djangoratings.score", 
+    "fields": {
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "votes": 1, 
+      "score": 3, 
+      "object_id": 17, 
+      "content_type": 23
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "djangoratings.score", 
+    "fields": {
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "votes": 1, 
+      "score": 4, 
+      "object_id": 36, 
+      "content_type": 23
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "djangoratings.score", 
+    "fields": {
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "votes": 1, 
+      "score": 2, 
+      "object_id": 42, 
+      "content_type": 23
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "djangoratings.score", 
+    "fields": {
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "votes": 1, 
+      "score": 1, 
+      "object_id": 7, 
+      "content_type": 23
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "djangoratings.score", 
+    "fields": {
+      "key": "2c5504ab9a86164db22a92dc8793843d", 
+      "votes": 1, 
+      "score": 4, 
+      "object_id": 21, 
+      "content_type": 23
     }
   }
 ]
