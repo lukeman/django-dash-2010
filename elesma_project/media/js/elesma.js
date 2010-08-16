@@ -10,6 +10,17 @@ $(document).ready(function() {
 		    $(this).val($(this)[0].title);
 		}});
 	$(".defaultText").blur();        
+
+	$('.enabled-star').rating({ 
+		callback: function(value, link){
+		    var score = $(".enabled-star.star-rating-on").length;
+		    var slug = $("#slug").val();
+		    console.log(score);
+		    console.log(slug);
+		    $.ajax({ url: "/ajax/vote", data:{slug:slug, score:score}, context: document.body, dataType: 'json', type: 'POST', success: function(data){
+				console.log(data);
+			    }})}});
+
 	$(".uniForm #id_name").keyup(function() {
 		$.ajax({ url: "/ajax/suggestions?q="+escape($("#id_name").val()),context: document.body, dataType: 'json', success: function(data){
 			    $(".uniForm #id_name_suggestions").remove();

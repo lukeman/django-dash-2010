@@ -59,8 +59,11 @@ def create_recipe(request):
 
 def recipe(request, slug):
     recipe = get_object_or_404(elesma.models.Recipe, slug=slug)
+    vote = recipe.rating.get_rating_for_user(request.user, request.META['REMOTE_ADDR'])
     return render_to_response('elesma/recipe.html',
-                              { 'object': recipe },
+                              { 'object': recipe,
+                                'vote': vote,
+                                },
                               context_instance=RequestContext(request))
 
 def random_drink(request):
