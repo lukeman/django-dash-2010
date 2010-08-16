@@ -142,8 +142,8 @@ div.button_grouping h5 {
 
 div#content_wrapper {
   background: #fff;
-  padding-top:10px;
-  padding-bottom:30px;
+  padding-top:5px;
+  padding-bottom:20px;
 }
 
 /*** NAV ***/
@@ -151,6 +151,11 @@ div#content_wrapper {
   background: #d5d5d5;
   border-bottom:none;
   border-top:none;
+}
+
+/*** HOMEPAGE ***/
+body.home h2 { 
+    margin-bottom:10px;
 }
 
 
@@ -161,8 +166,8 @@ div.recipe h1 {
     line-height:1em;
 }
 div.recipe .meta {
-    color: #555;
-    font-size: 90%;
+    color: #707070;
+    font-size: 110%;
     font-style: italic;
 }
 div.recipe .meta span {
@@ -170,11 +175,10 @@ div.recipe .meta span {
     font-style: normal;
 }
 
-div.drink.list_large h3 {
-    font-size:14pt;
+div.drink.list_large h2 {
     margin-bottom:0px;
 }
-div.drink.list_large h3 a {
+div.drink.list_large h2 a {
     color:#222;
 }
 
