@@ -87,6 +87,7 @@ def ingredient(request):
 
 def user_leaderboard(request):
     profiles = elesma.models.UserProfile.objects.all().order_by('-votes')[:10]
+    print profiles
     return render_to_response('elesma/user_leaderboard.html',
                               { 'objects': profiles },
                               context_instance=RequestContext(request))
