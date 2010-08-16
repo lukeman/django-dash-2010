@@ -2,6 +2,13 @@
 
 {% block body %}
 
+<h1>Top Finders</h1>
+
+<p>
+  These brave drinkers have contributed the most to our knowledge of cocktails.
+  Do you have what it takes to join their ranks?
+</p>
+
 <ul>
 {% for profile in objects %}
   <li><a href="{{ profile.get_absolute_url }}">{{ profile.user.username }}</a> has drank {{ profile.votes }} drinks!</li>
