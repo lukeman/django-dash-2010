@@ -25,7 +25,10 @@ class UserProfile(models.Model):
                 })
 
 def user_post_save(sender, instance, **kwargs):
-    profile, new = UserProfile.objects.get_or_create(user=instance, votes=0)
+    try:
+        profile, new = UserProfile.objects.get_or_create(user=instance, votes=0)
+    except:
+        pass
 
 def user_post_delete(sender, instance, **kwargs):
     try:
