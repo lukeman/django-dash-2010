@@ -1,5 +1,5 @@
 <div class="drink list_large grid_16">
   <h2><a href="{{ object.get_absolute_url }}">{{ object.name|lower|capfirst }}</a></h2>
-  <span class="rating">{{ object.rating.score }} with {{ object.rating.votes.count }} votes.</span>
+  <span class="rating">{{ object.rating.score }} with {{ object.rating.votes }} vote{{ object.rating.votes|pluralize }}.</span>
 </div>
 <div class="clear">&nbsp;</div>
