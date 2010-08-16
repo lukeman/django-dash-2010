@@ -139,6 +139,10 @@ div.button_grouping h5 {
     padding:0px;
 }
 
+#superinput.defaultTextActive {
+    color: #555;
+}
+
 
 div#content_wrapper {
   background: #fff;
