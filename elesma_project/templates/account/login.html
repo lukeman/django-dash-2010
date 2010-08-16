@@ -8,12 +8,12 @@
 {% block head_title %}{% trans "Login" %}{% endblock %}
 
 {% block body %}
-    
+    <div class="loginform">
     {% if openid and not user.is_authenticated %}
         <p><span class="warning">It appears you have started to login using OpenID. Want to <a href="/openid/register/">finish logging in</a>?</span></p>
     {% endif %}
     
-    <h1>{% trans "Log In" %}</h1>
+    <h2 class="nomargin">Let's get you logged in</h2>
     
     {% if user.is_authenticated %}
         {% user_display user as user_display %}
@@ -21,16 +21,13 @@
     {% else %}
         {% ifsetting ACCOUNT_OPEN_SIGNUP %}
         {% url acct_signup as signup_url %}
-        <p>{% blocktrans %}Don't have an account? <a href="{{ signup_url }}">Sign up</a>!{% endblocktrans %}</p>
+        <p>Don't have an account? <a href="{{ signup_url }}">Sign up</a>! Forgot your password? <a href="{% url acct_passwd_reset %}">Let's find it!</a></p>
         {% endifsetting %}
     {% endif %}
     
     <form class="login uniForm" method="POST" action="{% url acct_login %}">
         {% csrf_token %}
         <fieldset class="inlineLabels">
-            <div class="form_block">
-                <a href="{% url acct_passwd_reset %}">{% trans "Forgot password?" %}</a>
-            </div>
             {{ form|as_uni_form }}
             {% if redirect_field_value %}
                 <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
@@ -41,7 +38,7 @@
         </fieldset>
     </form>
     
-    <p>{% trans "Or sign in with your OpenID" %}:</p>
+    <p class="nomargin">{% trans "Or sign in with your OpenID" %}:</p>
     {# @@@ why isn't this just does as a form object ? #}
     <form class="login uniForm" action="/openid/register/" method="POST">
         {% csrf_token %}
@@ -65,8 +62,7 @@
             </div>
         </fieldset>
     </form>
-    
-    <p>{% blocktrans %}If you have any trouble logging in to your account, contact us at <a href="mailto:{{ CONTACT_EMAIL }}">{{ CONTACT_EMAIL }}</a>.{% endblocktrans %}</p>
+    </div>
 {% endblock %}
 
 {% block extra_body %}

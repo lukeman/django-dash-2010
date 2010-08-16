@@ -8,6 +8,10 @@ h1, h2, h3 {
     font-weight: normal;
 }
 
+.nomargin {
+    margin:0px;
+}
+
 h1 { font-size: 24pt; }
 h2 { font-size: 20pt; }
 h3 { font-size: 16pt; }
@@ -139,6 +143,10 @@ div.button_grouping h5 {
     padding:0px;
 }
 
+#superinput.defaultTextActive {
+    color: #555;
+}
+
 
 div#content_wrapper {
   background: #fff;
@@ -225,7 +233,7 @@ div.rating p {
 /*** FORMS ***/
 
 form.uniForm {
-  font-size:14pt;
+  font-size:12pt;
 }
 form.uniForm label {
   font-weight:bold;
