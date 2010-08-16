@@ -214,6 +214,11 @@ div.recipe .meta span {
 div.drink.list_large h2 {
     margin-bottom:0px;
 }
+div.drink.list_large h2 .star-rating  {
+    margin-top: 10px;
+    padding-right: 5px;
+}
+
 div.drink.list_large h2 a {
     color:#222;
 }

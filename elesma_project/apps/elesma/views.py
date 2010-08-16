@@ -61,9 +61,7 @@ def recipe(request, slug):
     recipe = get_object_or_404(elesma.models.Recipe, slug=slug)
     vote = recipe.rating.get_rating_for_user(request.user, request.META['REMOTE_ADDR'])
     recent_votes = recipe.rating.get_ratings()[0:3]
-    # ok, this is janky, averaging score as rapidly as possible1
-    if recipe.rating.votes:
-        setattr(recipe.rating, 'score', int(recipe.rating.score/recipe.rating.votes))
+    setattr(recipe.rating, 'score', int(recipe.rating.get_rating()))
     return render_to_response('elesma/recipe.html',
                               { 'object': recipe,
                                 'vote': vote,
@@ -92,7 +90,6 @@ def ingredient(request):
 
 def user_leaderboard(request):
     profiles = elesma.models.UserProfile.objects.all().order_by('-votes')[:10]
-    print profiles
     return render_to_response('elesma/user_leaderboard.html',
                               { 'objects': profiles },
                               context_instance=RequestContext(request))
@@ -102,9 +99,14 @@ def recipe_leaderboard(request):
             'rating_rank': '((100/%s*rating_score/(rating_votes+%s))+100)/2' % (elesma.models.Recipe.rating.range,
                                                                            elesma.models.Recipe.rating.weight)
             })
-    qs = qs.order_by('-rating_rank')
+    qs = qs.order_by('-rating_rank')[:10]
+    recipes = []
+    for recipe in qs:
+        setattr(recipe.rating, 'get_rating', int(recipe.rating.get_rating()))
+        recipes.append(recipe)
+    
     return render_to_response('elesma/recipe_leaderboard.html',
-                              { 'objects': qs },
+                              { 'objects': recipes },
                               context_instance=RequestContext(request))
 
 def random_drink_404(request):
