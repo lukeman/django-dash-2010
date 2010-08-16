@@ -1,16 +1,17 @@
 {% extends 'site_base.html' %}
 
 {% block body %}
+<div class="grid_16">
+  <h1>Top Drinks</h1>
 
-<h1>Top Drinks</h1>
-
-<p>Looking for a new drink to try tonight? Take our advice and try these top rated drinks! </p>
-
-<div class="recipe_list">
-  {% for object in objects %}
-    {% include "elesma/includes/recipe_list_large.html" %}
-  {% endfor %}
+  <p>Looking for a new drink to try tonight? Take our advice and try these top rated drinks! </p>
+  
 </div>
+
+<div class="clear">&nbsp;</div>
+{% for object in objects %}
+  {% include "elesma/includes/recipe_list_large.html" %}
+{% endfor %}
 
 
 {% endblock %}
