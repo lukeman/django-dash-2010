@@ -165,8 +165,9 @@ form.uniForm label {
 /*** FOOTER ***/
 #sitefooter {
   background: #bdbdbd url(../images/topback.png) repeat-x;
-  padding-top:15px;
-  padding-bottom:15px;
+  padding-top:5px;
+  padding-bottom:5px;
+  margin-bottom:20px;
   text-align: right;
 }
 
