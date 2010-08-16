@@ -22,7 +22,7 @@
 {% if recent_votes %}
 <h5>Recent</h5>
 {% for recent_vote in recent_votes %}
-<p><strong>{{ recent_vote.user.username }}</strong></p>
+<p><strong><a href="{{ recent_vote.user.get_absolute_url }}">{{ recent_vote.user.username }}</a></strong></p>
 <input name="star_{{forloop.counter}}" type="radio" class="star" disabled="disabled" {% ifequal recent_vote.score 1 %}checked="checked"{% endifequal %}/>
 <input name="star_{{forloop.counter}}" type="radio" class="star" disabled="disabled" {% ifequal recent_vote.score 2 %}checked="checked"{% endifequal %}/>
 <input name="star_{{forloop.counter}}" type="radio" class="star" disabled="disabled" {% ifequal recent_vote.score 3 %}checked="checked"{% endifequal %}/>

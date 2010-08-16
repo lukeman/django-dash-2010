@@ -62,7 +62,8 @@ def recipe(request, slug):
     vote = recipe.rating.get_rating_for_user(request.user, request.META['REMOTE_ADDR'])
     recent_votes = recipe.rating.get_ratings()[0:3]
     # ok, this is janky, averaging score as rapidly as possible1
-    setattr(recipe.rating, 'score', int(recipe.rating.score/recipe.rating.votes))
+    if recipe.rating.votes:
+        setattr(recipe.rating, 'score', int(recipe.rating.score/recipe.rating.votes))
     return render_to_response('elesma/recipe.html',
                               { 'object': recipe,
                                 'vote': vote,

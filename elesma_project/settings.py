@@ -8,6 +8,11 @@ import pinax
 PINAX_ROOT = os.path.abspath(os.path.dirname(pinax.__file__))
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
+ABSOLUTE_URL_OVERRIDES = {
+    'auth.user': lambda o: "/drinker/%s/" % o.username,
+}
+
+
 # tells Pinax to use the default theme
 PINAX_THEME = "default"
 
