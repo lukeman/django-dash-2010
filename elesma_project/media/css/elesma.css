@@ -3,6 +3,15 @@ body {
   border-top: 5px solid #444;
 }
 
+h1, h2, h3 {
+    font-family: 'Vollkorn', arial, serif;
+    font-weight: normal;
+}
+
+h1 { font-size: 24pt; }
+h2 { font-size: 20pt; }
+h3 { font-size: 16pt; }
+
 /*** HEADER ***/
 div#tabhead {
   background: none;
@@ -146,6 +155,21 @@ div#content_wrapper {
 
 
 /*** DRINKS ***/
+
+div.recipe h1 {
+    margin-bottom:0px;
+    line-height:1em;
+}
+div.recipe .meta {
+    color: #555;
+    font-size: 90%;
+    font-style: italic;
+}
+div.recipe .meta span {
+    color:#222;
+    font-style: normal;
+}
+
 div.drink.list_large h3 {
     font-size:14pt;
     margin-bottom:0px;

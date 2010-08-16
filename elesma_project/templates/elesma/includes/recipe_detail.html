@@ -1,8 +1,10 @@
-<div class="grid_16">
-  <h2>{{ object.name|lower|capfirst }}</h2>
+<div class="grid_2">
+  Voting and Such
+</div>
+<div class="grid_12 recipe">
+  <h1>{{ object.name }}</h1>
+  <div class="meta">a <span class="category">{{ object.category.name }}</span> best served in a <span class="container">{{ object.container.name }}</span> container.</div>
   <ul>
-    <li>{{ object.category.name }}</li>
-    <li>{{ object.container.name }}</li>
     {% if object.description %}
       <li>{{ object.description }}</li>
     {% endif %}
@@ -14,10 +16,10 @@
   {% endfor %}
   </ul>
   <p>{{ object.directions }}</p>
-
-
-  {% include "elesma/includes/twitter_search_widget.html" %}
+  
 </div>
+
+<div class="clear">&nbsp;</div>
 
 
 
