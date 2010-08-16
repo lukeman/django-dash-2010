@@ -1,9 +1,28 @@
-<div class="grid_2">
-  Voting and Such
+<div class="grid_2 rating">
+<h5>Overall</h5>
+<input name="star1" type="radio" class="star" disabled="disabled" {% ifequal object.rating.score 1 %}checked="checked"{% endifequal %}/>
+<input name="star1" type="radio" class="star" disabled="disabled" {% ifequal object.rating.score 2 %}checked="checked"{% endifequal %}/>
+<input name="star1" type="radio" class="star" disabled="disabled" {% ifequal object.rating.score 3 %}checked="checked"{% endifequal %}/>
+<input name="star1" type="radio" class="star" disabled="disabled" {% ifequal object.rating.score 4 %}checked="checked"{% endifequal %}/>
+<input name="star1" type="radio" class="star" disabled="disabled" {% ifequal object.rating.score 5 %}checked="checked"{% endifequal %}/>
+<br/>
+
+{% if user.is_authenticated %}
+<h5>You</h5>
+<input name="star2" type="radio" class="star enabled-star" {% ifequal vote 1 %}checked="checked"{% endifequal %}/>
+<input name="star2" type="radio" class="star enabled-star" {% ifequal vote 2 %}checked="checked"{% endifequal %}/>
+<input name="star2" type="radio" class="star enabled-star" {% ifequal vote 3 %}checked="checked"{% endifequal %}/>
+<input name="star2" type="radio" class="star enabled-star" {% ifequal vote 4 %}checked="checked"{% endifequal %}/>
+<input name="star2" type="radio" class="star enabled-star" {% ifequal vote 5 %}checked="checked"{% endifequal %}/>
+{% else %}
+<a href="/account/login/?next={% url recipe_detail object.slug %}">Login to Rate!</a>
+{% endif %}
+
 </div>
 <div class="grid_12 recipe">
+  <input type="hidden" name="slug" id="slug" value="{{ object.slug }}">
   <h1>{{ object.name }}</h1>
-  <div class="meta">a <span class="category">{{ object.category.name }}</span> best served in a <span class="container">{{ object.container.name }}</span> container.</div>
+  <div class="meta"><span class="category">{{ object.category.name }}</span> drink best served in a <span class="container">{{ object.container.name }}</span>.</div>
   <ul>
     {% if object.description %}
       <li>{{ object.description }}</li>

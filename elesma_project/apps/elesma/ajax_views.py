@@ -36,11 +36,11 @@ def vote(request):
     recipe = elesma.models.Recipe.objects.all()[0]
     if request.method == "POST":
         post = request.POST.copy()
-        if post.has_key('recipe') and post.has_key('score'):
+        if post.has_key('slug') and post.has_key('score'):
             try:
                 slug = post['slug']
                 score = int(post['score'])
-                recipe = elesma.models.Recipe(slug=slug)
+                recipe = elesma.models.Recipe.objects.get(slug=slug)
                 recipe.rating.add(score=score, user=request.user, ip_address=request.META['REMOTE_ADDR'])
                 # don't count two votes on one recipe as multiple votes
                 if not recipe.rating.get_rating_for_user(request.user, request.META['REMOTE_ADDR']):
@@ -53,7 +53,7 @@ def vote(request):
             except Exception, e:
                 return api_response(500, {'error': "Voting failed."})
         else:
-            return api_response(500, {'error': "Must specify both 'recipe' and 'score'." })
+            return api_response(500, {'error': "Must specify both 'slug' and 'score'." })
     return api_response(500, {'error': "Voting requests must use POST." })
 
 

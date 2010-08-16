@@ -182,6 +182,14 @@ div.drink.list_large h2 a {
     color:#222;
 }
 
+/*** RATING ***/
+
+div.rating h5 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
 /*** FORMS ***/
 
 form.uniForm {
