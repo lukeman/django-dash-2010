@@ -1,0 +1,10 @@
+{% extends 'site_base.html' %}
+
+{% block body %}
+
+<h3>Recipes including {% for object in objects %}{% if forloop.last and not forloop.first %}and {% endif %}<a href="{{ object.get_absolute_url }}">{{ object.name|lower|capfirst }}</a>{% if not forloop.last %}, {% endif %}{% endfor %}:</h3>
+
+{% for object in recipes %}
+  {% include "elesma/includes/recipe_list_large.html" %}
+{% endfor %}
+{% endblock %}

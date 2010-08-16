@@ -1,5 +1,5 @@
 # Create your views here.
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect, HttpResponseNotFound
 from django.core.urlresolvers import reverse
 from django.shortcuts import render_to_response, get_object_or_404
 from django.template import RequestContext
@@ -11,6 +11,8 @@ from django.contrib.auth.decorators import login_required
 from django.forms import ModelForm, CheckboxSelectMultiple, ModelMultipleChoiceField
 from uni_form.helpers import FormHelper, Submit, Reset, Layout, Fieldset, Row, HTML
 from django.template.defaultfilters import slugify
+from django.core.exceptions import ObjectDoesNotExist
+
 
 def user(request, username=None):
     user = get_object_or_404(User, username=username)
@@ -31,8 +33,8 @@ class RecipeForm(ModelForm):
         fields = ('name', 'description', 'directions', 'category', 'container', 'ingredients')
 
     helper = FormHelper()
-    layout = Layout(Fieldset('Cocktail','name', 'category', 'container', 'description'),
-                   Fieldset('Recipe', 'directions','ingredients'),
+    layout = Layout(Fieldset('Describe your Drink','name', 'category', 'container', 'description'),
+                   Fieldset('Record the Recipe', 'directions','ingredients'),
                    )
     helper.add_layout(layout)
     helper.add_input(Submit('create', 'Create Cocktail'))
@@ -64,6 +66,21 @@ def recipe(request, slug):
 def random_drink(request):
     recipe = elesma.models.Recipe.objects.all().order_by('?')[0]
     return HttpResponseRedirect(reverse('elesma.views.recipe', kwargs={'slug': recipe.slug}))
+
+def ingredient(request):
+    # @TODO: handle more than one ingredient
+    for ingredient_name in request.GET.getlist('ingredient'):
+        ingredient = get_object_or_404(elesma.models.Ingredient, name__iexact=ingredient_name)
+        recipes = ingredient.recipe_set.all()
+        return render_to_response('elesma/ingredients.html',
+                                  { 'objects': [ingredient],
+                                    'recipes': recipes,
+                                    },
+                                  context_instance=RequestContext(request))
+    return HttpResponseNotFound()
+
+
+
 
 def user_leaderboard(request):
     profiles = elesma.models.UserProfile.objects.all().order_by('-votes')[:10]
