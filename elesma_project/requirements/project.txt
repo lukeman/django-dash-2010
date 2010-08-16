@@ -6,7 +6,12 @@
 # Put project-specific requirements here.
 # See http://pip-installer.org/requirement-format.html for more information.
 
-django-haystack==1.0.1-final
-Whoosh==1.0.0b4
+
 django-ratings==0.3.4
 django-taggit==0.8.0
+
+django-haystack==1.0.1-final
+Whoosh==1.0.0b5
+
+pil==1.1.7
+
