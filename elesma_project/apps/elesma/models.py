@@ -14,7 +14,10 @@ class UserProfile(models.Model):
     votes = models.IntegerField()
 
     def __unicode__(self):
-        return "UserProfile(%s)" % (self.user.username,)
+        try:
+            return "UserProfile(%s)" % (self.user.username,)
+        except:
+            return "UserProfile"
 
     def get_absolute_url(self):
         return reverse("user_profile", kwargs={

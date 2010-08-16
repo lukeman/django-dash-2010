@@ -1,0 +1,18 @@
+Drinkfindr. Because you need to drink more.
+http://drinkfindr.com
+
+INSTALLATION
+- Download the latest copy of the source
+- Create a new virtualenv
+- pip install -r requirements/project.txt
+- python manage syncdb && python manage update_index
+- python runserver
+
+Sample Users:
+User: will / Password: 12gin34
+
+And there you have it.
+
+
+WHO ARE WE
+Will (@lethain) and Luke (@lukeman)

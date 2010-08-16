@@ -36,8 +36,8 @@
 </div>
 <div class="grid_12 recipe">
   <input type="hidden" name="slug" id="slug" value="{{ object.slug }}">
-  <h1>{{ object.name }}</h1>
-  <div class="meta"><span class="category">{{ object.category.name }}</span> drink best served in a <span class="container">{{ object.container.name }}</span>.</div>
+  <h1>{{ object.name|upper }}</h1>
+  <div class="meta"><span class="category">{{ object.category.name|upper }}</span> drink best served in a <span class="container">{{ object.container.name|upper }}</span>.</div>
   <ul>
     {% if object.description %}
       <li>{{ object.description }}</li>
