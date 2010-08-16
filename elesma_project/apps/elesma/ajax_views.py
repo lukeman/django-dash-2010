@@ -41,12 +41,12 @@ def vote(request):
                 slug = post['slug']
                 score = int(post['score'])
                 recipe = elesma.models.Recipe.objects.get(slug=slug)
-                recipe.rating.add(score=score, user=request.user, ip_address=request.META['REMOTE_ADDR'])
                 # don't count two votes on one recipe as multiple votes
                 if not recipe.rating.get_rating_for_user(request.user, request.META['REMOTE_ADDR']):
                     profile = request.user.get_profile()
-                    profile.score += 1
+                    profile.votes += 1
                     profile.save()
+                recipe.rating.add(score=score, user=request.user, ip_address=request.META['REMOTE_ADDR'])
                 return api_response(200, {'score': score, 'slug': slug })
             except ValueError:
                 return api_response(500, {'error': "%s is an invalid score." % score })
