@@ -5,7 +5,7 @@
 <input name="star1" type="radio" class="star" disabled="disabled" {% ifequal object.rating.score 3 %}checked="checked"{% endifequal %}/>
 <input name="star1" type="radio" class="star" disabled="disabled" {% ifequal object.rating.score 4 %}checked="checked"{% endifequal %}/>
 <input name="star1" type="radio" class="star" disabled="disabled" {% ifequal object.rating.score 5 %}checked="checked"{% endifequal %}/>
-<br/>
+<br>
 
 {% if user.is_authenticated %}
 <h5>You</h5>
@@ -17,6 +17,21 @@
 {% else %}
 <a href="/account/login/?next={% url recipe_detail object.slug %}">Login to Rate!</a>
 {% endif %}
+<br>
+
+{% if recent_votes %}
+<h5>Recent</h5>
+{% for recent_vote in recent_votes %}
+<p><strong>{{ recent_vote.user.username }}</strong></p>
+<input name="star_{{forloop.counter}}" type="radio" class="star" disabled="disabled" {% ifequal recent_vote.score 1 %}checked="checked"{% endifequal %}/>
+<input name="star_{{forloop.counter}}" type="radio" class="star" disabled="disabled" {% ifequal recent_vote.score 2 %}checked="checked"{% endifequal %}/>
+<input name="star_{{forloop.counter}}" type="radio" class="star" disabled="disabled" {% ifequal recent_vote.score 3 %}checked="checked"{% endifequal %}/>
+<input name="star_{{forloop.counter}}" type="radio" class="star" disabled="disabled" {% ifequal recent_vote.score 4 %}checked="checked"{% endifequal %}/>
+<input name="star_{{forloop.counter}}" type="radio" class="star" disabled="disabled" {% ifequal recent_vote.score 5 %}checked="checked"{% endifequal %}/>
+<br>
+{% endfor %}
+{% endif %}
+
 
 </div>
 <div class="grid_12 recipe">

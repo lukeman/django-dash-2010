@@ -217,6 +217,11 @@ div.rating h5 {
     margin-bottom: 5px;
 }
 
+div.rating p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 /*** FORMS ***/
 
 form.uniForm {
