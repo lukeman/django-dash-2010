@@ -230,6 +230,16 @@ div.rating p {
     margin-bottom: 5px;
 }
 
+#recent-votes {
+    list-style: none;
+    line-height: 150%;
+}
+#recent-votes li {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+
 /*** FORMS ***/
 
 form.uniForm {

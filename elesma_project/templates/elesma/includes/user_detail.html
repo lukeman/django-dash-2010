@@ -1,12 +1,18 @@
 <div class="grid_16">
-  <h2>{{ object.username|lower|capfirst }}</h2>
-  <p>Voted {{ object.votes.count }} time{{ object.votes.count|pluralize }}!</p>
+  <h2>{{ object.username|lower|capfirst }} has voted {{ object.votes.count }} time{{ object.votes.count|pluralize }}!</h2>
 
   <h3>Recent Votes</h3>
   {% if votes %}
   <ul id="recent-votes">
     {% for vote in votes %}
-    <li>Gave {{ vote.content_object.name|lower|capfirst }} a rating of {{ vote.score }}, {{ vote.date_changed|timesince }} ago.</li>
+    <li>Voted on {{ vote.content_object.name|lower|capfirst }} {{ vote.date_changed|timesince }} ago.
+      <input name="star_{{forloop.counter}}" type="radio" class="star" disabled="disabled" {% ifequal vote.score 1 %}checked="checked"{% endifequal %}/>
+      <input name="star_{{forloop.counter}}" type="radio" class="star" disabled="disabled" {% ifequal vote.score 2 %}checked="checked"{% endifequal %}/>
+      <input name="star_{{forloop.counter}}" type="radio" class="star" disabled="disabled" {% ifequal vote.score 3 %}checked="checked"{% endifequal %}/>
+      <input name="star_{{forloop.counter}}" type="radio" class="star" disabled="disabled" {% ifequal vote.score 4 %}checked="checked"{% endifequal %}/>
+      <input name="star_{{forloop.counter}}" type="radio" class="star" disabled="disabled" {% ifequal vote.score 5 %}checked="checked"{% endifequal %}/>
+      <br>
+    </li>
     {% endfor %}
   </ul>
   {% else %}
